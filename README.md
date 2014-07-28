@@ -9,6 +9,14 @@ CARLOS BETANCOURT
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+JHOSEP RAMIREZ
+=======
+jesus cruz
+>>>>>>> 39ecb0a27b369323467e090236e246a3b0a488cc
+
+XDDDDDD
+=======
+<<<<<<< HEAD
 LUIS GARCIA
 =======
 jesus cruz
@@ -23,4 +31,7 @@ FRANKLIN MARCANO
 =======
 FRANKLIN LUGO
 >>>>>>> 805e865ce1a6b8aa59bbe866b59aed1504ce1c64
+<<<<<<< HEAD
 CARLOS BETANCOURT
+=======
+>>>>>>> 9a8ea906e4bc09a2c0f9ea75fd3714f28991419e
