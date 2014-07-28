@@ -1,6 +1,14 @@
+<<<<<<< HEAD
+ALICIA GONZALEZ<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+MADELEINE FLORES
+=======
 LUISANDRO SEQUEAX
 
+>>>>>>> 0ca85e4d75efb4611b612aa675bab63aacc99711
 <<<<<<< HEAD
+>>>>>>> d648d1c014c68df120a48a99e59518a2b30f9ec8
 luis
 cursoaslbarcelona
 =======
