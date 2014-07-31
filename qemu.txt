@@ -1,0 +1,67 @@
+Usando qemu en Debian
+Una manera sencilla de usar máquinas virtuales
+Alejandro Garrido Mota <garridomota@gmail.com>
+
+    ¿Qué es qemu?
+    ¿Cómo lo instalo?
+    Creando una imagen
+    Instalando el sistema operativo
+    Pasada la instalación del Sistema Operativo...
+    Otras opciones interesantes
+    Copyrigth y licencia. 
+
+1. ¿Qué es qemu?
+
+Qemu es una aplicación que tiene como objetivo permitirnos la creación de máquinas virtuales dentro de un sistema operativo, esto significa que podemos emular una gran mayoría de los sistemas operativos que existen instalándolos en una máquina virtual, por ejemplo, es muy trivial emular un GNU/Linux con qemu, hasta podemos emular Windows 98 si deseamos. Por experiencia no es tan factible emular Windows XP, si queremos emular esta versión de Windows lo podemos hacer instalando el Acelerador de Qemu (qemu Accelerator) que también lo podemos descargar de la página oficial de qemu pero tiene una gran desventaja, no es Software Libre, es gratis pero no es libre.
+
+Es un caso muy común que estemos utilizando GNU/Linux y queramos instalar otro sistema operativo como por ejemplo FreeBSD o GNU/Hurd. En estas circunstancias es muy útil qemu ya que es una máquina virtual que nos permitirá instalar varios sistemas operativos sobre un mismo hadware.
+2. ¿Cómo lo instalo?
+
+Si el sistema operativo que estamos usando es Debian no tendremos que mucho que trabajar ya que qemu está en los repositorios oficiales, lo que tenemos que hacer para instalarlo es lo siguiente:
+
+# aptitude install qemu
+
+Si estamos en otro sistema que no es Debian tendremos que descargar he instalar qemu desde la página oficial, donde se encuentra el código fuente que tendremos que compilar. También encontraremos los binarios de qemu para sistemas operativos como Windows o Mac OSX.
+3. Creando una imagen
+
+Antes que nada aclaremos que qemu funciona con el uso de imágenes, es decir, nosotros debemos crear una imagen del sistema operativo el cual queramos emular y luego empezar la instalación desde algún medio(llamese CD) donde iremos llenando u ocupando con datos esa imagen. Todo los sistemas operativos que vallamos a instalar, cada uno estará guardado en una imagen diferente.
+
+Nosotros debemos primeramente crear la imagen donde queremos que se vaya a instalar el sistema operativo. La única propiedad que es necesaria para crear la imagen es el tamaño de esta, debemos especificar el tamaño que ocupará esa imagen. Para crear la imagen:
+
+qemu-img create NOMBRE.img 2G
+
+El Comando anterior lo que hace es llamar al programa qemu-img el cual creará(de allí el parámetro create) una imagen llamada NOMBRE.img (que en realidad le podemos colocar el nombre que queramos) y la cual posee un tamaño de 2 GB (GigaBytes). Las opciones alterables son el nombre de la imagen y el tamaño. ¿Cómo saber que tamaño colocarle? Debemos analizar que cantidad de información tendrá nuestro sistema operativo a instalar, una vez que creamos la imagen esta ya ocupará el tamaño que le hayamos especificado pero no tendrá información debido a que esta se llenará con los datos e información de instalación y los documentos que vallamos copiar o contener dentro del sistema operativo que vallamos a emular.
+
+Recuerden crear la imagen en un lugar o en un partición donde tengan el espacio suficiente, es decir, más de 2G siguiendo el ejemplo anterior.
+4. Instalando el sistema operativo
+
+Una vez creada la imagen ya podemos empezar a instalar el sistema operativo. En el mismo directorio donde creaste la imagen debes ejecutar lo siguiente:
+
+qemu -hda NOMBRE.img -cdrom /dev/cdrom -boot d -m 128
+
+Primeramente llamamos al programa qemu donde le decimos mediante el parámetro -hda que la imagen está en el disco duro. Seguidamente a la opción -hda le tenemos que decir la ubicación de esa imagen. Cuando especificamos -cdrom /dev/cdrom le estamos indicando al qemu que vamos a instalar mediante CDrom y seguidamente le tenemos que decir la ruta del dispositivo donde se encuentra el CD, en mi caso es /dev/cdrom. Si nos aparece un error como qemu: could not open hard disk image '/dev/cdrom' significa que hemos escogido un dispositivo no adecuado, o mejor dicho, un dispositivo que no existe o está ocupado por algún otro programa. Debemos ver en el directorio /dev cuales para buscar cuales son los dispositivos que hace referencia a nuestra unidad cdrom, algunas veces suele ser /dev/hdc. Con -boot d le estamos indicando al qemu que va arrancar(o iniciar) desde el CD. Con -m 128 le estamos indicando que cantidad de memoria virtual(no física) le va a dedicar a la máquina virtual que vamos a usar, es importante no colocar más cantidad de memoria de la que tenemos porque de lo contrario obtendremos un error indicándonos que no poseemos memoria suficiente.
+5. Pasada la instalación del Sistema Operativo...
+
+Una vez ejecutado el comando anterior lo mas seguro es que hayas empezado la instalación del sistema operativo, una vez que terminas esta lo que hace falta es "encender" la máquina virtual que ya has instalado, ¿Cómo hacer esto? Sencillo, debemos ejecutar el siguiente comando:
+
+qemu -hda NOMBRE.img -m 256 -boot c
+
+NOTA: Debes estar ubicado en el mismo directorio donde esta la imagen, es decir, NOMBRE.img siguiendo el ejempl. De no ser así debes dar la ruta absoluta o relativa para poder encender la máquina virtual. Por Ejemplo: /home/alejandro/qemu/Debian/NOMBRE.img El comando anterior lo que hace es indicarle a qemu que cargue la imagen NOMBRE.img usando 256 MB de memoria pero en vez de iniciar desde el CD lo haga desde el Disco Duro, eso es lo que le decimos con la opción -boot c.
+
+El parámetro boot c' es posible sustituirlo por muchas opciones mas, todo depende en la situación en que estemos. Por ejemplo si nosotros queremos instalar un sistema operativo, pero este viene en Disket, lo que trae como consecuencia utilizar una unidad Floppy, tendríamos que indicárselo de la siguiente mediante ``boot a. Sólo hay tres tipos de parámetro, "boot a" para iniciar de unidad Floppy, boot c para iniciar desde el Disco Duro y boot d para iniciar desde la unidad CD-ROM.
+
+boot c`--> Iniciar desde el HD(Hard Disk o Disco Duro) boot d --> Iniciar desde la unidad CDROM boot a --> Iniciar desde el Floppy
+6. Otras opciones interesantes
+
+-k idioma --> Con esto le estaríamos especificando el tipo de teclado que estaríamos utilizando. Si es un teclado español, colocamos -k es, si es un teclado ingles utilizamos -k en-us. El teclado por defecto es en-us
+
+-full-screen --> Esto nos permite iniciar la máquina virtual en pantalla completa.
+
+-net none --> Esta opción no nos configura los dispositivos de Red en el Sistema Operativo que vallamos a usar/instalar. Sería bueno activarla cuando no queramos utilizar la RED en dicha máquina virtual.
+
+-nographic --> Qemu utiliza las librerías SDL para poder mostrar lo gráficos. Si el sistema operativo que vallamos a instalar no utiliza gráficos si no una línea de comandos podríamos utilizar este parámetro.
+7. Copyrigth y licencia.
+
+Copyright (c) 2006 Alejandro Garrido Mota.
+
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License". 
