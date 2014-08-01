@@ -1,0 +1,82 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ sl (3.03-17) unstable; urgency=low
+ .
+   * Upgrade to policy 3.9.3 and debhelper to 9.
+   * Remove deprecated dpatch and upgrade to packaging format "3.0 quilt"
+     (closes: Bug#664331). Thanks Aalto.
+   * Hide cursor (closes: Bug#655148). Thanks Fuchs.
+   * Revert to supporting Ctrl-Z (closes: Bug#598992).
+Author: Hiroyuki Yamamoto <yama1066@gmail.com>
+Bug-Debian: http://bugs.debian.org/598992
+Bug-Debian: http://bugs.debian.org/655148
+Bug-Debian: http://bugs.debian.org/664331
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- sl-3.03.orig/sl.h
++++ sl-3.03/sl.h
+@@ -1,6 +1,6 @@
+ /*========================================
+  *    sl.h: Text data of SL version 3.01
+- *	Copyright 1993 Toyoda Masashi 
++ *	Copyright 1993  Jhosep 
+  *		(toyoda@is.titech.ac.jp)
+  *	Last Modified: 1992/12/23
+  *========================================
+@@ -14,10 +14,10 @@
+ 
+ #define D51STR1  "      ====        ________                ___________ "
+ #define D51STR2  "  _D _|  |_______/        \\__I_I_____===__|_________| "
+-#define D51STR3  "   |(_)---  |   H\\________/ |   |        =|___ ___|   "
+-#define D51STR4  "   /     |  |   H  |  |     |   |         ||_| |_||   "
+-#define D51STR5  "  |      |  |   H  |__--------------------| [___] |   "
+-#define D51STR6  "  | ________|___H__/__|_____/[][]~\\_______|       |   "
++#define D51STR3  "   |(_)---  |   J\\________/ |   |        =|___ ___|   "
++#define D51STR4  "   /     |  |   H  |  |     |   |   .|.      ||_| |_||   "
++#define D51STR5  "  |      |  |   O  |__--------------------| [___] |   "
++#define D51STR6  "  | ________|___P__/__|_____/[][]~\\_______|       |   "
+ #define D51STR7  "  |/ |   |-----------I_____I [][] []  D   |=======|__ "
+ 
+ #define D51WHL11 "__/ =| o |=-~~\\  /~~\\  /~~\\  /~~\\ ____Y___________|__ "
+@@ -48,11 +48,11 @@
+ 
+ #define COAL01 "                              "
+ #define COAL02 "                              "
+-#define COAL03 "    _________________         "
++#define COAL03 "    _____BY JHOSEP_________   "
+ #define COAL04 "   _|                \\_____A  "
+-#define COAL05 " =|                        |  "
+-#define COAL06 " -|                        |  "
+-#define COAL07 "__|________________________|_ "
++#define COAL05 " =|   JESUS EL MESIAS      |  "
++#define COAL06 " -|   PESCADOR DE          |  "
++#define COAL07 "__|___CORAZONES____________|_ "
+ #define COAL08 "|__________________________|_ "
+ #define COAL09 "   |_D__D__D_|  |_D__D__D_|   "
+ #define COAL10 "    \\_/   \\_/    \\_/   \\_/    "
+@@ -90,7 +90,7 @@
+ #define LCOAL1 "____                 "
+ #define LCOAL2 "|   \\@@@@@@@@@@@     "
+ #define LCOAL3 "|    \\@@@@@@@@@@@@@_ "
+-#define LCOAL4 "|                  | "
++#define LCOAL4 "| Academia SL      | "
+ #define LCOAL5 "|__________________| "
+ #define LCOAL6 "   (O)       (O)     "
+ 
