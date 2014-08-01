@@ -1,0 +1,133 @@
+Actividad. Curso de Soporte Avanzado en Linux
+
+
+- Entrar como root, ejecutar
+
+
+1-Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+===========================================================
+-Nombre Completo: luis vicente garcia bracho              |
+-Cédula de Indentidad: 8242422                            |
+-Dirección de correo electrónico: lgarcia969@gmail.com    |
+-Institución a la que pertenece: MPPE CBIT-FUNDABIT       |
+==========================================================
+
+2- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X         065
+
+ -curso2.txt   RWX-W-RW-         726
+
+ -curso3.txt   --X--X--X         111
+
+ -curso4.txt   -W--W-RWX         227
+
+ -curso5.txt   ---RW-R--         064
+
+
+3-Como puedo visualizar las particiones del disco duro:  ==>     fdisk -l        gparted             df -h   
+
+
+4-Como matamos un proceso del computador:  ==>     kill -9  PID
+
+5-Crear un carpeta llamada libreofficewriter  abrir el libreofficewriter. guardar el proceso en un archivo l.txt           
+
+ ps -aux | grep libreofficewriter > l.txt
+        
+
+6-Crear un carpeta llamada procesador
+       -guardar la busqueda en archivo llamado procesador.txt del tipo de computadora                      LISTO
+
+cat/proc/cpuinfo > procesador.txt
+
+
+7-Como configuras una interfaz de red con dhcp
+
+dhclient
+
+nano /etc/network/interfaces 
+auto lo eth0 
+iface eth0 inet dhcp 
+iface lo inet loopback
+ Se guarda la configuración (ctrol+o)y luego  (ctrol+x para salir)
+
+Reiniciamos los servicios de red
+
+sudo /etc/init.d/networking restart
+
+
+8-Que sucede cuando ejecutas el
+comando: touch registros
+
+- Crea un archivo llamado registro    ==>    comando touch registro
+
+	
+9-El comando: more examen
+
+- Despliega el contenido del archivo examen, una pantalla a la vez.         COMANDO MORE EXAMEN
+
+
+10-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo                             LISTO
+
+
+11- crear la carpeta bienvenido
+descargar el paquete fuente de canaima-bievenido-gnome, modificar el inicio 
+con su nombre generar un nuevo paquete, e instalarlo                                  LISTO
+
+	
+
+12-comando para listar redes inalambricas.        ====>          iwlist scan 
+
+
+13- Como agregamos el usuario y gestionamos el cambio de contraseña
+
+adduser  usuario
+passwd  (colocar clave)
+
+
+14-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+	
+
+15- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+	
+/etc/apt/sources.list
+
+con herramientas apt-mirror o deb-mirror y se crean repositorios locales
+
+
+
+16- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+
+/dev/sda/  (solo para particionar disco fisico sata
+
+/boot         arranque
+/             sistema
+/home         todos los ususario
+swap          memoria virtual
+
+/var/        serivioc web
+
+
+17- Como hago un repositorio con debmirror, comando.
+
+debmirror --host=http:us.debian.org/debian
+
+
+18- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+
+history > history.txt
+
+ 
+19- crear un archivo permiso.txt y que los dueños sean root y soporte.
+	
+chow root: usuario permiso.txt
+
+
+20- Como matar un procesos usando top. 
+ps -aux | grep  (nombre del programa)
