@@ -1,0 +1,5 @@
+Nombre: alicia gonzalez
+Cedula:11.416.944
+Correo electronico: alicia.fundabit@gmail.com
+Institucion a la que pertenece: FUNDABIT
+

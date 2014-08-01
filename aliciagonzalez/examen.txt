@@ -1,0 +1,500 @@
+  246  cd ..
+  247  git add amigo
+  248  git commi -a
+  249  git commit -a
+  250  git push
+  251  git pull
+  252  ls
+  253  apt-get source.list
+  254  nano /etc/apt/source.list
+  255  nano /etc/apt/sources.list
+  256  aptitude update
+  257  aptitude install canaima-semilla
+  258  cd /usr/share/canaima-semilla/
+  259  ls
+  260  cd profiles/
+  261  ls
+  262  cd popular/
+  263  ls
+  264  nano profile.conf
+  265  cd ..
+  266  cd ..
+  267  ls
+  268  c-s-gui
+  269  cd profiles
+  270  cp -R popular curso
+  271  cd curso
+  272  ls
+  273  nano profile.conf 
+  274  c-s construir
+  275  cd control
+  276  cd canaima
+  277  aptitude install qemu
+  278  ps -aux | grep
+  279  cd control
+  280  cd canaima
+  281  ps -aux | grep
+  282  ps -aux | grep c-s gui
+  283  ps -aux | grep c-s-gui
+  284  tailf /var/log/syslog
+  285  history
+  286  history > miercoles.tx
+  287  history > miercoles.txt
+  288  cd control
+  289  cd canaima
+  290  cd control
+  291  cd canaima
+  292  nano /etc/apt/sources.list
+  293  aptitude update
+  294  cd /usr/share/canaima-semilla/profiles
+  295  ls
+  296  cd curso
+  297  nano profiles
+  298  ls
+  299  nano profile
+  300  nano profiles
+  301  ls
+  302  nano profile.conf
+  303  nano profiles.conf
+  304  nano profile.conf
+  305  c-s construir--medios="iso" --arquitectura="i386"--sabor="curso"
+  306  c-s construir--medio="iso" --arquitectura="i386"--sabor="curso"
+  307  c-s construir --medios="iso" --arquitectura="i386"--sabor="curso"
+  308  c-s construir--medio="iso" --arquitectura="i386"--sabor="curso"
+  309  cd ..
+  310  ls
+  311  cp -R popular prueba
+  312  ls
+  313  cd prueba
+  314  ls
+  315  nano profile.conf
+  316  ls
+  317  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  318  ls
+  319  cd control
+  320  cd canaima
+  321  cd home
+  322  cd ..
+  323  cd ..
+  324  cd ..
+  325  cd /home/usuario/control
+  326  mkdir iso
+  327  ls
+  328  cd iso
+  329  wget http://172.17.136/base.sh
+  330  wget http://172.17.136/base.sh
+  331  wget http://172.17.130/base.sh
+  332  wget http://172.17.1.130/base.sh
+  333  ls
+  334  nano base.sh
+  335  sh base.sh 
+  336  ls
+  337  cd config
+  338  ls
+  339  nano bootstrap
+  340  cd ..
+  341  ls
+  342  lb bootstrap
+  343  ls
+  344  cd ..
+  345  iso
+  346  cd iso
+  347  mv base.sh ../
+  348  cd ..
+  349  rm -rf iso
+  350  ls
+  351  mkdir iso
+  352  ls
+  353  mv base.sh iso/
+  354  ls
+  355  ls
+  356  cd iso
+  357  sh base.sh
+  358  ls
+  359  lb bootstrap
+  360  ls
+  361  cd ..
+  362  cd cursolsabarcelona
+  363  cd cursoaslbarcelona
+  364  ls
+  365  git pull
+  366  cd iso
+  367  cd ..
+  368  cd iso
+  369  ls
+  370  lb chroot
+  371  ls
+  372  cd ..
+  373  cp -R iso iso1
+  374  ls
+  375  cd iso1
+  376  ls
+  377  chroot chroot
+  378  ls 
+  379  ls chroot
+  380  cd ..
+  381  cp -R iso1 iso2
+  382  ls
+  383  cd iso2
+  384  lb binary
+  385  ls
+  386  cd ..
+  387  iso2
+  388  cd iso2
+  389  ls
+  390  cd ..
+  391  rm -rf iso2
+  392  ls
+  393  cp -R iso1 iso2
+  394  lb
+  395  cd iso2
+  396  ls
+  397  ls
+  398  ifconfig
+  399  ls
+  400  lb binary
+  401  cd ..
+  402  rm -rf iso2
+  403  ls
+  404  cp -R iso1 iso2
+  405  ls
+  406  cd iso2
+  407  ls
+  408  cd config
+  409  ls
+  410  nano bootstrap
+  411  cd ..
+  412  lb binary
+  413  cd ..
+  414  rm -rf iso2
+  415  ls
+  416  cp -R iso1 iso2
+  417  ls
+  418  cd iso2
+  419  ls
+  420  cd config
+  421  ls
+  422  nano binary
+  423  ls
+  424  cd ..
+  425  lb binary
+  426  ls
+  427  lb binary_iso
+  428  ls
+  429  qemu -cdrom binary.iso d -m 1024
+  430  ls
+  431  qemu -cdrom binary.iso -boot d -m 1024
+  432  cd ..
+  433  rm -rf iso2
+  434  ls
+  435  cd iso1
+  436  chroot
+  437  chroot chroot
+  438  cd config
+  439  ls
+  440  nano bootstrap
+  441  nano binary 
+  442  cd ..
+  443  cd ..
+  444  cp -R iso1 iso2
+  445  ls
+  446  cd iso2
+  447  ls
+  448  lb binary
+  449  ls
+  450  lb binary_iso
+  451  ls
+  452  qemu -cdrom binary.iso -boot d -m 1024
+  453  qemu -cdrom binary.iso -boot d -m 765
+  454  cd iso1
+  455  exit
+  456  aptitude search live build
+  457  clean
+  458  clear
+  459  cd control
+  460  cd cursoaslbarcelona
+  461  git pull
+  462  ls
+  463  nano qemu.txt
+  464  cd home
+  465  cd ..
+  466  chroot chroot
+  467  cd iso2
+  468  chroot chroot
+  469  cd ..
+  470  rm -rs iso2
+  471  ls
+  472  rm -rf iso2
+  473  ls
+  474  cd iso1
+  475  chroot chroot
+  476  cd ..
+  477  cp -R iso1 iso2
+  478  ls
+  479  cd iso2
+  480  lb binary
+  481  lb binary_iso
+  482  ls
+  483  qemu -cdrom binary.iso -bootd d -m 1024
+  484  qemu -cdrom binary.iso -bootd d -m 765
+  485  ls
+  486  qemu -cdrom binary.iso -boot d -m 765
+  487  qemu -cdrom binary.iso -boot d -m 765
+  488  history
+  489  history > jueves.txt
+  490  qemu -cdrom binary.iso -boot d -m 765
+  491  mkdir image
+  492  cd image
+  493  rm -rf image
+  494  ls
+  495  cd ..
+  496  rm -rf image
+  497  mkdir imagen
+  498  cd imagen
+  499  qemu-img create Nombre.img 2G
+  500  ls
+  501  cd control
+  502  cd cursoaslbarcelona
+  503  cd aliciagonzalez
+  504  ls
+  505  mkdir examen
+  506  ls
+  507  rm -rf examen
+  508  ls
+  509  touch Examen-11416944.txt
+  510  ls
+  511  nano Examen-11416944.txt
+  512  fdisk -l
+  513  nano etc/apt/source.list
+  514  nano etc/apt/sources.list
+  515  nano /etc/apt/sources.list
+  516  nano /etc/apt/sources.list
+  517  aptitude update
+  518  ls
+  519  touch curso1.txt
+  520  ls
+  521  chmod --w-r--wx
+  522  chmod 143 curso1.txt
+  523   touch curso2.txt
+  524  chmod 045
+  525  chmod 045 curso2.txt
+  526   touch curso3.txt
+  527  ls
+  528  chmod 043 curso3.txt
+  529  ls
+  530  touch curso4.txt
+  531  ls
+  532  chmod 057 curso4.txt
+  533  ls
+  534  touch curso5.txt
+  535  ls
+  536  chmod 227 curso5.txt
+  537  ls
+  538  nano curso1.txt
+  539  ls -ls
+  540  ls -la
+  541  ps -aux | grep > tardejueves.odt
+  542  ps aux | greep cunaguaro > tardejueves.odt
+  543  ps -aux | greep 
+  544  ps aux | greep 
+  545  ps -aux | greep cunaguaro
+  546  ls
+  547  ps -aux | greep tardejueves.odt
+  548  ls
+  549  ps -aux | greep > tardejueves.odt
+  550  ls
+  551  ps -aux | greep > tardejueves.odt
+  552  ps -aux | grep > tardejueves.odt
+  553  ls
+  554  ps -aux | grep tardejueves.odt
+  555  ls
+  556  kill -9 24044
+  557  ls
+  558  kill -9 2780
+  559  ls
+  560  kill -9 pib
+  561   ps -aux | grep tardejueves.odt
+  562  ls
+  563  kill -9 pib
+  564  ls
+  565  ps pib
+  566  ps aux
+  567  ps -aux | grep tardejueves.odt
+  568  kill -9 2780
+  569  kill -9 5947
+  570  ls
+  571  mkdir libreofficewriter 
+  572  cd libreofficewriter
+  573  ls
+  574  touch l.txt
+  575  ls
+  576  cd ..
+  577  echo libreofficewriter > l.txt
+  578  ls
+  579  mkdir procesador
+  580  ls
+  581  touch procesador.txt
+  582  ls
+  583  cat/proc/cpu/
+  584  cat/proc/cpuinfo
+  585  cpuinfo
+  586  ls
+  587  cd procesador
+  588  ls
+  589  cat/proc/cpuinfo
+  590  cat/proc/cpuinfo
+  591  ls
+  592  cat /proc/cpuinfo
+  593  ls
+  594  nano procesador.txt
+  595  ifconfig
+  596  more examen
+  597  ls
+  598  cd ..
+  599  more examen
+  600  mkdir sl
+  601  ls
+  602  cd sl
+  603  nano sl
+  604  apt-get source sl
+  605  ls
+  606  nano sl_3.03-17.debian.tar.gz
+  607  nano sl-3.03
+  608  cd ..
+  609  cd sl
+  610  ls
+  611  nano
+  612  nano sl_3.03
+  613  apt-get source sl
+  614  ls
+  615  cd sl-3.03
+  616  ls
+  617  nano debian
+  618  nano sl h.h
+  619  nano sl h
+  620  nano sl.h
+  621  aptitude update
+  622  cd ..
+  623  dpkg -i sl_3.03-17_i386.deb
+  624  ls
+  625  sl-3.03
+  626  sl-3.03
+  627  cd sl-3.3.03
+  628  ls
+  629  cd sl-3.03/
+  630  dpkg-buildpackage -us -uc
+  631  ls
+  632  dpkg-source --commit
+  633  dpkg-buildpackage -us -uc
+  634  cd ..
+  635  ls
+  636  dpkg -i sl_3.03-17_i386.deb 
+  637   cd ..
+  638  mkdir bienvenido
+  639  cd bienvenido
+  640  ls
+  641  cd aliciagonzalez
+  642  ls
+  643  cd ..
+  644  ls
+  645  cd bienvenido
+  646  apt-get source canaima-bienvenido-gnome
+  647  ls
+  648  cd canaima-bienvenido-gnome-4.7/
+  649  ls
+  650  cd gui
+  651  ls
+  652  cd data
+  653  ls
+  654  cd shell
+  655  ls
+  656  cd ..
+  657  cd ..
+  658  cd ..
+  659  ls
+  660  nano canaima-bienvenido-gnome
+  661  nano canaima-bienvenido-gnome
+  662  cd ..
+  663  ls
+  664  nano canaima-bienvenido-gnome
+  665  cd ..
+  666  ls
+  667  nano bienvenido/
+  668  nano
+  669  cd bienvenido
+  670  ls
+  671  nano canaima-bienvenido-gnome
+  672  nano /etc/apt/sources.list
+  673  ls
+  674  cd canaima-bienvenido-gnome-4.7/
+  675  ls
+  676  ls
+  677  cd debian
+  678  ls
+  679  cd source
+  680  ls
+  681  ls
+  682  cd ..
+  683  cd ..
+  684  cd ..
+  685  ls
+  686  cd canaima-bienvenido-gnome-4.7/
+  687  ls
+  688  cd debian
+  689  ls
+  690  cd source
+  691  ls
+  692  cd ..
+  693  cd ..
+  694  cd ..
+  695  cd ..
+  696  cd bienvenido
+  697  ls
+  698  ls
+  699  cd canaima-bienvenido-gnome-4.7/
+  700  ls
+  701  cd gui
+  702  ls
+  703  cd data
+  704  ls
+  705  cd shell
+  706  ls
+  707  ls
+  708  nano 01.html
+  709* d
+  710* 
+  711  cd ..
+  712  cd ..
+  713  cd ..
+  714  dpkg-buildpackage -us -uc
+  715  aptitude update
+  716  dpkg-buildpackage -us -uc
+  717  cd bienvenido
+  718  ls
+  719  cd canaima-bienvenido-gnome-4.7/
+  720  ls
+  721  aptitude update
+  722  dpkg-buildpackage -us -uc
+  723  ls
+  724  dpkg-source --commit
+  725  dpkg-buildpackage -us -uc
+  726  ls
+  727  ls
+  728  dpkg -i canaima-bienvenido-gnome_4.7_all.deb
+  729  cd ..
+  730  ls
+  731  dpkg -i canaima-bienvenido-gnome
+  732  dpkg -i canaima-bienvenido-gnome_4.7_all.deb
+  733  ls
+  734  iwconfig
+  735  top ali.odt
+  736  ps aux | grep ali.odt
+  737  top 26708
+  738  touch permiso
+  739  ls
+  740  ls
+  741  nano permiso.txt
+  742  history > examen.txt
+  743  ls
+  744  cd ..
+  745  history > examen.txt
