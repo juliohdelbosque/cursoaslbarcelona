@@ -1,0 +1,13 @@
+root@canaima-popular:/home/usuario/control/cursoaslbarcelona/ivandelgado# top
+Se presiona k, y solicita el PID a hacerle kill; en este caso el proceso 3177 que es del explorador cunaguaro
+
+
+top - 12:34:53 up  4:29,  4 users,  load average: 0,18, 0,21, 0,18
+Tasks: 132 total,   2 running, 130 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4,5 us,  0,2 sy,  0,0 ni, 95,3 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem:   1025876 total,   943012 used,    82864 free,    42476 buffers
+KiB Swap:  2456880 total,   122888 used,  2333992 free,   543916 cached
+pid to signal/kill 3177
+
+  PID USER      PR  NI  VIRT  RES  SHR S  %CPU %MEM    TIME+  COMMAND
+ 3177 usuario   20   0  512m 149m  22m R   8,3 14,9  17:47.17 cunaguaro

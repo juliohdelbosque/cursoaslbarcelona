@@ -1,0 +1,4 @@
+Pasos:
+root# nano /etc/apt/sources.list
+root# aptitude update
+

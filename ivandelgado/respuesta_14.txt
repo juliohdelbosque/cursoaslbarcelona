@@ -1,0 +1,30 @@
+root@canaima-popular:/usr/share/canaima-semilla/profiles# cp -R primera-base ivan
+
+root@canaima-popular:/usr/share/canaima-semilla/profiles/ivan# nano profile.conf
+
+PROFILE_NAME="primera-base"
+PROFILE_ARCH="i386"
+
+AUTHOR_NAME="Ivan Edmundo Delgado Zerpa"
+AUTHOR_EMAIL="ivan.delgado.zerpa@gmail.com"
+AUTHOR_URL="http://canaima.softwarelibre.gob.ve/"
+
+META_DISTRO="canaima"
+META_CODENAME="auyantepui"
+META_REPO="http://paquetes.canaima.softwarelibre.gob.ve/"
+META_REPOSECTIONS="main aportes no-libres"
+
+OS_LOCALE="es_VE.UTF-8"
+OS_PACKAGES="canaima-base"
+OS_EXTRAREPOS="profile"
+OS_INCLUDES="profile"
+OS_HOOKS="profile"
+
+IMG_SYSLINUX_SPLASH="profile"
+
+root@canaima-popular:/usr/share/canaima-semilla/profiles/ivan# lb config
+root@canaima-popular:/usr/share/canaima-semilla/profiles/ivan# lb bootstrap
+root@canaima-popular:/usr/share/canaima-semilla/profiles/ivan# lb chroot
+root@canaima-popular:/usr/share/canaima-semilla/profiles/ivan# lb binary
+root@canaima-popular:/usr/share/canaima-semilla/profiles/ivan# lb binary_iso
+
