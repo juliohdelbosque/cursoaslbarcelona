@@ -1,0 +1,487 @@
+canaima-bienvenido-gnome (4.7) stable; urgency=low
+
+  * [fb7eebf] Cambiando escudo de la img venezuela del arcerca
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Mon, 11 Nov 2013 11:33:24 -0430
+
+canaima-bienvenido-gnome (4.6) stable; urgency=low
+
+  * [d7a3145] acomodando error que no se inicia al principio
+
+ -- Sasha Solano <sashasolano@gmail.com>  Tue, 05 Nov 2013 15:14:35 -0430
+
+canaima-bienvenido-gnome (4.5) stable; urgency=low
+
+  * [7a04102] quitandole el ~B1 al canaima acerca
+
+ -- Sasha Solano <sashasolano@gmail.com>  Thu, 31 Oct 2013 15:36:10 -0430
+
+canaima-bienvenido-gnome (4.4) stable; urgency=low
+
+  [ Sasha Solano ]
+  * [3bc08b7] deleted:    debian/source/format
+  * [a7c0c6a] quitando mensajes de prueba
+
+  [ Sasha ]
+  * [56e54f6] corrigiendo iconos pixelados
+  * [c1a3ad7] cambiando el nombre de main.py a canaima-bienvenido.py
+
+  [ Sasha Solano ]
+
+ -- Sasha Solano <sashasolano@gmail.com>  Thu, 31 Oct 2013 12:16:04 -0430
+
+canaima-bienvenido-gnome (4.3) stable; urgency=low
+
+  [ Sasha Solano ]
+  * [73ce9b6] Agregado lanzador para el menú
+  * [3a2bbe6] acomodando icono del .desktop
+  * [f5dc24e] quitando la depencia de canaima escritorio gnome
+  * [d25e997] cambios agregando depencia de jquery y el inicio de session
+
+  [ ssolano ]
+
+ -- ssolano <sashasolano@gmail.com>  Thu, 12 Sep 2013 16:51:17 -0430
+
+canaima-bienvenido-gnome (4.2) stable; urgency=low
+
+  [ Sasha Solano ]
+  * [bbdcac8] borrado archivos inecesarios
+  * [6c13348] borrando debian/files
+
+  [ ssolano ]
+
+ -- ssolano <sashasolano@gmail.com>  Fri, 30 Aug 2013 04:09:19 -0430
+
+canaima-bienvenido-gnome (4.1) stable; urgency=low
+
+  [ ssolano ]
+  * [b498449] borrando archivos inecesario
+  * [9704bfb] arreglando agregando dependecia de jquery
+  * [d33f3f2] cambiando corrigiendo errores en el text
+  * [0bb15be] editando makefile
+  * [cebadae] corrigiendo main.py y makefile
+  * [dafc3fc] corrigiendo
+  * [4b8fea6] corrigiendo error en python
+
+  [ Carlos Espinoza ]
+  * [42b8cda] Agregando Acerca de Canaima GNU/Linux al Bienvenido
+
+  [ ssolano ]
+  * [1496488] agregando acerca de canaima
+  * [aea6b6b] agregando acerca de canaima
+  * [3fe5bf7] acomondando makefile
+  * [abdc3d8] probando empaquetamiento
+  * [170b41d] corrigiendo boton cerrar y acomodando el acerca
+  * [00fab8b] agregando  archivo jquery.mini y corrigiendo errores en el texto de ayuda del bienvenido
+  * [5adf15d] acomodando la opcion no volver a aparece
+
+ -- ssolano <sashasolano@gmail.com>  Fri, 23 Aug 2013 09:04:05 -0430
+
+canaima-bienvenido-gnome (4.0) stable; urgency=low
+
+  * [3260eec] Nueva Version para 4.0.
+
+ -- Sasha Veronica Solano Grosjean <sashasolano@gmail.com>  Thu, 30 Aug 2012 17:29:47 -0430
+
+canaima-bienvenido-gnome (3.1-17) stable; urgency=low
+
+  * [2e389ee] Corrigiendo colorización de mensajes.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Thu, 30 Aug 2012 17:29:47 -0430
+
+canaima-bienvenido-gnome (3.1-16) stable; urgency=low
+
+  * [d6014fe] Actualizando TODO.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Tue, 28 Aug 2012 16:13:22 -0430
+
+canaima-bienvenido-gnome (3.1-15) stable; urgency=low
+
+  * [22bbd3c] Corrigiendo detalle en el postinstall.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Sat, 07 Jul 2012 00:08:21 -0430
+
+canaima-bienvenido-gnome (3.1-14) stable; urgency=low
+
+  * [7c30164] Corrigiendo detalles en el paquete fuente.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Thu, 05 Jul 2012 14:11:59 -0430
+
+canaima-bienvenido-gnome (3.1-13) stable; urgency=low
+
+  * [1930f42] Mejorando comprobación de bashisms.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Thu, 05 Jul 2012 10:28:59 -0430
+
+canaima-bienvenido-gnome (3.1-12) stable; urgency=low
+
+  * [8a74ddd] Añadiendo preinstalll para remover residuos de
+    instalaciones anteriores.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Thu, 05 Jul 2012 10:13:35 -0430
+
+canaima-bienvenido-gnome (3.1-11) stable; urgency=low
+
+  [ Sasha Veronica Solano Grosjean ]
+  * [9aa3697] se modifico en html para gpaint
+  * [9df7749] se modidico interfaz.glade para que que colocara siempre
+    en el centro de la pantalla
+  * [59e564d] modicacion .desktop
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [91f370d] Reestructurando sistema de archivos. Generando imágenes a
+    partir de fuentes svg.
+  * [62c48dc] Agregando preremove para asegurarse que los archivos de
+    canaima-bienvenido (anterior) han sido removidos.
+  * [451b8e5] Corrigiendo Makefile. Agregando Build-Depends para
+    imagemagick.
+  * [8b92a93] Corrigiendo Makefile. Agregando Build-Depends para
+    imagemagick.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Thu, 05 Jul 2012 02:41:15 -0430
+
+canaima-bienvenido-gnome (3.1-10) stable; urgency=low
+
+  * [ffd6d7c] Agregando paquetes transicionales para facilitar la
+    migración de Canaima 3.0 -> Canaima 3.1
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 28 Dec 2011 22:57:04 -0430
+
+canaima-bienvenido-gnome (3.1-9) stable; urgency=low
+
+  * [b8ba4b6] Corrigiendo validación de los usuarios existentes y
+    válidos
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 27 Dec 2011 18:13:28 -0430
+
+canaima-bienvenido-gnome (3.1-8) stable; urgency=low
+
+  * [db08d91] Agregando Provides: canaima-bienvenido a debian/control
+    para forzar remoción automática en actualizaciones de Canaima 3.0
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 27 Dec 2011 12:07:00 -0430
+
+canaima-bienvenido-gnome (3.1-7) stable; urgency=low
+
+  * [f8dda40] * Agregando python como dependencia * Quitando permisos de
+    ejecución a *.desktop y *.glade
+  * [8c4bc41] Agregando dependencia a xdg
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 11:33:52 -0430
+
+canaima-bienvenido-gnome (3.1-6) stable; urgency=low
+
+  [ Sasha Veronica Solano Grosjean ]
+  * [c2cb073] Se re hizo la aplicacion usando webkit ademas de corregir
+    errores de lintian como unusual-interpreter
+    ./usr/share/applications/canaima-bienvenido.desktop #!xdg-open ,
+    copyright-should-refer-to-common-license-file-for-gpl y canaima-
+    bienvenido: executable-not-elf-or-script ./usr/share/canaima-
+    bienvenido/interfaz.glade , se le agrego el archivo THANKS , se
+    cambio el uploader del paquete
+  * [a144044] Nueva versión
+  * [0692bd3] Se re hizo la aplicacion usando webkit ademas de corregir
+    errores de lintian como unusual-interpreter
+    ./usr/share/applications/canaima-bienvenido.desktop #!xdg-open ,
+    copyright-should-refer-to-common-license-file-for-gpl y canaima-
+    bienvenido: executable-not-elf-or-script ./usr/share/canaima-
+    bienvenido/interfaz.glade , se le agrego el archivo THANKS , se
+    cambio el uploader del paquete
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [9a8f779] * Modificando para que use las imágenes del sistema *
+    Separando css y js
+  * [f307465] Cambiando dependencia gpaint->gimp
+  * [6ec4fc6] Removiendo scripts para hacer pruebas en el Makefile
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 11:11:13 -0430
+
+canaima-bienvenido-gnome (3.1-5) stable; urgency=low
+
+  * [4961f29] Agregando Conflicts con canaima-bienvenido.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 28 Oct 2011 17:05:29 -0430
+
+canaima-bienvenido-gnome (3.1-4) stable; urgency=low
+
+  * [aea034c] Cambiando llamada del banner que es parte del paquete
+    canaima-estilo-visual-gnome.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 28 Oct 2011 16:10:28 -0430
+
+canaima-bienvenido-gnome (3.1-3) stable; urgency=low
+
+  * [3e56058] Agregando Replaces a canaima-bienvenido para mantener
+    compatibilidad hacia atrás con Canaima Popular 3.0.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 28 Oct 2011 14:05:09 -0430
+
+canaima-bienvenido-gnome (3.1-2) stable; urgency=low
+
+  [ Carlos Guerrero ]
+  * [843ad75] corrigiendo acentos
+  * [d91cb52] Nueva versión
+  * [3ff4255] correccion mensaje gpaint
+  * [346ff59] Nueva versión
+
+  [ Carlos Escobar ]
+  * [02a28be] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: control
+  * [c20c64c] Nueva versión
+
+  [ William Abrahan Cabrera Reyes ]
+  * [b33e4d0] Ampliada la información de los tips en los botones
+    principales [ticket #255]
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [08826bc] Nueva versión
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 28 Oct 2011 10:08:18 -0430
+
+canaima-bienvenido-gnome (3.1-1) stable; urgency=low
+
+  * Limpiando fuentes para la versión 3.1
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 22 Mar 2011 07:41:20 -0430
+
+canaima-bienvenido (3.0+32) testing; urgency=low
+
+  * [02a28be] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: control
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Fri, 10 Jun 2011 15:41:44 -0430
+
+canaima-bienvenido (3.0+31) testing; urgency=low
+
+  * [3ff4255] correccion mensaje gpaint
+
+ -- Carlos Guerrero <guerrerocarlos@gmail.com>  Thu, 28 Apr 2011 14:40:01 -0430
+
+canaima-bienvenido (3.0+30) testing; urgency=low
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [863fed9] Actualizando las dependencias conforme a la nueva
+    estructura por clasificaciones.
+
+  [ Carlos Guerrero ]
+  * [843ad75] corrigiendo acentos
+
+ -- Carlos Guerrero <guerrerocarlos@gmail.com>  Thu, 28 Apr 2011 14:34:01 -0430
+
+canaima-bienvenido (3.0+29) testing; urgency=low
+
+  [ Francisco Vasquez Guerrero ]
+  * [8692e28] mejorando el gui de canaima bienvenido
+
+  [ Carlos Guerrero ]
+  * [7f2ef5c] Resolviendo tiquet #255, corrigiendo tooltips, para
+    funcionamiento correcto de aplicacion y de accesibilidad
+    reemplazando gimp por gpaint segun tiquet #208
+    http://proyectos.canaima.softwarelibre.gob.ve/canaima/ticket/225
+    http://proyectos.canaima.softwarelibre.gob.ve/canaima/ticket/208
+  * [8fa878c] [ canaima-desarrollador ] Los siguientes archivos han sido
+    modificados/añadidos: README
+
+ -- Carlos Guerrero <guerrerocarlos@gmail.com>  Tue, 12 Apr 2011 14:52:08 -0430
+
+canaima-bienvenido (3.0+28) testing; urgency=low
+
+  * [72ba5a7] reduciendo tamaño de GUI canaima-bienvenido ticket #209
+    corriegiendo error en el gui .glade
+
+ -- Francisco Vasquez Guerrero <fvasquez@cnti.gob.ve>  Fri, 08 Apr 2011 09:24:49 -0430
+
+canaima-bienvenido (3.0+27) testing; urgency=low
+
+  * [ddf961d] reduciendo tamaño de GUI canaima-bienvenido ticket #209
+
+ -- Francisco Vasquez Guerrero <fvasquez@cnti.gob.ve>  Thu, 07 Apr 2011 17:10:47 -0430
+
+canaima-bienvenido (3.0+26) testing; urgency=low
+
+  * [51b6cab] Corrigiendo falla de preferencia al arrancar canaima-
+    bienvenido en el inicio de sesión
+  * [6969604] Corrigiendo y quitando Sugerencias
+
+ -- Carlos Guerrero <guerrerocarlos@gmail.com>  Mon, 04 Apr 2011 09:44:34 -0430
+
+canaima-bienvenido (3.0+25) testing; urgency=low
+
+  * [d77caab] Adaptando codigo para nuevo funcionamiento por categorias
+  * [b87d3c9] finalizada modificaciones de codigo, falta seleccionar
+    aplicaciones para cada categoria y integrar iconos
+  * [6fd6974] Nuevas aplicaciones en submenues, ya cada una con su icono
+    y su lanzador
+  * [86cab3a] añadiendo funcion de cerrar a ventana principal
+  * [15f5cba] asignados comandos a cada boton, y verificacion de
+    funcionamiento de configuracion de mostrar al inicio, todo
+    funcionando
+  * [b8a0fdf] Corrigiendo falla de preferencia al arrancar canaima-
+    bienvenido en el inicio de sesión
+
+ -- Carlos Guerrero <guerrerocarlos@gmail.com>  Sun, 27 Mar 2011 12:34:57 -0430
+
+canaima-bienvenido (3.0+24) testing; urgency=low
+
+  * [d387b41] Corrigiendo errores reportados en el funcionamiento
+  * [c323a9a] Corrigiendo dependencias
+
+ -- Carlos Guerrero <guerrerocarlos@gmail.com>  Tue, 22 Mar 2011 14:19:28 -0430
+
+canaima-bienvenido (3.0+23) testing; urgency=low
+
+  * [1f2417a] Corrigiendo dirección del archivo interfaz.glade en
+    canaima-bienvenido.py.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 22 Mar 2011 07:41:20 -0430
+
+canaima-bienvenido (3.0+22) testing; urgency=low
+
+  * [5016225] Reestructurando los botones
+
+ -- Luis Alejandro Martínez Faneyth <huntingbears@OKComputer.cnti.gob.ve>  Fri, 04 Mar 2011 11:35:32 -0430
+
+canaima-bienvenido (3.0+21) testing; urgency=low
+
+  * [d916164] Corrigiendo ruta a la interfaz Glade
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 08 Feb 2011 01:59:18 -0430
+
+canaima-bienvenido (3.0+20) testing; urgency=low
+
+  * [d66ae12] Removiendo imághenes locales, cambiando a configuración
+    global
+  * [54dafad] Corrigiendo Makefile
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 08 Feb 2011 01:50:42 -0430
+
+canaima-bienvenido (3.0+19) testing; urgency=low
+
+  * [cd9e787] Removiendo cosas innecesarias
+  * [76c5017] Mejorando scripts del mantenedor
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 07 Feb 2011 18:02:27 -0430
+
+canaima-bienvenido (3.0+18) testing; urgency=low
+
+  * [2cd5f9b] Mejorando la forma en que se identifican los usuarios en
+    /etc/shadow
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 31 Jan 2011 10:04:27 -0430
+
+canaima-bienvenido (3.0+17) unstable; urgency=low
+
+  * [f3e1d74] Perfeccionando el preinstall
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 28 Jan 2011 11:34:47 -0430
+
+canaima-bienvenido (3.0+16) unstable; urgency=low
+
+  * [ab08c2a] Cambiando ícono para adaptarse al nuevo tema de Canaima
+    3.0
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 17 Dec 2010 11:47:55 -0430
+
+canaima-bienvenido (3.0+15) unstable; urgency=low
+
+  * [14880f2] Removiendo rastros del viejo video de inicio
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 06 Dec 2010 16:34:06 -0430
+
+canaima-bienvenido (3.0+14) unstable; urgency=low
+
+  * [ffa1197] Corrigiendo ícono
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 30 Nov 2010 12:27:36 -0430
+
+canaima-bienvenido (3.0+13) unstable; urgency=low
+
+  * [ae2a29d] Cambiando ícono por uno de mayor resolución
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 30 Nov 2010 12:06:54 -0430
+
+canaima-bienvenido (3.0+12) unstable; urgency=low
+
+  * [c13f391] Agregando dependencia faltante
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 30 Nov 2010 09:43:14 -0430
+
+canaima-bienvenido (3.0+11) unstable; urgency=low
+
+  * [c9e4ea1] Corrigiendo string de los .desktop
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 29 Nov 2010 19:03:04 -0430
+
+canaima-bienvenido (3.0+10) unstable; urgency=low
+
+  * [bb97891] Copiando .desktop a /usr/share/applications/
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 29 Nov 2010 18:30:13 -0430
+
+canaima-bienvenido (3.0+9) unstable; urgency=low
+
+  * [8c334a1] Corrigiendo errores arrojados por lintian
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 29 Nov 2010 18:10:52 -0430
+
+canaima-bienvenido (3.0+8) unstable; urgency=low
+
+  * [19c6d0b] Corrigiendo Desktop Entries
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 29 Nov 2010 18:04:08 -0430
+
+canaima-bienvenido (3.0+7) unstable; urgency=low
+
+  * [da5b314] Corrigiendo error de sintaxis
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 29 Nov 2010 17:29:40 -0430
+
+canaima-bienvenido (3.0+6) unstable; urgency=low
+
+  * [c77f97b] Corrigiendo errores
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 29 Nov 2010 17:19:59 -0430
+
+canaima-bienvenido (3.0+5) unstable; urgency=low
+
+  * [c83376b] Corrigiendo preinst
+  * [fd5bc63] Corrigiendo error de sintaxis
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 29 Nov 2010 16:15:55 -0430
+
+canaima-bienvenido (3.0+4) unstable; urgency=low
+
+  * [745327e] Modificando scripts del mantenedor
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 26 Nov 2010 16:58:49 -0430
+
+canaima-bienvenido (3.0+3) unstable; urgency=low
+
+  * [d2585c7] Reestructurando lógica de los scripts del mantenedor
+  * [ba9eb84] Cambiando lógica de los scripts del mantenedor
+  * [2b0d86d] Dandole últimos retoques a los scripts del mantenedor
+  * [96ea0e7] Corrigiendo error de sintaxis en el Makefile
+  * [3230fbe] Corrigiendo otro error de sintaxis en el Makefile
+  * [6cbd66d] Corrigiendo tercer error de sintaxis en el Makefile
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 24 Nov 2010 02:54:53 -0430
+
+canaima-bienvenido (3.0+2) unstable; urgency=low
+
+  * [c19cf6c] Corrigiendo error de sintaxis
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 22 Nov 2010 17:10:41 -0430
+
+canaima-bienvenido (3.0+1) unstable; urgency=low
+
+  * [d187a6a] Corrigiendo permisos de las imágenes .png
+  * [2526246] Corrigiendo permisos de scripts
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 19 Nov 2010 14:02:25 -0430
+
+canaima-bienvenido (3.0+0) unstable; urgency=low
+
+  * Reconstrucción del paquete canaima-bienvenido de acuerdo con las nuevas políticas de desarrollo de Canaima GNU/Linux
+  * [3881a04] Agregando vcs-git a debian/control
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 19 Nov 2010 12:13:09 -0430

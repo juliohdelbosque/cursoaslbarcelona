@@ -1,0 +1,177 @@
+<body class="ayuda">
+    <div style="display: block;" id="welcome">
+        <div style="left: 20px; top: 30px; display: block; width: 720px; height: 549px;" id="welcome-screen" class="selected-window">	
+	      <div class="welcome-header">
+                  <h1>¡Bienvenido a Canaima 4.0!</h1>
+             </div><!-- welcome-header -->
+             <div class="answer-screen" >
+                   <div id="answer">
+                       <p>Canaima es un Sistema Operativo completo, versátil, novedoso, seguro, eficiente y LIBRE que cuenta con una serie de aplicaciones pensadas para facilitar tu trabajo.</p>
+                       <p>Disfruta del siguiente recorrido donde aprenderás más sobre <a href="[doc]/usr/share/canaima/help/gnome/parte_1.xml"> CANAIMA </a>  , nuestro nuevo entorno de escritorio y nuestras aplicaciones</p>
+<table width="100%" height="110px" align="center" class="tabla">
+   <tr align="center">
+        <td valign="top" width="20%" class="titulo"  >
+	    <a href='javascript:MostrarDocumentacion()'>
+		<div>Primeros Pasos<div><br/>
+		    <img id="mydoc" name="mydoc" src="/usr/share/icons/Gnamon/apps/32/logviewer.png" /></a>
+      </td>
+      <td valign="top" width="20%" class="titulo">
+	   <a href='javascript:MostrarOficina()' >
+		<div>Oficina</div><br/>
+		     <img id="myofi" name="myofi" src="/usr/share/icons/Gnamon/apps/32/ooo-template.png" /></a>
+    </td>
+    <td valign="top" width="20%" class="titulo">
+	<a href='javascript:MostrarInternet()'>
+		<div>Internet</div><br/>
+		   <img id="myweb" name="myweb"  src="/usr/share/icons/Gnamon/apps/32/web-browser.png" /></a>
+    </td>
+    <td valign="top" width="20%" class="titulo">
+	<a href='javascript:MostrarGraficos()'>
+		<div>Graficos</div><br/>
+		<img id="mygraf" name="mygraf"  src="/usr/share/icons/Gnamon/apps/32/gimp.png" /></a>
+   </td>
+   <td valign="top" width="20%" class="titulo">
+	<a href='javascript:MostrarMultimedia()'>
+		<div>Multimedia</div><br/>
+		<img id="mymult" name="mymult"  src="/usr/share/icons/Gnamon/apps/32/totem.png" /></a>
+   </td>
+</tr>
+</table>
+<div id="documentacion" style="display:none;" class="capa_trans">
+  <table class="titulos" >
+    <tr align="center">
+       <td valign="top" width="25%" style="border-left:1px dotted #C0B7B0;">
+	<a  onclick="link_portal()">
+		<img onmouseout="stoprattle(this)" src="/usr/share/icons/Gnamon/places/32/canaima-logo.png" />
+		<div class="imagenes-titulo">Portal Principal</div></a>
+      </td>
+    <td valign="top" width="25%">
+	<a onclick="link_wiki()">
+		<img onmouseout="stoprattle(this)"  src="/usr/share/icons/Gnamon/apps/32/system-users.png" />
+		<div>Enciclopedia Colaborativa</div>
+	</a>
+    </td>
+    <td valign="top" width="25%">
+	<a onclick="link_trac()">
+		<img onmouseout="stoprattle(this)" onmouseover="init(this);rattleimage()" class="shakeimage image_trans" src="/usr/share/icons/Gnamon/apps/32/tomboy.png" />
+		<div>Documentador de Fallas</div>
+	</a>
+    </td>
+  </tr>
+</table> 
+</div><!--documentacion -->
+<div id="oficina" style="display:none;" class="capa_trans" >
+  <table class="titulos"> 
+  <tr align="center">
+     <td valign="top" width="25%">
+	<a href="[exec]libreoffice --writer">
+		<img src="/usr/share/icons/Gnamon/apps/32/ooo-writer.png"/></a>
+		<div>Procesador de Texto LibreOffice</div>
+	</a>
+     </td>
+     <td valign="top" width="25%">
+	<a href="[exec]libreoffice --calc">
+		<img src="/usr/share/icons/Gnamon/apps/32/ooo-calc.png"/>
+		<div>Hoja de Cálculo LibreOffice</div>
+	</a>
+     </td>
+     <td valign="top" width="25%">
+	<a href="[exec]libreoffice --impress">
+		<img  src="/usr/share/icons/Gnamon/apps/32/ooo-impress.png"/>
+		<div>Editor de Presentaciones LibreOffice</div>
+	</a>
+     </td>
+  </tr>
+</table>
+</div> <!--oficina -->
+<div id="internet" style="display:none;" class="capa_trans">
+  <table class="titulos"> 
+  <tr align="center">
+     <td valign="top" width="25%">
+	<a href="[exec]cunaguaro">
+		<img onmouseout="stoprattle(this)" onmouseover="init(this);rattleimage()" class="shakeimage" src="/usr/share/icons/hicolor/32x32/apps/cunaguaro.png"/>
+		<div>Navegador Web Cunaguaro</div>
+	</a>
+     </td>
+     <td valign="top" width="25%">
+	<a href="[exec]guacharo">
+		<img onmouseout="stoprattle(this)" onmouseover="init(this);rattleimage()" class="shakeimage" src="/usr/share/guacharo/chrome/icons/default/default32.png"/>
+		<div>Cliente de Correo Guácharo</div>
+	</a>
+     </td>
+     <td valign="top" width="25%">
+	<a href="[exec]empathy">
+		<img onmouseout="stoprattle(this)" onmouseover="init(this);rattleimage()" class="shakeimage"src="/usr/share/icons/Gnamon/apps/32/empathy.png"/>
+		<div>Cliente de Mensajería Empathy</div>
+	</a>
+     </td>
+  </tr>
+</table>
+</div> <!--internet -->
+<div id="graficos" style="display:none;" class="capa_trans" >
+   <table class="titulos"> 
+   <tr align="center">
+     <td valign="top" width="25%">
+	<a href="[exec]shotwell">
+		<img src="/usr/share/icons/Gnamon/apps/32/shotwell.png" />
+		<div>Gestor de Fotografías Shotwell</div>
+	</a>
+     </td>
+     <td valign="top" width="25%">
+	<a href="[exec]simple-scan">
+		<img src="/usr/share/icons/Gnamon/devices/32/scanner.png" />
+		<div>Reconocimiento de Imágenes Simple Scan</div>
+	</a>
+     </td>
+     <td valign="top" width="25%">
+	<a href="[exec]libreoffice --draw">
+		<img onmouseout="stoprattle(this)" src="/usr/share/icons/Gnamon/apps/32/ooo-impress.png" />
+		<div>Dibujos y Diagramas de LibreOffice</div>
+	</a>
+     </td>
+   </tr>
+   </table> 
+</div><!--grafico -->
+<div id="multimedia" style="display:none;" class="capa_trans">
+<table class="titulos"> 
+  <tr align="center">
+     <td valign="top" width="25%">
+	<a href="[exec]rhythmbox">
+		<img src="/usr/share/icons/Gnamon/apps/32/rhythmbox.png" />
+		<div>Reproductor de Música Rhythmbox</div>
+	</a>
+     </td>
+     <td valign="top" width="25%">
+	<a href="[exec]totem">
+		<img src="/usr/share/icons/Gnamon/apps/32/totem.png" />
+		<div>Reproductor de Videos Totem</div>
+	</a>
+     </td>
+     
+     <td valign="top" width="25%">
+	<a href="[exec]brasero">
+		<img  src="/usr/share/icons/Gnamon/apps/32/brasero.png" />
+		<div>Grabador de Discos Brasero</div>
+	</a>
+     </td>
+  </tr>
+</table>
+</div> <!--multimedia -->
+</div> <!--answer-->    
+<div id="actions">
+        <div class="action bullet-navigation inactive" id="prev-bullet"><span>{{ prev_bullet_link }}</span></div><div class="action" id="close-app">{{ close_app_button }}</div><div class="action bullet-navigation" id="next-bullet"> {{ next_bullet_link }}
+        </div>
+        <div id="show-next-startup">
+             <label for="chkAutoStart">Mostrar en el siguiente inicio:</label>
+             <input type="checkbox" checked="checked" id="chkAutoStart" />
+        </div> <!-- show-next-time -->
+</div> <!-- actions -->
+                    <div id="Acerca">
+                          <div id="Acerca-text">  
+                              <a href="[bullet]?16">Acerca de canaima</a>
+                          </div><!-- Acerca-text -->
+                    </div> <!-- Acerca -->  
+             </div> <!-- answer-screen -->
+            </div> <!-- welcome-screen  -->
+    </div> <!-- welcome -->
+</body>
