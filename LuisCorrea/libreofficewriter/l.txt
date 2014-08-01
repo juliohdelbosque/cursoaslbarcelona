@@ -1,0 +1,3 @@
+usuario   6018  0.1  6.2 201460 63928 ?        Sl   09:51   0:01 /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+root      6075  0.0  0.0   3488   732 pts/2    T    09:57   0:00 grep --color=auto soffice
+root      6174  0.0  0.0   3488   732 pts/2    S+   10:10   0:00 grep --color=auto soffice

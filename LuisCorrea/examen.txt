@@ -1,0 +1,178 @@
+Actividad. Curso de Soporte Avanzado en Linux
+
+
+- Entrar como root, ejecutar
+su
+123456789
+1-Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo                 Luis Correa
+-Cédula de Indentidad            19840230
+-Dirección de correo electrónico alberto13711@gmail.com
+-Institución a la que pertenece  UDO Anzoategui
+
+2- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X
+touch curso1.txt luego chmod 065 curso1.txt
+ -curso2.txt   RWX-W-RW-
+touch curso2.txt luego chmod 726 curso2.txt
+ -curso3.txt   --X--X--X
+touch curso3.txt luego chmod 111 curso3.txt
+ -curso4.txt   -W--W-RWX
+touch curso4.txt luego chmod 227 curso4.txt
+ -curso5.txt   ---RW-R--
+touch curso5.txt luego chmod 064 curso5.txt
+
+3-Como puedo visualizar las particiones del disco duro
+nano /proc/diskstats tambien nano /proc/partitions
+
+4-Como matamos un proceso del computador
+kill -9 IDdel proceso
+
+5-Crear un carpeta llamada libreofficewriter  abrir el libreofficewriter. guardar el proceso en un archivo l.txt
+mkdir libreofficewriter
+cd libreofficewriter
+libreofficewriter
+ps -aux | grep soffice > l.txt        
+kill -9 6018
+
+6-Crear un carpeta llamada procesador
+       -guardar la busqueda en archivo llamado procesador.txt del tipo de computadora
+mkdir procesador
+cd procesador
+cat /proc/cpuinfo > procesador.txt
+
+7-Como configuras una interfaz de red con dhcpd
+
+
+8-Que sucede cuando ejecutas el
+comando: touch registros
+.
+.
+- Crea un archivo llamado registro esta es la correcta
+
+	
+9-El comando: more examen
+
+- Despliega el contenido del archivo examen, una pantalla a la vez.
+- .
+- .
+- 
+
+10-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+mkdir sl
+cd sl
+apt-get source sl
+cd sl-3.03/
+nano sl.h
+dpkg-buildpackage -us -uc
+dpkg-source --commit
+dpkg-buildpackage -us -uc
+cd ..
+dpkg -i sl_3.03-17_i386.deb
+
+11- crear la carpeta bienvenido
+descargar el paquete fuente de canaima-bievenido-gnome, modificar el inicio 
+con su nombre generar un nuevo paquete, e instalarlo
+mkdir bienvenido
+cd bienvenido
+apt-get source canaima-bienvenido-gnome
+cd canaima-bienvenido-gnome-4.7/gui/data/shell
+nano 01.html	
+cd ..
+cd ..
+cd ..
+dpkg-buildpackage -us -uc
+dpkg-source --commit
+dpkg-buildpackage -us -uc
+cd ..
+dpkg -i canaima-bienvenido-gnome_4.7_all.deb
+
+
+12-comando para listar redes inalambricas.
+nano /proc/net/route
+
+13- Como agregamos el usuario y gestionamos el cambio de contraseña
+adduser nombredeusuario
+contraseñadeusuario
+varios datos personales 
+ingresamos como root y escribimos visudo
+debajo de root podemos agregar a otro usuario con todos o algunos privilegios
+por ejemplo asi
+jose    ALL=(ALL:ALL) ALL
+
+
+
+
+
+14-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+mkdir canaima-semilla
+cd canaima-semilla
+apt-get source canaima-semilla
+cp -R canaima-semilla-3.0+dev20140123152548/  SOLuisCorrea
+para crear una iso
+mkdir imagen
+cd imagen
+qemu -hda NOMBRE.img -cdrom binary.iso -boot d -m 512
+	
+
+
+
+15- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+http://ftp.debian.org/debian
+para ejecutar un repositorio nuevo necesitamos editar el /etc/apt/sources.list
+para que cambiemos stable por que queramos como unstable,oldstable,testing etc.	
+
+16- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+sd 
+a es para los discos duros y se diferencian entre si por los numeros
+b es para los pendrives y se diferencian por los numeros seguidos
+por ejemplo sda1,sda2,sda3,ada4 o para pendrives sdb1,sdb2,sdb3
+
+
+17- Como hago un repositorio con debmirror, comando.
+aptitude install debmirror
+nano debmirror.sh
+#!/bin/bash/
+debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free /home/usuario/control/debian
+guardamos
+chmod +x debmirror.sh 
+para dar permisos de ejecucion y luego lo ejecutamos
+sh debmirror.sh
+
+para hacer un repositorio y subirlo a internet hay que instalar apache2
+luego creamos un enlace simbolico de lo que queremos subir ha internet
+en la carpeta /var/www/
+el enlace simbolico se crea de la siguiente manera
+ln -s carpetaoarchivo /var/www/
+y compartimos el enlace escribiendo
+ifconfig wlan0 y ahi en la parte de inet addr:enlaceacompartir
+para que los demas puedan descargarlo con wget
+
+18- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+falta ejecutar
+cat history > history.txt
+ 
+19- crear un archivo permiso.txt y que los dueños sean root y usuario.
+tenemos que los tres primeros para root  _ _ _  para grupos _ _ _
+para usuarios _ _ _
+los permisos que tenemos son:
+R Read
+W Write
+X Execute
+touch permiso.txt
+chmod 707 permiso.txt
+
+20- Como matar un procesos usando top. 
+top muestra todos los procesos en tiempo real
+luego pulsamos q para salir
+kill -9  PIDDelProceso 
+pero tenemos que tener cuidado de no borrar los que 
+son del sistema operativo
+
