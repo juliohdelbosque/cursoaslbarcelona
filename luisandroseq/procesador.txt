@@ -1,0 +1,1 @@
+root      3833  0.0  0.0   3488   728 pts/2    S+   10:32   0:00 grep --color=auto procesador

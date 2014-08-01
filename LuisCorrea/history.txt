@@ -1,0 +1,500 @@
+  343  nano base.sh
+  344  sh base.sh 
+  345  ls
+  346  cd config/
+  347  ls
+  348  nano bootstrap 
+  349  cd ..
+  350  ls
+  351  lb bootstrap
+  352  ls
+  353  mv base.sh iso/
+  354  mv base.sh ../
+  355  ls
+  356  cd ..
+  357  ls
+  358  rm -rf iso
+  359  ls
+  360  mkdir iso
+  361  mv base.sh iso/
+  362  ls
+  363  cd iso
+  364  sh base.sh
+  365  ls
+  366  lb bootstrap
+  367  cd ..
+  368  ls
+  369  cd cursoaslbarcelona/
+  370  ls
+  371  git pull
+  372  ls
+  373  git pull
+  374  nano qemu.txt 
+  375  cd curso
+  376  cd cursos
+  377  ls
+  378  cd control/
+  379  cd iso/
+  380  ls
+  381  lb chroot
+  382  cd ..
+  383  cp R iso iso1
+  384  cp -R iso iso1
+  385  cd iso1
+  386  ls
+  387  du sh config
+  388  du sh config
+  389  du -sh config
+  390  chroot chroot
+  391  cd ..
+  392  cp -R iso1 iso2
+  393  cd iso2
+  394  lb binary
+  395  ls
+  396  ls -l
+  397  cd ..
+  398  cd iso1
+  399  ls
+  400  cd ..
+  401  cd iso2
+  402  ls
+  403  ls l
+  404  ls -l
+  405  cd ..
+  406  ls
+  407  rm -rf iso2
+  408  cp -R iso1 iso2
+  409  cd iso2
+  410  lb binary
+  411  cd ..
+  412  ls
+  413  rm -rf iso2
+  414  cp -R iso1 iso2
+  415  cd iso2
+  416  ls
+  417  lb binary
+  418  cd ..
+  419  ls
+  420  rm -rf iso2
+  421  cp -R iso1 iso2
+  422  cd iso2
+  423  ls
+  424  cd config
+  425  ls
+  426  nano bootstrap 
+  427  cd ..
+  428  ls
+  429  lb binary
+  430  cd ..
+  431  rm -rf iso2
+  432  cp -R iso1 iso2
+  433  cd iso2
+  434  cd config/
+  435  ls
+  436  nano bootstrap 
+  437  nano binary 
+  438  cd ..
+  439  lb binary
+  440  ls
+  441  lb binary_iso
+  442  ls
+  443  qemu -cdrom binary.iso -boot d -m 512
+  444  ls
+  445  cd ..
+  446  rm -rf iso2
+  447  cd iso1
+  448  ls
+  449  chroot chroot
+  450  ls
+  451  cd config
+  452  ls
+  453  nano bootstrab
+  454  nano binary 
+  455  cd ..
+  456  ls
+  457  cd ..
+  458  cp -R iso1 iso2
+  459  cd iso2
+  460  ls
+  461  lb binary_iso
+  462  lb binary
+  463  qemu -cdrom binary.iso -boot d -m 512
+  464  ls
+  465  lb binary_iso
+  466  qemu -cdrom binary.iso -boot d -m 512
+  467  cd ..
+  468  rm -rf iso2
+  469  cd iso1
+  470  chroot chroot
+  471  chroot chroot
+  472  dpkg -l | grep xserver-x > xserver.txt
+  473  gedit xserver.txt
+  474  gedit xserver.txt
+  475  libreoffice-writer xserver.txt
+  476  nano xserver.txt
+  477  reboot
+  478  qemu-img create NOMBRE.img 2G
+  479  ls
+  480  ls -l
+  481  du -sh NOMBRE.img 
+  482  nano xserver.txt 
+  483  dpkg -l | grep xserver-x >xserver1.txt
+  484  nano xserver1.txt 
+  485  dpkg -l | grep xserver-x 
+  486  aptitude search xserver-x
+  487  aptitude install synaptic
+  488  synaptic
+  489  cd control
+  490  ls
+  491  cd iso1
+  492  chroot chroot
+  493  chroot chroot
+  494  cd ..
+  495  ls 
+  496  cp -R iso1 iso2
+  497  cd iso2
+  498  lb binary
+  499  poweroff
+  500  ls
+  501  Luis Correa 19849239 alberto13711@gmail.com UDO Azoategui > Examen.txt
+  502  echo Luis Correa 19849239 alberto13711@gmail.com UDO Azoategui > Examen.txt
+  503  ls
+  504  nano Examen.txt
+  505  touch curso1.txt
+  506  chmod 065 curso1.txt
+  507  touch curso2.txt
+  508  chmod 726 curso2.txt
+  509  ls
+  510  touch curso3.txtchmod 111 curso3.txt
+  511  ls
+  512  ls
+  513  rm 111
+  514  ls
+  515  rm curso.txtchmod
+  516  ls
+  517  rm -rf curso.txtchmod
+  518  ls
+  519  chmod 111 curso3.txt
+  520  ls
+  521  touch curso4.txt 
+  522  ls
+  523  chmod 227 curso4.txt
+  524  ls
+  525  touch curso5.txt
+  526   chmod 062 curso5.txt
+  527  ls
+  528  ls -l
+  529   chmod 064 curso5.txt
+  530  ls -l
+  531  help
+  532  man bash
+  533  ls
+  534  mkdir c
+  535  mv curso3.txtchmod c
+  536  ls
+  537  rm -rf c
+  538  ls
+  539  ls -l
+  540  nano /proc/diskstats 
+  541  nano /proc/diskstats mkdir libreofficewriter
+  542  mkdir libreofficewriter
+  543  ls
+  544  cd libreofficewriter
+  545  ps -aux
+  546  ps -aux | grep soffice
+  547  ps -aux | grep soffice > l.txt
+  548  ps -aux | grep soffice > l.txt
+  549  ps -aux | grep soffice 
+  550  ps -aux | grep soffice > l.txt
+  551  echo ps -aux | grep soffice > l.txt 
+  552  nano l.txt 
+  553  ls
+  554  mkdir
+  555  mkdir c
+  556  mv l.txt c
+  557  ls
+  558  ls
+  559  rm -rf s
+  560  ls
+  561  nano ps -aux | grep soffice
+  562  ls
+  563  ps -aux | grep soffice > l.txt
+  564  ps -aux | grep soffice >l.txt
+  565  ps -aux | grep soffice>l.txt
+  566  ps -aux | grep soffice > l.txt
+  567  ps -aux | grep soffice > l.txt
+  568  ls
+  569  nano l.txt 
+  570  rm -rf c
+  571  ls
+  572  nano l.txt
+  573  cd ..
+  574  kill -9 6018
+  575  /proc/cpuinfo
+  576  nano /proc/cpuinfo
+  577  mkdir procesador
+  578  cd procesador
+  579  /proc/cpuinfo > procesador.txt
+  580  ls
+  581  /proc/cpuinfo > procesador.txt
+  582  nano procesador.txt 
+  583  /proc/cpuinfo > procesador.txt
+  584  /proc/cpuinfo>procesador.txt
+  585  /proc/cpuinfo> procesador.txt
+  586  /proc/cpuinfo >procesador.txt
+  587  /proc/cpuinfo > procesador.txt
+  588  ls
+  589  nano procesador.txt 
+  590  nano procesador.txt 
+  591  mkdir c
+  592  mv procesador.txt c
+  593  ls
+  594  rm -rf c
+  595  echo /proc/cpuinfo
+  596  /proc/cpuinfo > procesador.txt
+  597  ls
+  598  chmod 777 procesador.txt 
+  599  /proc/cpuinfo > procesador.txt
+  600  nano /proc/cpuinfo 
+  601  /proc/cpuinfo > procesador.txt
+  602  echo /proc/cpuinfo > procesador.txt
+  603  nano procesador.txt
+  604  nano /proc/cpuinfo > procesador.txt
+  605  nano procesador.txt 
+  606  ls
+  607  cd ..
+  608  mkdir sl
+  609  cd sl
+  610  apt-get source sl
+  611  ls
+  612  cd sl-3.03/
+  613  ls
+  614  nano sl.h
+  615  cd ..
+  616  ls
+  617  dpkg-buildpackage -us -uc
+  618  dpkg-source --commit
+  619  dpkg-buildpackage -us -uc
+  620  dpkg-buildpackage -us -uc
+  621  ls
+  622  cd ..
+  623  ls
+  624  cd sl
+  625  dpkg-buildpackage -us -uc
+  626  cd sl-3.03/
+  627  dpkg-buildpackage -us -uc
+  628  dpkg-source --commit
+  629  dpkg-buildpackage -us -uc
+  630  cd ..
+  631  ls
+  632  dpkg -i sl_3.03-17_i386.deb
+  633  sl
+  634  mkdir bienvenido
+  635  cd bienvenido
+  636  apt-get source canaima-bienvenido-gnome
+  637  cd ..
+  638  mv bienvenido /home/usuario/control/cursoaslbarcelona/LuisCorrea/
+  639  ls
+  640  cd ..
+  641  ls
+  642  cd bienvenido/
+  643  ls
+  644  cd canaima-bienvenido-gnome-4.7/
+  645  ls
+  646  cd gui
+  647  cd data
+  648  ls
+  649  cd shell
+  650  ls
+  651  nano 01.html 
+  652  cd ..
+  653  cd..
+  654  cd..
+  655  cd ..
+  656  cd ..
+  657  dpkg-buildpackage -us -uc
+  658  dpkg-source --commit
+  659  dpkg-buildpackage -us -uc
+  660  cd ..
+  661  ls
+  662  dpkg -i canaima-bienvenido-gnome_4.7_all.deb
+  663* 
+  664  echo /proc/mac
+  665  echo /proc/misc
+  666  nano /proc/misc
+  667  nano /proc/net/ip6_route
+  668  nano /proc/net/ipv6_route 
+  669  echo /proc/net/ipv6_route 
+  670  -l /proc/net/ipv6_route 
+  671  ls -l /proc/net/ipv6_route 
+  672  adduser
+  673  adduser jose
+  674  visudo
+  675  viusser
+  676  viuser
+  677  edit user jose
+  678  user jose
+  679  visudo
+  680  ls
+  681  cd ..
+  682  mkdir canaima-semilla
+  683  ls
+  684  cd canaima-semilla
+  685  ls
+  686  apt-get source canaima-semilla
+  687  ls
+  688  cd canaima-semilla-3.0+dev20140123152548/
+  689  ls
+  690  cd canaima-semilla-3.0+dev20140123152548/cd ..
+  691  ls
+  692  cd ..
+  693  ls
+  694  cd ..
+  695  man debmirror
+  696  debmirror
+  697  aptitude search debmirror
+  698  ls
+  699  cd procesador/
+  700  nano procesador.txt 
+  701  mkdir c
+  702  mv procesador.txt c
+  703  ls
+  704  rm -rf c
+  705  ls
+  706  /proc/cpuinfo > procesador.txt
+  707  man more
+  708  ls
+  709  nano procesador.txt 
+  710  /proc/cpuinfo > procesador.txt
+  711  ls
+  712  nano /proc/cpuinfo > procesador.txt
+  713  nano procesador.txt
+  714  mkdir c
+  715  mv procesador.txt c
+  716  ls
+  717  ls
+  718  libreoffice-writer /proc/cpuinfo > procesador.txt
+  719  ls
+  720  nano procesador.txt 
+  721  mv procesador.txt c
+  722  ls
+  723  rm -rf c
+  724  ls
+  725  nano /proc/cpuinfo
+  726  cat /proc/cpuinfo >procesador.txt
+  727  ls
+  728  nano procesador.txt 
+  729  ls
+  730  cd ..
+  731  cd libreofficewriter/
+  732  ls
+  733  ls
+  734  nano l.txt 
+  735  ls
+  736  cd ..
+  737  ls
+  738  ls -l
+  739  more examen.txt 
+  740  more /proc/meminfo
+  741  ls -l /proc
+  742  more /proc/partitions 
+  743  more /proc/net
+  744  ls -l /proc/net
+  745  ls -l /proc/net/
+  746  ls -l /proc/net/route
+  747  nano /proc/net/route
+  748  echo /proc/net/route
+  749  nano /proc/net/route
+  750  ls -l /proc/iomem
+  751  nano /proc/ioports 
+  752  touch permiso.txt 
+  753  chmod 707 permiso.txt
+  754  ls
+  755  man top
+  756  top PID
+  757  top P
+  758  top P
+  759  top -p
+  760  top -P
+  761  top -p
+  762  top -p process
+  763  top -p PID
+  764  top
+  765  nano /proc/partition
+  766  nano /proc/partitions 
+  767  dhcp
+  768  aptitude dhcp
+  769  aptitude istall dhcp
+  770  apt-get istall dhcp
+  771  apt-get install dhcp
+  772  man dhcp
+  773  man dhcp
+  774  man dhcpd
+  775  man dhcp
+  776  apt-get install dhcpd
+  777  aptitude search hdcpd
+  778  aptitude search dhcpd
+  779  aptitude install dhcpdump
+  780  man dhcpd
+  781  man dhcpdum
+  782  man dhcpdump
+  783  man dhcpd
+  784  man dhcpdump
+  785  dhcpd
+  786  nano dhcpd
+  787  history
+  788  ls
+  789  nano debmirror.sh
+  790  chmod +x debmirror.sh 
+  791  ls
+  792  nano /etc/host
+  793  nano /etc/hosts
+  794  ifconfig
+  795  ifconfig wlam0
+  796  ifconfig wlan0
+  797  ls
+  798  cd canaima-semilla/
+  799  ls
+  800  cd canaima-semilla-3.0+dev20140123152548/
+  801  ls
+  802  cd isos
+  803  ls
+  804  ls
+  805  cd ..
+  806  ls
+  807  nano c-s-gui.py
+  808  ls
+  809  cd ..
+  810  ls
+  811  cp -R canaima-semilla-3.0+dev20140123152548/  SOLuisCorrea
+  812  ls
+  813  cd SOLuisCorrea/
+  814  ls
+  815  cd scripts/
+  816  ls
+  817  nano init.sh
+  818  cd ..
+  819  ls
+  820  cd debian
+  821  ls
+  822  cd ..
+  823  ls
+  824  history
+  825  ls
+  826  mkdir imagen
+  827  cd imagen
+  828  qemu -hda NOMBRE.img -cdrom binary.iso -boot d -m 512
+  829  qemu -hda NOMBRE.img -cdrom binary.iso -boot d -m 512
+  830  ls
+  831  cd ..
+  832  ls
+  833  history
+  834  cat history < history.txt
+  835  ls
+  836  cd ..
+  837  history
+  838  cat history > history.txt
+  839  cd ..
+  840  history
+  841  cat history > history.txt
+  842  history > history.txt

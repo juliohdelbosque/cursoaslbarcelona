@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 28 Mar 2012 01:10:16 +0900
+Source: sl
+Binary: sl
+Architecture: source i386
+Version: 3.03-17
+Distribution: unstable
+Urgency: low
+Maintainer: Hiroyuki Yamamoto <yama1066@gmail.com>
+Changed-By: Hiroyuki Yamamoto <yama1066@gmail.com>
+Description: 
+ sl         - Correct you if you type `sl' by mistake
+Closes: 598992 655148 664331
+Changes: 
+ sl (3.03-17) unstable; urgency=low
+ .
+   * Upgrade to policy 3.9.3 and debhelper to 9.
+   * Remove deprecated dpatch and upgrade to packaging format "3.0 quilt"
+     (closes: Bug#664331). Thanks Aalto.
+   * Hide cursor (closes: Bug#655148). Thanks Fuchs.
+   * Revert to supporting Ctrl-Z (closes: Bug#598992).
+Checksums-Sha1: 
+ 9e9a44e5c91e58118a46c35cb597ba835ceb7602 806 sl_3.03-17.dsc
+ 4f37a0a6d936c8a48f3a1ecaf3519346145a63a5 16469 sl_3.03-17.debian.tar.gz
+ 5972773b92ffffd65fe7a2f9033485584709a1a7 25990 sl_3.03-17_i386.deb
+Checksums-Sha256: 
+ 65ff373b4907570bd6bb80b74db300e94e116cf9394d6e64942a0b0a626dba48 806 sl_3.03-17.dsc
+ a7e8770fdff45f34757c6eaaffa034696b8322ac35f467487bc47263a4269df2 16469 sl_3.03-17.debian.tar.gz
+ 5bdb4cfc7602876f96754972c8a2ab0a41753acd0329fc127c82c2a197e6725f 25990 sl_3.03-17_i386.deb
+Files: 
+ 1a82cdce17d6e01e021e26f769077347 806 games optional sl_3.03-17.dsc
+ 0e9e7dd6bd60381b7dcda1670ad1de48 16469 games optional sl_3.03-17.debian.tar.gz
+ ddfe810d08cf446e26e21ca7de938d3c 25990 games optional sl_3.03-17_i386.deb

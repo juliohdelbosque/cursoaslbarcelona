@@ -1,0 +1,1 @@
+c-s construir --medio="iso" --arquitectura="i386" --sabor="jose-arocha"

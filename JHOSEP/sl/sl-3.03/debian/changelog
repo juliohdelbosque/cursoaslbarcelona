@@ -1,0 +1,119 @@
+sl (3.03-17) unstable; urgency=low
+
+  * Upgrade to policy 3.9.3 and debhelper to 9.
+  * Remove deprecated dpatch and upgrade to packaging format "3.0 quilt" 
+    (closes: Bug#664331). Thanks Aalto.
+  * Hide cursor (closes: Bug#655148). Thanks Fuchs.
+  * Revert to supporting Ctrl-Z (closes: Bug#598992).
+
+ -- Hiroyuki Yamamoto <yama1066@gmail.com>  Wed, 28 Mar 2012 01:10:16 +0900
+ 
+sl (3.03-16) unstable; urgency=low
+
+  * Upgrade to policy 3.8.0.
+  * Introduce CDBS.
+  * The program files are moved to /usr/games directory.
+  * Add codes for ignoring Ctrl-Z (closes: Bug#484626). Thanks Günther.
+
+ -- Hiroyuki Yamamoto <yama1066@gmail.com>  Thu, 15 Jan 2009 23:07:32 +0900
+
+sl (3.03-15) unstable; urgency=low
+
+  * New maintainer, acknowledged by predecessor maintainer Kenshi Muto.
+  * Upgrade to policy 3.7.2.
+  * Introduce dpatch.
+  * Fix manpage typo (closes: Bug#333269). Thanks Kobayashi.
+  * Add a symbolic link from /usr/bin/LS to /usr/bin/sl (closes: Bug#274562). Thanks Khachaturov.
+  * Add documents for meaning of sl (closes: Bug#283829). Thanks Moffitt.
+
+ -- Hiroyuki Yamamoto <yama1066@gmail.com>  Sun, 2 Dec 2007 03:28:48 +0900
+
+sl (3.03-14) unstable; urgency=low
+
+  * Fix minor mistake/typo in manpage (closes: Bug#259723, Bug#259724).
+  * Add German manpage translation (closes: Bug#259728). Thanks Helge.
+
+ -- Kenshi Muto <kmuto@debian.org>  Sat, 17 Jul 2004 13:33:35 +0900
+
+sl (3.03-13) unstable; urgency=low
+
+  * Fix manpage typo (closes: Bug#177784). Thanks Martin.
+
+ -- Kenshi Muto <kmuto@debian.org>  Wed, 22 Jan 2003 12:23:02 +0900
+
+sl (3.03-12) unstable; urgency=low
+
+  * Modify build-depends (closes: bug#98471). Thanks, Ryan.
+
+ -- Kenshi Muto <kmuto@debian.org>  Wed, 23 May 2001 15:10:54 +0900
+
+sl (3.03-11) unstable; urgency=low
+
+  * Fix manpage (closes: bug#92657). Thanks, Nakano.
+  * The segfaults bug #61066 was caused by libncurses, and it seems
+    already be fixed (closes: bug#61066). Thanks, Sano.
+  * Apply sl enhancement (You can use by sl-h). Thanks, Sano.
+
+ -- Kenshi Muto <kmuto@debian.org>  Mon,  9 Apr 2001 00:26:05 +0900
+
+sl (3.03-10) unstable; urgency=low
+
+  * Add -e option for intrrupting SL (closes: Bug#83321).
+
+ -- Kenshi Muto <kmuto@debian.org>  Thu, 25 Jan 2001 00:26:53 +0900
+
+sl (3.03-9) unstable; urgency=low
+
+  * Oops, I'd missed orig.tar.gz. I rebuilded it.
+
+ -- Kenshi Muto <kmuto@debian.org>  Tue, 23 Jan 2001 22:51:50 +0900
+
+sl (3.03-8) unstable; urgency=low
+
+  * Remove SIGINT line by Simon's request. (closes: Bug#83143)
+
+ -- Kenshi Muto <kmuto@debian.org>  Tue, 23 Jan 2001 22:47:12 +0900
+
+sl (3.03-7) unstable; urgency=low
+
+  * Recompile with glibc 2.1.97.
+
+ -- Kenshi Muto <kmuto@debian.org>  Tue, 14 Nov 2000 22:45:39 +0900
+
+sl (3.03-6) unstable; urgency=low
+
+  * Modify English manpage (Bug#63812). Thanks your report, Bunk.
+
+ -- Kenshi Muto <kmuto@debian.org>  Tue,  9 May 2000 20:10:36 +0900
+
+sl (3.03-5) unstable; urgency=low
+
+  * Change to FHS.
+
+ -- Kenshi Muto <kmuto@debian.org>  Mon,  1 Nov 1999 13:43:34 +0900
+
+sl (3.03-4) unstable; urgency=low
+
+  * Change architecture from "i386" to "any" (Bug#39604).
+
+ -- Kenshi Muto <kmuto@debian.org>  Wed, 16 Jun 1999 17:35:46 +0900
+
+sl (3.03-3) unstable; urgency=low
+
+  * New English man page added (Bug#39379 fixed). Thanks,Brian Ristuccia.
+  * All man pages moved man section 6.
+
+ -- Kenshi Muto <kmuto@debian.org>  Mon, 14 Jun 1999 10:42:27 +0900
+
+sl (3.03-2) unstable; urgency=low
+
+  * Initial official release for Debian Project.
+
+ -- Kenshi Muto <kmuto@debian.org>  Wed, 26 May 1999 14:27:09 +0900
+
+sl (3.03-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Teruyuki Morimura <terubou@sandalwood.net>  Mon,  8 Mar 1999 16:52:58 +0900
+

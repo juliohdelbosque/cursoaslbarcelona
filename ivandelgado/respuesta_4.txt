@@ -1,0 +1,2 @@
+Debemos estar como root o un usuario con privilegio de hacer kill a cualquier proceso.
+kill -9 PID

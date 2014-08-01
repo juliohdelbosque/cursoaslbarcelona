@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Bienvenido a Canaima GNU/Linux
+Name[es_VE]=Bienvenido a Canaima GNU/Linux
+GenericName=Bienvenido a Canaima GNU/Linux
+GenericName[es_VE]=Bienvenido a Canaima GNU/Linux
+Comment=Menu de Bienvenida de Canaima GNU/Linux
+Comment[es_VE]=Menu de Bienvenida de Canaima GNU/Linux
+Exec=/usr/bin/canaima-bienvenido-gnome auto
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/usr/share/icons/Gnamon/places/48/canaima-logo.png
+Categories=GNOME;GTK;Utility;
+X-GNOME-FullName=Menu de Bienvenida de Canaima GNU/Linux
+X-GNOME-FullName[es]=Menu de Bienvenida de Canaima GNU/Linux

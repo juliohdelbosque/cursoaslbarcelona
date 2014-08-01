@@ -12,19 +12,35 @@ Alejandro Garrido Mota <garridomota@gmail.com>
 
 1. ¿Qué es qemu?
 
-Qemu es una aplicación que tiene como objetivo permitirnos la creación de máquinas virtuales dentro de un sistema operativo, esto significa que podemos emular una gran mayoría de los sistemas operativos que existen instalándolos en una máquina virtual, por ejemplo, es muy trivial emular un GNU/Linux con qemu, hasta podemos emular Windows 98 si deseamos. Por experiencia no es tan factible emular Windows XP, si queremos emular esta versión de Windows lo podemos hacer instalando el Acelerador de Qemu (qemu Accelerator) que también lo podemos descargar de la página oficial de qemu pero tiene una gran desventaja, no es Software Libre, es gratis pero no es libre.
+Qemu es una aplicación que tiene como objetivo permitirnos la creación de máquinas virtuales 
+dentro de un sistema operativo, esto significa que podemos emular una gran mayoría de los 
+sistemas operativos que existen instalándolos en una máquina virtual, por ejemplo, es muy 
+trivial emular un GNU/Linux con qemu, hasta podemos emular Windows 98 si deseamos. Por 
+experiencia no es tan factible emular Windows XP, si queremos emular esta versión de Windows lo 
+podemos hacer instalando el Acelerador de Qemu (qemu Accelerator) que también lo podemos 
+descargar de la página oficial de qemu pero tiene una gran desventaja, no es Software Libre, es 
+gratis pero no es libre.
 
-Es un caso muy común que estemos utilizando GNU/Linux y queramos instalar otro sistema operativo como por ejemplo FreeBSD o GNU/Hurd. En estas circunstancias es muy útil qemu ya que es una máquina virtual que nos permitirá instalar varios sistemas operativos sobre un mismo hadware.
+Es un caso muy común que estemos utilizando GNU/Linux y queramos instalar otro sistema operativo 
+como por ejemplo FreeBSD o GNU/Hurd. En estas circunstancias es muy útil qemu ya que es una 
+máquina virtual que nos permitirá instalar varios sistemas operativos sobre un mismo hadware. 
+
 2. ¿Cómo lo instalo?
 
-Si el sistema operativo que estamos usando es Debian no tendremos que mucho que trabajar ya que qemu está en los repositorios oficiales, lo que tenemos que hacer para instalarlo es lo siguiente:
+Si el sistema operativo que estamos usando es Debian no tendremos que mucho que trabajar ya que 
+qemu está en los repositorios oficiales, lo que tenemos que hacer para instalarlo es lo siguiente:
 
 # aptitude install qemu
 
-Si estamos en otro sistema que no es Debian tendremos que descargar he instalar qemu desde la página oficial, donde se encuentra el código fuente que tendremos que compilar. También encontraremos los binarios de qemu para sistemas operativos como Windows o Mac OSX.
-3. Creando una imagen
+Si estamos en otro sistema que no es Debian tendremos que descargar he instalar qemu desde la 
+página oficial, donde se encuentra el código fuente que tendremos que compilar. También 
+encontraremos los binarios de qemu para sistemas operativos como Windows o Mac OSX. 3. Creando 
+una imagen
 
-Antes que nada aclaremos que qemu funciona con el uso de imágenes, es decir, nosotros debemos crear una imagen del sistema operativo el cual queramos emular y luego empezar la instalación desde algún medio(llamese CD) donde iremos llenando u ocupando con datos esa imagen. Todo los sistemas operativos que vallamos a instalar, cada uno estará guardado en una imagen diferente.
+Antes que nada aclaremos que qemu funciona con el uso de imágenes, es decir, nosotros debemos 
+crear una imagen del sistema operativo el cual queramos emular y luego empezar la instalación 
+desde algún medio(llamese CD) donde iremos llenando u ocupando con datos esa imagen. Todo los 
+sistemas operativos que vallamos a instalar, cada uno estará guardado en una imagen diferente.
 
 Nosotros debemos primeramente crear la imagen donde queremos que se vaya a instalar el sistema operativo. La única propiedad que es necesaria para crear la imagen es el tamaño de esta, debemos especificar el tamaño que ocupará esa imagen. Para crear la imagen:
 

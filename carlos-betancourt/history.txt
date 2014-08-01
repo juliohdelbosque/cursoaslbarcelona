@@ -1,0 +1,500 @@
+  206  LS
+  207  ls
+  208  nano 02.html 
+  209  cd ..
+  210  cd ..
+  211  cd ..
+  212  cd ..
+  213  dpkg-builpackage -us -uc
+  214  dpkg-buildpackage -uc -uc
+  215  dpkg-buildpackage  -us -uc
+  216  ls 
+  217  cd canaima-bienvenido-gnome-4.7/
+  218  dpkg-buildpackage  -us -ucls
+  219  ls
+  220  cd ..
+  221  dpkg-buildpackage  -us -ucls
+  222  dpkg-buildpackage  -us -uc
+  223  ls
+  224  cd canaima-bienvenido-gnome 
+  225  cd canaima-bienvenido-gnome-4.7/
+  226  ls
+  227  dpkg-source --commit
+  228  dpkg-buildpackage  -us -uc
+  229  cd ..
+  230  ls
+  231  dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+  232  cd ..
+  233  git add bienvenido/
+  234  git commit -a
+  235  git push
+  236  history 
+  237  history > history.txt
+  238  ls
+  239  ls
+  240  ls -l
+  241  aptitude search canima-
+  242  aptitude search canaima-not
+  243  apt-get source canaima-notas-gnome 
+  244  ls
+  245  rm -r canaima-notas-gnome
+  246  rm -r canaima-notas-gnome/
+  247  rm -r canaima-notas-gnome
+  248  ls
+  249  mkdir canaima notas
+  250  ls rm -r /home/usuario/canaima
+  251  ls rm -r /home/usuario/control/canaima/canaima-notas-gnome
+  252  ls rm -r /home/usuario/control/canaima/canaima-notas-gnome_4.0
+  253  ls rm -r /home/usuario/control/canaima/canaima-notas-gnome_4.0.orig.tar.gz 
+  254  ls
+  255  rm -r /home/usuario/control/canaima/canaima-notas-gnome_4.0.orig.tar.gz 
+  256  ls
+  257  rm -r /home/usuario/control/canaima/canaima-notas-gnome_4.0-13.debian.tar.
+  258  ls
+  259  mkdir canaima-notas
+  260  cd canaima-notas
+  261  ls
+  262  apt-get source canaima-notas-gnome 
+  263  ls
+  264  cd canaima-notas-gnome-4.0/
+  265  ls
+  266  nano canaima_notas_gnome.py 
+  267  dpkg-builpackage -us -uc
+  268  dpkg-buildpackage -us -uc
+  269  dpkg-source --commit
+  270  dpkg-buildpackage -us -uc
+  271  ls
+  272  ls -l
+  273  cd ..
+  274  ls
+  275  cd canaima-notas-gnome-4.0/
+  276  ls
+  277  ls -l
+  278  canaima-notas-gnome 
+  279  clear
+  280  cd ..
+  281  cd ..
+  282  ls
+  283  rm -r canaima-notas-gnome_4.0-13.dsc 
+  284  ls
+  285  cd canaima-notas
+  286  ls
+  287  dpkg-buildpackage -us -uc
+  288   d canaima-notas-gnome-4.0/
+  289  cd canaima-notas-gnome-4.0/
+  290  aptitude install imagemagick
+  291  dpkg-buildpackage -us -uc
+  292  ls
+  293  :dpkg-source --commit
+  294  :dpkg -source --commit
+  295  dpkg-source --commit
+  296  dpkg-buildpackage -us -uc
+  297  cd ..
+  298  cd ..
+  299  rm -r canaima-notas
+  300  ls
+  301  rm -r canaima-notas-gnome-4.0/
+  302  ls
+  303  mkdir amigo
+  304  ls
+  305  ls -l
+  306  rm -r paquetes
+  307  cd amigo/
+  308  apt-get source amigu
+  309  ls
+  310  cd amigu-0.7.6/
+  311  ls
+  312  cd amigu/
+  313  ls
+  314  cd gui/
+  315  ls
+  316  ls -l
+  317  nano amigugtk.py 
+  318  ls
+  319  cd --
+  320  cd /home/usuario/control/canaima/
+  321  ls
+  322  cd amigo/
+  323  ls -l
+  324  cd amigu-0.7.6/
+  325  dpkg-buildpackage -us -uc
+  326  dpkg-buildpackage -us -uc
+  327  dpkg-source --commit
+  328  dpkg-buildpackage -us -uc
+  329  ls
+  330  ls -l
+  331  dpkg-buildpackage -us -uc -d
+  332  ls
+  333  ls -l
+  334  cd ..
+  335  ls
+  336  ls .l
+  337  ls -l
+  338  dpkg -i amigu_0.7.6-2_i386.deb 
+  339  amigu
+  340  cd ..
+  341  git add amigo/
+  342  git commit
+  343  git commit -a
+  344  git push 
+  345  nano /etc/apt/sources.list
+  346  aptitude update
+  347  aptitude install canaima-semilla 
+  348  cd /usr/share/canaima-semilla/
+  349  ls
+  350  cd profiles/
+  351  ls
+  352  cd popular/
+  353  ls
+  354  nano profile.conf 
+  355  cd ..
+  356  ls
+  357  c-s-gui
+  358  ps -au |grep| gui
+  359  ps -au |gre gui
+  360  ps -au |grep
+  361  ps -au gui
+  362  ps -au 
+  363  ps - |grep c-s-gui
+  364  ps -au |grep gui
+  365  ps -A |grep gui
+  366  ps -au |grep gui
+  367  ps -aux |grep c-s-gui
+  368  ps -aux | grep c-s-gui
+  369  kill -9 9213
+  370  ps -aux |grep c-s-gui
+  371  kill -9 3488
+  372  kill -9 732
+  373  exit
+  374  ps -aux |grep c-s-gui
+  375  kill -9 9227
+  376  ps -aux |grep libre-office
+  377  ps -aux |grep c-s-gui
+  378  kill libre-office
+  379  kill -9  libre-office
+  380  clear
+  381  ps -aux |grep c-s-gui
+  382  ps -aux |grep gedit
+  383  kill -9 9232
+  384  kill -9 9237
+  385  ps -aux |grep gedit
+  386  clear
+  387  cd /usr/share/canaima-semilla/
+  388  cd profiles/
+  389  ls
+  390  ls
+  391  cd /home/usuario/control/
+  392  ls
+  393  ls
+  394  cd curso
+  395  ls
+  396  cd ..
+  397  ps
+  398  tailf /var/log/syslog 
+  399  tailf /var/log/syslog 
+  400  tailf /var/log/syslog 
+  401  cd /usr/share/canaima-semilla/
+  402  cd profiles/
+  403  ls
+  404  cp -R  popular/ /home/usuario/control/curso
+  405  cd /home/usuario/control/curso
+  406  ls
+  407  nano popular/
+  408  cd popular/
+  409  ls
+  410  nano profile.conf 
+  411  nano profile.conf 
+  412  c-s construir --medio="iso" --arquitectura="i386" --saboar="curso"
+  413  c-s construir --mediao="iso" --arquitectura="i386" --sabor="curso"
+  414  c-s construir --media="iso" --arquitectura="i386" --sabor="curso"
+  415  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  416  cd ..
+  417  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  418  cd popular/
+  419  ls
+  420  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  421  nano profile.conf 
+  422  nano profile.conf 
+  423  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  424  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  425  nano profile.conf 
+  426  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  427  nano profile.conf 
+  428  ls
+  429  cd ..
+  430  ls
+  431  cd popular/
+  432  ls
+  433  nano profile.conf 
+  434  cd ..
+  435  mv popular/ curso
+  436  mv curso/ /usr/share/canaima-semilla/profiles/
+  437  cd /usr/share/canaima-semilla/
+  438  cd profiles/
+  439  ls
+  440  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  441  ls
+  442  cd curso/
+  443  ls
+  444  cd ..
+  445  chroot chroot
+  446  cd control/
+  447  ls
+  448  cd iso1/
+  449  chroot chroot
+  450  ls
+  451  cd config/
+  452  ls
+  453  nano bootstrap 
+  454  nano binary 
+  455  nano bootstrap 
+  456  ls
+  457  cd ..
+  458  cd ..
+  459  ls
+  460  rm -r iso2/
+  461  cd iso1/
+  462  ls
+  463  cd config/
+  464  ls
+  465  cd ..
+  466  cd ..
+  467  cd iso1/
+  468  ls
+  469  nano chroot
+  470  nano base.sh 
+  471  clear
+  472  cd ..
+  473  cp -R iso1 iso2
+  474  cd iso2/
+  475  cd config/
+  476  nano binary 
+  477  cd ..
+  478  lb binary
+  479  lb binary_iso
+  480  cd  ..
+  481  rm -r iso2/
+  482  ls
+  483  cd iso1/
+  484  chroot chroot
+  485  cd ..
+  486  cp -R iso1 iso2
+  487  cd iso2/
+  488  lb binary
+  489  lb binary_iso
+  490  qemu -cdrom  binary.iso -boot d -m 1024
+  491  qemu -cdrom  binary.iso -boot d -m 1024
+  492  cd control/
+  493  cd iso2/
+  494  ls
+  495  qemu -cdrom binary.iso -boot d -m 1024
+  496  cd /home/usuario/control/
+  497  ls
+  498  cursoaslbarcelona/
+  499  ls
+  500  cd cursoaslbarcelona/
+  501  ls
+  502  ls
+  503  clar
+  504  clear
+  505  ls
+  506  cd carlos-betancourt/
+  507  ls
+  508  cd ..
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd cursoaslbarcelona/
+  513  ls
+  514  cd carlos-betancourt/
+  515  ls
+  516  nano /etc/network/interfaces 
+  517  ud
+  518  ls
+  519  mkdir sl
+  520  cd sl/
+  521  cd sl
+  522  ls
+  523  clear
+  524  apt-get source sl
+  525  nano /etc/apt/sources.list
+  526  update
+  527  apt-get update
+  528  clear
+  529  apt-get source sl
+  530  cd ..
+  531  rm -r sl/
+  532  mkdir sl
+  533* 
+  534  apt-get source sl
+  535  nano /etc/apt/sources.list
+  536  ls
+  537  sl-3.03/
+  538  dpkg-build -uc -um
+  539  ls
+  540  dpkg-build -us -uc
+  541  sl
+  542  clear
+  543  ls
+  544  dpkg-buildpackage -uc -uc
+  545  dpkg-buildpackage -us -uc
+  546  cd sl-3.03/
+  547  dpkg-buildpackage -us -uc
+  548  ls
+  549  cd ..
+  550  ls
+  551  dpkg -i sl_3.03-17_i386.deb 
+  552* 
+  553  aptitude install cdbs
+  554  ls
+  555  cd sl-3.03/
+  556  ls
+  557  nano sl.h 
+  558  dpkg-buildpackage -us -uc
+  559  dpkg-source ls
+  560  dpkg-source sl
+  561  clear
+  562  cd ..
+  563  cd ..
+  564  history > history.txt
+  565  ls
+  566  git add carlos
+  567  git commit -a
+  568  git push 
+  569  clear
+  570  git carlos
+  571  git add carlos
+  572  git commit -a
+  573  git push 
+  574  cd ..
+  575  cd ..
+  576  ls
+  577  cd  canaima/
+  578  ls
+  579  cp -r /home/usuario/control/cursoaslbarcelona/carlos-betancourt/carlos/ .
+  580  ls
+  581  cd carlos/
+  582  ls
+  583  git add carlos
+  584  cd ..
+  585  git add carlos
+  586  git commint -a
+  587  git commit -a
+  588  git push
+  589  ls
+  590  cd ..
+  591  ls
+  592  cd cursoaslbarcelona/
+  593  ls
+  594  cd carlos-betancourt/
+  595  ls
+  596  ls -l
+  597  rm sl/
+  598  rm -r sl/
+  599  rm -r ls/
+  600  mkdir ls
+  601  cd sl
+  602  cd ls
+  603  clear
+  604  apt-get source ls
+  605  apt-get source sl
+  606  ls
+  607  cd sl-3.03/
+  608  clear
+  609  ls
+  610  nano sl.h 
+  611  nano sl.h 
+  612  LS
+  613  SL
+  614  sl
+  615  clear
+  616  sl
+  617  ls
+  618  cd ..
+  619  dpkg-buildpackage -us -uc
+  620  ls
+  621  cd sl-3.03/
+  622  dpkg-buildpackage -us -uc
+  623  dpkg-source --commit
+  624  dpkg-buildpackage -us -uc
+  625  cd ..
+  626  ls
+  627  dpkg -i sl_3.03-17_i386.deb 
+  628  ls
+  629  LS
+  630  CLEAR
+  631  clear
+  632  clear
+  633  ls
+  634  cd sl-3.03/
+  635  dpkg-buildpackage -us -uc
+  636  cd ..
+  637  ls
+  638  dpkg -i sl_3.03-17_i386.deb 
+  639  cd ..
+  640  cd ls
+  641  mv ls sl
+  642  cd ..
+  643  ls
+  644  mv ls/ /sl
+  645  ls
+  646  ls -l
+  647  mkdir sl
+  648  cd sl
+  649  apt-get source sl
+  650  ls
+  651  cd sl-3.03/
+  652  ls
+  653  nano sl.h 
+  654  dpkg-buildpackage -us -uc
+  655  cd ..
+  656  ls
+  657  cd sl-3.03/
+  658  ls
+  659  dpkg-source --commit
+  660  dpkg-buildpackage -us -uc
+  661  cd ..
+  662  dpkg -i sl_3.03-17_i386.deb 
+  663  cd ..
+  664  ls
+  665  cd canaima-semilla/
+  666  apt-get source canaima-bienvenido-gnome 
+  667  ls
+  668  cd  canaima-bienvenido-gnome-4.7/
+  669  ls
+  670  cd gui/
+  671  ls
+  672  cd ..
+  673  cd ..
+  674  ls
+  675  cd  canaima-bienvenido-gnome-4.7/
+  676  ls
+  677  cd gui/
+  678  ls
+  679  cd data/
+  680  LS
+  681  ls
+  682  cd shell/
+  683  cd ..
+  684  cd shell/
+  685  clear
+  686  ls
+  687  nano 01.html 
+  688  nano 01.html 
+  689  cd ..
+  690  cd ..
+  691  cd ..
+  692  ls
+  693  dpkg-builpackage -us -uc
+  694  dpkg-buildpackage us -uc
+  695  clear
+  696  dpkg-buildpackage -us -uc
+  697  dpkg-source --commit
+  698  dpkg-buildpackage -us -uc
+  699  cd ..
+  700  ls
+  701  dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+  702  canaima-bienvenido-gnome 
+  703  cd ..
+  704  ls
+  705  history > history.txt

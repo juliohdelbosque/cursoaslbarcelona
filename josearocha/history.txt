@@ -1,0 +1,500 @@
+  253  ls
+  254  nano profile.conf 
+  255  c-s contruir --medio="iso" --arquitectura="i386" --sabor="prueba"
+  256  ls
+  257  c-s construir --medio="iso" --arquitectura="i386" --sabor="prueba"
+  258  cd /home/usuarios/control/
+  259  cd /home/usuarios/
+  260  pwd
+  261  cd home
+  262  cd home/usuario
+  263  cd home/usuarios/
+  264  pws
+  265  cd ..
+  266  cd /home/
+  267  cd usuarios
+  268  ls
+  269  cd usuario
+  270  ls
+  271  cd control
+  272  ls
+  273  mkdir iso
+  274  ls
+  275  clear
+  276  ls
+  277  cd iso
+  278  wget http://172.17.1.130/base.sh
+  279  wget http://172.17.1.130/base.sh
+  280  ls
+  281  nano base.sh
+  282  ls
+  283  sh base.sh 
+  284  ls
+  285  cd config
+  286  ls
+  287  nano bootstrap
+  288  cd ..
+  289  ls
+  290  lb config
+  291  lb bootstrap
+  292  cd..
+  293  cd ..
+  294  ls
+  295  cd iso
+  296  ls
+  297  cd congif
+  298  cd config
+  299  ls
+  300  cd ..
+  301  mv base.sh  ../
+  302  cd ..
+  303  ls
+  304  rm -rf iso/
+  305  mkdir iso
+  306  mv base.sh iso/
+  307  cd iso/
+  308  ls
+  309  ls
+  310  nano base.sh
+  311  sh base.sh 
+  312  ls
+  313  lb bootstrap
+  314  ls
+  315  ls chroot
+  316  history > /home/usuraio/configuraciones.txt
+  317  history > /home/usuario/configuraciones.txt
+  318  clear
+  319  cd..
+  320  cd ..
+  321  ls
+  322  cd cursoaslbarcelona/
+  323  ls
+  324  git pull
+  325  ls
+  326   open canaima-semilla.pdf
+  327  cd..
+  328  cd ..
+  329  ls
+  330  cd iso
+  331  ls
+  332  lb chroot
+  333  cd ..
+  334  cp -R iso iso1
+  335  ls
+  336  cd iso1
+  337  ls
+  338  chroot chroot
+  339  ls
+  340  ls chroot
+  341  cd ..
+  342  cp -R iso1 iso2
+  343  cd iso2
+  344  ls
+  345  cd /media/CARLOSJBETA/
+  346  cp -R /home/usuario/control/iso1/ .
+  347  ls
+  348  cd /home/usuario/control/
+  349  ls
+  350  tar -cvf iso1.tar iso1/
+  351  ifconfig 
+  352  cd iso2/
+  353  ls
+  354  ls binary
+  355  lb binary
+  356  ls
+  357  cd ..
+  358  mr -R iso2
+  359  rm -R iso2
+  360  ls
+  361  cp -R iso1 iso2
+  362  cd iso2
+  363  ls
+  364  lb binary
+  365  cd /media/disco/var/spool/apt-mirror/mirror/ftp.us.debian.org/debian/dists/stable/main/binary-i386/
+  366  ls
+  367  wget http://ftp.debian.org/debian/dists/stable/main/binary-i386/Packages.gz
+  368  mr Packages.gz.1 
+  369  rm Packages.gz.1 
+  370  cd ..
+  371  cd ..
+  372  cd ..
+  373  cd ..
+  374  cd dists/
+  375  ls
+  376  cd stable/
+  377  ls
+  378  cd main/
+  379  ls
+  380  wget -R http://ftp.debian.org/debian/dists/stable/main/debian-installer/binary-i386/
+  381  wget -r http://ftp.debian.org/debian/dists/stable/main/debian-installer/binary-i386/
+  382  ls
+  383  cd ftp.debian.org/debian/dists/stable/main/
+  384  ls
+  385  cd debian-installer/
+  386  ls
+  387  cd ..
+  388  mv debian-installer/ /media/disco/var/spool/apt-mirror/mirror/ftp.us.debian.org/debian/dists/stable/main/
+  389  ls
+  390  cd ..
+  391  cd ..
+  392  cd ..
+  393  cd ..
+  394  cd ..
+  395  ls
+  396  rm -rf ftp.debian.org/
+  397  cd debian-installer/
+  398  ls
+  399  cd /home/usuario/control/
+  400  ls
+  401  rm -rf iso2/
+  402  cp -R iso1 iso2
+  403  cd iso2/
+  404  lb binary
+  405  ls
+  406  cd binary.udeb/
+  407  ls
+  408  cd ..
+  409  man apt-mirror
+  410  cd ..
+  411  rm -rf iso2
+  412  cp -R iso1 iso2
+  413  cd iso2/
+  414  ls
+  415  cd config/
+  416  ls
+  417  nano binary 
+  418  nano bootstrap 
+  419  cd ..
+  420  lb binary
+  421  cd ..
+  422  rm -R iso2
+  423  ls
+  424  cp -R iso1 so2
+  425  cp -R iso1 iso2
+  426  rm -R so2
+  427  ls
+  428  cd iso2
+  429  ls
+  430  cd chroot
+  431  ls
+  432  cd ..
+  433  chroot chroot
+  434  ls
+  435  cd config/
+  436  nano binary 
+  437  cd ..
+  438  lb binary
+  439  ls
+  440  lb binary_iso
+  441  ls
+  442  du -sh binary.iso 
+  443  cd ..
+  444  cd ..
+  445  ls
+  446  cd control/
+  447  ls
+  448  cd imagen/
+  449  cp ../iso2/binary.iso .
+  450  ls
+  451  qemu -cdrom binary.iso 
+  452  qemu -cdrom binary.iso  -boot d -m 1024
+  453  cd..
+  454  cd ..
+  455  ls
+  456  rm -R iso2
+  457  ls
+  458  cp -R iso1 iso2
+  459  rm -R iso2
+  460  ls
+  461  cd iso1
+  462  ls
+  463  chroot chroot
+  464  cd..
+  465  cd ..
+  466  cd iso1
+  467  cd config
+  468  ls
+  469  nano bootstrap 
+  470  nano binary
+  471  cd ..
+  472  cd ..
+  473  cp -R iso1 iso2
+  474  cd iso2
+  475  cd config
+  476  nano binary
+  477  cd ..
+  478  lb binary
+  479  ls
+  480  lb binary_iso
+  481  ls
+  482  cp -R binary.iso /home/usuario/control/imagen/
+  483  cd ..
+  484  cd iso1
+  485  ls
+  486  chroot chroot
+  487  cd ..
+  488  cp -R iso1 iso2
+  489  cd iso2
+  490  lb binary
+  491  ls
+  492  lb binary_iso
+  493  ls
+  494  cp -R binary.iso /home/usuario/control/imagen/
+  495  qemu -cdrom binary.iso -boot d -m 1024
+  496  qemu -cdrom binary.iso -boot d -m 1024
+  497  qemu -cdrom binary.iso -boot d -m 1024
+  498  halt -p
+  499  cd control
+  500  ls
+  501  cd cursoaslbarcelona/
+  502  cd josearocha/
+  503  echo JOSE AROCHA 13168382 JJAM.AROCHA@GMAIL.COM CONTRALORIA > Examen-13168382
+  504  ls
+  505  nano Examen-13168382 
+  506  touch curso1.txt
+  507  ls
+  508  touch curso2.txt
+  509  touch curso3.txt
+  510  touch curso4.txt
+  511  touch curso5.txt
+  512  ls
+  513  chmod 065 curso1.txt
+  514  chmod 725 curso2.txt
+  515  chmod 111 curso3.txt
+  516  chmod 447 curso4.txt
+  517  chmod 064 curso5.txt
+  518  df -h fdisk -l cfdisk gparted lsblk
+  519  mkdir libreofficewriter
+  520  cd libreofficewriter
+  521  nano /etc/apt/source.list
+  522  nano /etc/apt/sources.list
+  523  clear
+  524  ps -aux 
+  525  ps -aux sourch libre
+  526  kill -9 6977
+  527  echo ps -aux l.txt 
+  528  ls
+  529  ls
+  530  touch l.txt
+  531  ls
+  532  echo ps -aux > l.txt 
+  533  echo kill -9 6977 >> l.txt
+  534  nano l.txt
+  535  cd ..
+  536  ls
+  537  mkdir procesador
+  538  cd procesador
+  539  cat /proc/cpuinfo > procesador
+  540  ls
+  541  nano procesador
+  542  cd..
+  543  cd ..
+  544  ls
+  545  more examen.txt
+  546  clear
+  547  mkdir ls
+  548  cd ls
+  549  aptitude search ls
+  550  clear
+  551  cd..
+  552  rm ls
+  553  rm -R ls
+  554  cd ..
+  555  rm -R ls
+  556  mkdir sl
+  557  cd sl
+  558  aptitude search sl
+  559  apt-get sl
+  560  apt-get source sl
+  561  ls
+  562  cd..
+  563  cd ..
+  564  mkdir bienvenido
+  565  cd bienvenido/
+  566  apt-get source canaima-bienvenido-gnome
+  567  cd ..
+  568  cd ls
+  569  apt-get source ls
+  570  nano /etc/apt/sources.list
+  571  aptitude update
+  572  cd sl
+  573  ls
+  574  apt-get source ls
+  575  apt-get source sl
+  576  ls
+  577  cd sl-3.03/
+  578  ls
+  579  nano header.h
+  580  nano sl.h
+  581  dpkg-buildpackage -us -uc
+  582  dpkg-source --comit
+  583  dpkg-buildpackage -us -uc
+  584  cd ..
+  585  ls
+  586  cd sl-3.03/
+  587  ls
+  588  cd..
+  589  cd ..
+  590  ls
+  591  dpkg -i sl_3.03-17.dsc
+  592  dpkg -i sl_3.03-17.debian.tar.gz
+  593  cd sl
+  594  ls
+  595  cd sl-3.03/
+  596  ls
+  597  nano sl.h
+  598  dpkg-buildpackage -us -uc
+  599  dpkg-source --comit
+  600  dpkg-buildpackage -us -uc
+  601  cd ..
+  602  ls
+  603  sl
+  604  ls
+  605  DL
+  606  SL
+  607  LS
+  608  clear
+  609  cd sl-3.03/
+  610  dpkg-buildpackage -us -uc
+  611  dpkg-source --commit
+  612  dpkg-buildpackage -us -uc
+  613  cd..
+  614  ls
+  615  cd ..
+  616  ls
+  617  dpkg -i sl_3.03-17_i386.deb 
+  618  ls
+  619  LD
+  620  cd ..
+  621  cd bienvenido
+  622  ls
+  623  apt-get source canaima-bienvenido-gnome
+  624  ls
+  625  cd canaima-bienvenido-gnome-4.7/
+  626  ls
+  627  cd gui
+  628  ls
+  629  cd data
+  630  ls
+  631  cd shell
+  632  ls
+  633  nano 01.html 
+  634  cd ..
+  635  cd ..
+  636  cd ..
+  637  dpkg-buildpackage -us -uc
+  638  dpkg-source --comit
+  639  ls
+  640  sh canaima-bienvenido-gnome.sh 
+  641  ls
+  642  cd gui
+  643  dpkg-buildpackage -us -uc
+  644  cd..
+  645  cd ..
+  646  dpkg-buildpackage -us -uc
+  647  sh canaima-bienvenido-gnome.sh 
+  648  ls gui
+  649  cd data
+  650  ls
+  651  cd gui
+  652  ls
+  653  cd data
+  654  ls
+  655  cd shell
+  656  ls
+  657  nano 01.html 
+  658  nano 01.html 
+  659  cd ..
+  660  cd ..
+  661  cd ..
+  662  dpkg-buildpackage -us -uc
+  663  dpkg-source --comit
+  664* 
+  665  cd ..
+  666  ls
+  667  dpkg -i canaima-bienvenido-gnome_4.7.dsc
+  668  clear
+  669  cd canaima-bienvenido-gnome-4.7/
+  670  cd dato
+  671  ls
+  672  cd gui
+  673  cd dato
+  674  ls
+  675  cd data
+  676  cd shell
+  677  ls
+  678  nano 01.html
+  679  cd ..
+  680  cd ..
+  681  cd ..
+  682  dpkg-buildpackage -us -uc
+  683  dpkg-source --comit
+  684  dpkg-source --commit
+  685  dpkg-buildpackage -us -uc
+  686  cd ..
+  687  ls
+  688  dpkg -i canaima-bienvenido-gnome_4.7.dsc
+  689  dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+  690  ls
+  691  cd canaima-bienvenido-gnome-4.7/
+  692  ls
+  693  sh canaima-bienvenido-gnome.sh 
+  694  cd ..
+  695  cd ..
+  696  touch permiso.txt
+  697  chmod 707 permiso.txt
+  698  ls
+  699  ls -la
+  700  mkdir canaima-semilla
+  701  cd canaima-semilla/
+  702  ls
+  703  cd ..
+  704  top
+  705  iwlist scan
+  706  iwconfig
+  707  clear
+  708  cd canaima-semilla/
+  709  cp -R /usr/share/canaima-semilla/profiles
+  710  cp -R /usr/share/canaima-semilla/profiles /home/usuario/control/cursoaslbarcelona/josearocha/canaima-semilla/
+  711  ls
+  712  cd profiles
+  713  ls
+  714  ls
+  715  cd ..
+  716  cd primera-base
+  717  nano primera-base
+  718  ls
+  719  cd ..
+  720  ls
+  721  cd canaima-semilla/
+  722  ls
+  723   cd profile
+  724  nano profile
+  725  nano profiles/
+  726  cd profiles/
+  727  ls
+  728  rm -r prueba
+  729  rm -r popular
+  730  rm -r curso
+  731  ls
+  732  cd primera-base/
+  733  ls
+  734  nano profile.conf 
+  735  nano profile.conf 
+  736  ls
+  737  nano pasos.txt
+  738  cd..
+  739  cd..
+  740  cd ..
+  741  cd ..
+  742  cd ..
+  743  ls
+  744  ifconfig
+  745  ifconfig --help
+  746  ifconfig scan
+  747  fdisk
+  748  fdisk -l
+  749  dhcp --help
+  750  ifcongig
+  751  ifconfig
+  752  history > history.txt

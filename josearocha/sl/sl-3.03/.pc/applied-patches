@@ -1,0 +1,6 @@
+modify_Makefile.patch
+remove_SIGINT.patch
+add_-e_option.patch
+apply_sl-h.patch
+set_curs.patch
+jose-arocha

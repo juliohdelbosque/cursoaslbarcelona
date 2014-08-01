@@ -1,0 +1,8 @@
+S.ficheros                                             Tamaño Usados  Disp Uso% Montado en
+rootfs                                                   100G   2,8G   92G   3% /
+udev                                                      10M      0   10M   0% /dev
+tmpfs                                                    101M   580K  100M   1% /run
+/dev/disk/by-uuid/88e72395-e1fe-4844-ada8-f723c1260aa9   100G   2,8G   92G   3% /
+tmpfs                                                    5,0M      0  5,0M   0% /run/lock
+tmpfs                                                    681M   228K  680M   1% /run/shm
+/dev/sda5                                                 46G   4,1G   40G  10% /home

@@ -1,0 +1,15 @@
+1. instalar el paquete live-config
+2. ejecutar <lb config> para crear la estructura de directorios basica
+3. ejecutar <lb bootstrap>  y <lb chroot> para crear la base del sistema
+4. crear un respaldo del directorio anterior a manera de llevar un control de versiones
+5. entrar a la jaula con <chroot chroot> e instalar los paquetes basicos, configurar usuario y
+   contraseña, con <visudo> darle privilegios de root a dicho usuario; Instalar la interfaz grafica
+   a utilizar y el servidor x.
+6. Limpiar la jaula con <apt-get clean>
+7. Respaldar el directorio anteriormente creado a manera de llevar un control de versiones
+8. ejecutar <lb binary> para la creacion del binario
+9. ejecutar <lb binary_iso> para la creacion de la imagen .iso
+10. utilizar el software de virtualizacion "qemu" para probar la iso previamente generada, 
+   con el comando <qemu -cdrom binary.iso -boot d -m 1024>
+
+
