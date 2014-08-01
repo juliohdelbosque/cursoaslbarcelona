@@ -1,0 +1,12 @@
+mkdir iso
+cd iso
+baamos un archio con wget : wget http:/172.12.1.130/base.sh
+nano base.sh   : modifico
+sh base.sh   : ejecuto
+lb bootstrap
+m base.sh ../
+cd..
+rm -rf iso
+mkdir iso
+m base.sh iso/
+cd iso sh base.shcp -R iso iso1

@@ -1,0 +1,41 @@
+Hide cursor.
+Index: sl-sid/sl-3.03/sl-h.c
+===================================================================
+--- sl-3.03.orig/sl-h.c	2012-03-28 00:50:23.000000000 +0900
++++ sl-3.03/sl-h.c	2012-03-28 00:51:05.000000000 +0900
+@@ -159,6 +159,7 @@
+ #endif
+     leaveok(stdscr, TRUE);
+     scrollok(stdscr, FALSE);
++    (void)curs_set(0);
+ 
+     DIREC = RTOL;
+     p = 3 * COLS / 10;
+@@ -224,6 +225,7 @@
+       end_gate(p);
+     }
+     mvcur(0, COLS - 1, LINES - 1, 0);
++    (void)curs_set(0);
+     endwin();
+ 
+     return 0;
+Index: sl-sid/sl-3.03/sl.c
+===================================================================
+--- sl-3.03.orig/sl.c	2012-03-28 00:50:23.000000000 +0900
++++ sl-3.03/sl.c	2012-03-28 00:51:05.000000000 +0900
+@@ -77,6 +77,7 @@
+     noecho();
+     leaveok(stdscr, TRUE);
+     scrollok(stdscr, FALSE);
++    (void)curs_set(0);
+ 
+     for (x = COLS - 1; ; --x) {
+ 	if (LOGO == 0) {
+@@ -88,6 +89,7 @@
+ 	usleep(20000);
+     }
+     mvcur(0, COLS - 1, LINES - 1, 0);
++    (void)curs_set(1);
+     endwin();
+ 
+     return 0;

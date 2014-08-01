@@ -1,0 +1,500 @@
+  198  cd ..
+  199  cd ..
+  200  cd ..
+  201  ls
+  202  dpkg-buildpackage -us -uc
+  203  cd amigu-0.7.6/
+  204  ls
+  205  dpkg-buildpackage -us -uc
+  206  cd ..
+  207  cd ..
+  208  rm -R amigo
+  209  mkdir amigo
+  210  ls
+  211  cd amigo
+  212  apt-get source amigu
+  213  ls
+  214  cd amigu-0.7.6/
+  215  ls
+  216  cd amigu/
+  217  ls
+  218  cd gui
+  219  ls
+  220  nano amigugtk.py 
+  221  cd ..
+  222  cd ..
+  223  ls
+  224  cd ..
+  225  ls
+  226  dpkg-buildpackage -us -uc -d
+  227  cd amigu
+  228  ls
+  229  cd amigu-0.7.6/
+  230  dpkg-buildpackage -us -uc -d
+  231  cd ..
+  232  dpkg-buildpackage -us -uc -d
+  233  ls
+  234  amigu 
+  235  ls 
+  236  cd amigu-0.7.6/
+  237  ls
+  238  cd amigu
+  239  ls
+  240  cd gui
+  241  ls
+  242  nano amigugtk.py 
+  243  cd ..
+  244  cd ..
+  245  dpkg-buildpackage -us -uc
+  246  dpkg-buildpackage -us -uc -d
+  247  dpkg-source --commit
+  248  dpkg-buildpackage -us -uc -d
+  249  cd ..
+  250  ls
+  251  dpkg -i amigu_0.7.6-2_i386.deb 
+  252  cd ..
+  253  git add amigo
+  254  git commit -a
+  255  git push
+  256  nano /etc/apt/mirror.list 
+  257  nano /etc/apt/sources.list
+  258  aptitude update
+  259  cd /urs/share/canaima-semilla/
+  260  apt-get install canaima-semilla
+  261  ls
+  262  cd /usr/share/canaima-semilla/
+  263  ls
+  264  c-s-gui
+  265  ls
+  266  cd profiles
+  267  ls
+  268  cp -R popular curso
+  269  ls
+  270  cd curso
+  271  ls
+  272  nano profile.conf
+  273  nano profile.conf
+  274  cs construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  275  cd ..
+  276  cs construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  277  cd curso
+  278  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  279  ls
+  280  nano profile.conf
+  281  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  282  cd ..
+  283  cd curso
+  284  nano profile.conf
+  285  nano profile.conf
+  286  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  287  cd ..
+  288  cp -r curso curso1
+  289  cd curso1
+  290  nano profile.conf 
+  291  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso1"
+  292  ps -aux | grep oppen office
+  293  ps -aux | grep openoffice
+  294  ps -aux | grep libreo
+  295  ps -aux | grep soffice
+  296  kill /9 9809 soffice
+  297  ps -aux | grep libreo
+  298  ps -aux | grep amigu
+  299  kill -9 9932 amigu
+  300  ps -aux | grep amigu
+  301  kill -9 9937 amigu
+  302  ps -aux | grep amigu
+  303  kill -9 9918 9939 amigu
+  304  ps -aux | grep amigu
+  305  aptitude search lie-build
+  306  aptitude search live-build
+  307  cd /control
+  308  ls
+  309  cd control
+  310  ls
+  311  cd cursoaslbarcelona/
+  312  ls
+  313  cd control
+  314  nano /etc/apt/sources.list
+  315  aptitude update
+  316  nano /etc/apt/sources.list
+  317  aptitude update
+  318  nano /etc/apt/sources.list
+  319  cd canaima
+  320  cd /usr/share/canaima-semilla/
+  321  ls
+  322  cd profiles/
+  323  ls
+  324  cd curso
+  325  cd ..
+  326  cd curso1
+  327  ls
+  328  ls
+  329  nano profile.conf 
+  330  nano profile.conf 
+  331  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  332  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso1"
+  333  cd ..
+  334  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso1"
+  335  cat /usr/share/canaima-semilla/isos/build.201407310836.log
+  336  ls
+  337  cp -R popular prueba
+  338  ls
+  339  cd prueba/
+  340  ls
+  341  nano profile.conf 
+  342  c-s construir --medio="iso" --arquitectura="i386" --sabor="prueba"
+  343  cd /home/usuario/control
+  344  ls
+  345  mkdir iso
+  346  cd iso
+  347  wget http://172.17.1.130/base.sh
+  348  ls
+  349  nano base.sh 
+  350  nano base.sh 
+  351  sh base.sh
+  352  ls
+  353  cd config/
+  354  ls
+  355  nano bootstrap
+  356  cd ..
+  357  ls
+  358  lb bootstrap
+  359  mv base.sh ../
+  360  ls
+  361  cd ..
+  362  rm -rf iso
+  363  ls
+  364  mkdir iso
+  365  mv base.sh iso/
+  366  ls
+  367  cd iso
+  368  ls
+  369  sh base.sh
+  370  ls
+  371  lb bootstrap
+  372  lb chroot
+  373  ls
+  374  cd ..
+  375  ls
+  376  cp -R iso iso1
+  377  ls
+  378  cd iso1
+  379  ls
+  380  chroot chroot
+  381  ls chroot
+  382  cd ..
+  383  cp -R iso1 iso2
+  384  ls
+  385  cd iso2
+  386  ls
+  387  lb binary
+  388  ls
+  389  cd ..
+  390  ls
+  391  rm -R iso2
+  392  cp -R iso1 iso2
+  393  cd iso 2
+  394  ls
+  395  lb binary
+  396  cd ..
+  397  ls
+  398  rm -R iso2
+  399  ls
+  400  cp -R iso1 iso2
+  401  cd iso2
+  402  ls
+  403  cd config
+  404  ls
+  405  nano bootstrap 
+  406  nano bootstrap 
+  407  nano bootstrap 
+  408  nano bootstrap 
+  409  nano bootstrap 
+  410  nano bootstrap 
+  411  cd ..
+  412  lb binary
+  413  d ..
+  414  cd ..
+  415  rm -R iso2
+  416  ls
+  417  cp -R iso1 iso2
+  418  cd iso2
+  419  ls
+  420  cd config/
+  421  nano bootstrap 
+  422  ls
+  423  nano binary 
+  424  cd ..
+  425  lb binary
+  426  lb binary_iso
+  427  ls
+  428  qemu -cdrom- binary.iso -boot d -m 1024
+  429  qemu -cdrom binary.iso -boot d -m 1024
+  430  cd ..
+  431  rm -R iso2
+  432  ls
+  433  cd iso1
+  434  ls
+  435  chroot chroot
+  436  cd ..
+  437  ls
+  438  cd iso1
+  439  ls
+  440  cd config/
+  441  ls
+  442  nano bootstrap 
+  443  nano binary 
+  444  cd ..
+  445  cd ..
+  446  cp -R iso1 iso2
+  447  ls
+  448  cd iso2
+  449  lb binary
+  450  lb binary_iso
+  451  ls
+  452  qemu -cdrom binary.iso -boot d -m 1024
+  453  cd ..
+  454  rm -R iso2
+  455  ls
+  456  cd iso1
+  457  ls
+  458  chroot chroot
+  459  cd ..
+  460  cp -R iso1 iso2
+  461  cd iso2
+  462  ls
+  463  lb binary
+  464  lb binary_iso
+  465  qemu -cdrom binary.iso -boot d -m 1024
+  466  qemu -cdrom binary.iso -boot d -m 1024
+  467  rm -rf iso2
+  468  cd ..
+  469  ls
+  470  rm -rf iso2/
+  471  cd iso1/
+  472  chroot chroot
+  473  cd ..
+  474  cp -R iso1 iso2
+  475  exit
+  476  control/
+  477  cd control
+  478  ls
+  479  cd cursoaslbarcelona/
+  480  ls
+  481  git pull
+  482  ls
+  483  ls
+  484  ls -l
+  485  git pull
+  486  ls
+  487  exit
+  488  mkdir imagen
+  489  cd imagen
+  490  ls
+  491  qemu-img create NOMBRE.img
+  492  qemu-img create NOMBRE.img 2G
+  493  ls
+  494  cd ..
+  495  ls
+  496  cd control
+  497  ls
+  498  cd iso2
+  499  lb binary
+  500  exit
+  501  cd control
+  502  ls
+  503  cd cursoaslbarcelona/
+  504  git pull
+  505  mkdir yenmarconde
+  506  ls
+  507  cd yenmarconde
+  508  nano examen-
+  509  nano examen-22570841.txt
+  510  nano curso1.txt
+  511  ls
+  512  nano curso2.txt
+  513  nano curso~.txt
+  514  ls
+  515  nano curso3.txt
+  516  nano curso4.txt
+  517  nano curso5.txt
+  518  chmod 064 curso1.txt
+  519  ls -l
+  520  chmod 065 curso1.txt
+  521  ls -l
+  522  chmod 726 curso2.txt
+  523  ls -l
+  524  chmod 111 curso3.txt
+  525  ls -l
+  526  chmod 447 curso4.txt
+  527  ls -l
+  528  chmod 064 curso5.txt
+  529  ls -l
+  530  df -h
+  531  chmod 227 curso4.txt
+  532  ls -l
+  533  chmod 064 curso5.txttouch
+  534  touch
+  535  touch registros
+  536  ls
+  537  more examen
+  538  mkdir llamada libreofficewriter
+  539  ls
+  540  cd libreofficewriter/
+  541  ls
+  542  cd ..
+  543  free -m > l.txt
+  544  ls
+  545  nano l.txt 
+  546  rm l.txt
+  547  cd libreofficewriter/
+  548  uname-a > l.txt
+  549  uname -a > l.txt
+  550  nano l.txt 
+  551  rm l.txt 
+  552  libreofficewriter -l > l.txt
+  553  crontab -l > l.txt
+  554  ls
+  555  nano l.txt
+  556  rm l.txt 
+  557  CD ..
+  558  cd ..
+  559  ls
+  560  more examen.txt
+  561  mkdir sl
+  562  cd sl
+  563  ls
+  564  apt-get source sl
+  565  ls
+  566  nano /etc/apt/sources.list
+  567  aptitude update
+  568  apt-get source sl
+  569  ls
+  570  cd sl-3.03/
+  571  ls
+  572  nano sl.h
+  573  dpkg-buildpackage -us -uc
+  574  dpkg-source --commit
+  575  cd ..
+  576  aptitude install sl
+  577  cd sl-3.03/
+  578  ls
+  579  dpkg-buildpackage -us -uc
+  580  ls
+  581  cd ..
+  582  ls
+  583  dpkg -i sl_3.03-17_i386.deb 
+  584  cd ..
+  585  ls
+  586  mkdir bienvenidos
+  587  apt-get source canaima-bienenido-gnome
+  588  apt-get source canaima-bienvenido-gnome
+  589  cd shell
+  590  ls
+  591  mv -r canaima-bienvenido-gnome-4.7 bienvenidos
+  592  mv -R canaima-bienvenido-gnome-4.7 bienvenidos
+  593  rm -R canaima-bienvenido-gnome-4.7 bienvenidos
+  594  ls
+  595  rm -R canaima-bienvenido-gnome-4.7.debian.tar.gz
+  596  rm -R canaima-bienvenido-gnome_4.7.debian.tar.gz
+  597  rm -R canaima-bienvenido-gnome_4.7.orig.tar.gz
+  598  ls
+  599  rm -R canaima-bienvenido-gnome_4.7.dsc
+  600  ls
+  601  mkdir bienvenidos
+  602  ls
+  603  cd bienenidos
+  604  cd bienvenidos
+  605   apt-get source canaima-bienvenido-gnome
+  606  ls
+  607  cd canaima-bienvenido-gnome-4.7/
+  608  ls
+  609  cd shell
+  610  cd gui
+  611  cd data
+  612  cd shell
+  613  ls
+  614  nano 01.html 
+  615  dpkg-buildpackage -us -uc
+  616  cd ..
+  617  cd ..
+  618  cd ..
+  619  dpkg-buildpackage -us -uc
+  620  dpkg-source --commit
+  621  cd ..
+  622  dpkg-buildpackage -us -uc
+  623  ls
+  624  cd canaima-bienvenido-gnome-4.7/
+  625  dpkg-buildpackage -us -uc
+  626  cd ..
+  627  ls
+  628  dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+  629  cd ..
+  630  adduser usuario2
+  631  mkdir canaima-semilla
+  632  cd canaima-semilla/
+  633  cd user/share/canaima-semilla/profiles
+  634  cd usr/share/canaima-semilla/profiles
+  635  cd /usr/share/canaima-semilla/profiles
+  636  ls
+  637  cd curso1
+  638  ls
+  639  nano profile.conf
+  640  nano profile.conf
+  641  ls
+  642  cd ..
+  643  ls
+  644  cd prueba
+  645  ls
+  646  nano profile.conf
+  647  cd /home/usuario/
+  648  ls
+  649  cd control
+  650  ls
+  651  cd canaima
+  652  ls
+  653  usuario
+  654  cd usuario
+  655  ls
+  656  cd ..
+  657  ls
+  658  cd cursoaslbarcelona/
+  659  ls
+  660  cd yenmarconde
+  661  ls
+  662  mkdir iso
+  663  cd iso
+  664  wget http:/172.12.1.130/bse.sh
+  665  wget http:/172.12.1.130/base.sh
+  666  wget http://172.12.1.130/base.sh
+  667  ls
+  668  cp /usr/share/canaima-semilla/profiles/primera-base/ .
+  669  cp -R /usr/share/canaima-semilla/profiles/primera-base/ .
+  670  ls
+  671  cd primera-base/
+  672  ls
+  673  nano profile.conf 
+  674  ls
+  675  nano base.sh
+  676  wget http://172.12.1.130/base.sh
+  677  cd ..
+  678  ls
+  679  cd primera-base/
+  680  ls
+  681  nano bootstrap
+  682  lb bootstrap
+  683  ls
+  684  cs- construir --medio="iso" --medio="iso" --arquitectura="i386" --sabor="curso"
+  685  cs- construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  686  nano iso.txt
+  687  ls
+  688  cd ..
+  689  cd ..
+  690  ls
+  691  cd llamada
+  692  ls
+  693  cd ..
+  694  rm llamada
+  695  rmdir llamada
+  696  ls
+  697  history > history.txt
