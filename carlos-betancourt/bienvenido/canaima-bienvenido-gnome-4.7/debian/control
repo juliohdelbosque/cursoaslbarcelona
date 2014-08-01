@@ -1,0 +1,27 @@
+Source: canaima-bienvenido-gnome
+Section: misc
+Priority: optional
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Uploaders: Sasha Veronica Solano Grosjean <sashasolano@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.1
+Homepage: http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/canaima-bienvenido-gnome.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-bienvenido-gnome/trees/master
+
+Package: canaima-bienvenido-gnome
+Architecture: all
+Depends: python, python-webkit, python-gtk2,
+         xdg-utils, xdg-user-dirs, xdg-user-dirs-gtk,canaima-ayuda,
+         gnome-icon-theme-gnamon, libjs-jquery, python-support (>= 0.90), ${shlibs:Depends}, ${misc:Depends}
+Recommends: cunaguaro, guacharo, gimp, shotwell, simple-scan,
+            libreoffice-draw, libreoffice-writer, libreoffice-calc, libreoffice-impress,
+            totem, empathy, brasero, rhythmbox, canaima-notas-gnome
+Replaces: canaima-bienvenido (<< 4.0)
+Conflicts: canaima-bienvenido (<< 4.0)
+Provides: canaima-bienvenido
+Description: Aplicación de bienvenida para Canaima GNU/Linux
+ Muestra una ventana al inicio con las aplicaciones más usadas
+ e información para asistir al usuario con la introduccion 
+ en el uso del Sistema Operativo.
+
