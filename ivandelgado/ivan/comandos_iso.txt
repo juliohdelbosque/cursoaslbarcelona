@@ -1,0 +1,15 @@
+@canaima-popular:/usr/share/canaima-semilla/profiles# cp -R primera-base ivan
+root@canaima-popular:/usr/share/canaima-semilla/profiles# ls -l
+total 20
+drwxr-xr-x 3 root root 4096 jul 30 16:10 curso
+drwxr-xr-x 2 root root 4096 ago  1 13:18 ivan
+drwxr-xr-x 3 root root 4096 jul 30 14:44 popular
+drwxr-xr-x 2 root root 4096 jul 30 14:44 primera-base
+drwxr-xr-x 3 root root 4096 jul 31 08:47 prueba
+
+root@canaima-popular:/home/usuario/control/cursoaslbarcelona/ivandelgado/ivan# cp -r /usr/share/canaima-semilla/profiles/ivan /home/usuario/control/cursoaslbarcelona/ivandelgado
+root@canaima-popular:/home/usuario/control/cursoaslbarcelona/ivandelgado/ivan# lb config
+root@canaima-popular:/home/usuario/control/cursoaslbarcelona/ivandelgado/ivan# lb bootstrap
+root@canaima-popular:/home/usuario/control/cursoaslbarcelona/ivandelgado/ivan# lb chroot
+root@canaima-popular:/home/usuario/control/cursoaslbarcelona/ivandelgado/ivan# lb binary
+root@canaima-popular:/home/usuario/control/cursoaslbarcelona/ivandelgado/ivan#lb binary_iso

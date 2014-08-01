@@ -1,0 +1,310 @@
+    1  clear
+    2  mkdir respaldo
+    3  ls
+    4  chmod 000 respaldo
+    5  ls
+    6  ls -l
+    7  poweroff
+    8  login
+    9  emerson
+   10  login
+   11  clear
+   12  login
+   13  login
+   14  CLEAR
+   15  CLEAR
+   16  clear
+   17  adduser emerson
+   18  login
+   19  install Plugins
+   20  clear
+   21  clear
+   22  aptitude search flashplugin
+   23  aptitude search flash
+   24  clear
+   25  login
+   26  aptitude install flashplugin
+   27  aptitude search flash
+   28  aptitude update 
+   29  clear
+   30  aptitude install flashplugin-nonfree flashplugin-nonfree-extrasound 
+   31  clear
+   32  exit
+   33  clear
+   34  clear
+   35  aptitude install flashplugin-nonfree flashplugin-nonfree-extrasound clear
+   36  clear
+   37  login
+   38  poweroff
+   39  ls
+   40  ls -l programas
+   41  ls
+   42  cd programas
+   43  chmod 111 skype-debian_4.2.0.13-1_i386.deb 
+   44  ls
+   45  dpkg -i skype-debian_4.2.0.13-1_i386.deb 
+   46  ls
+   47  chmod 111 google-chrome-stable_current_i386.deb 
+   48  ls
+   49  dpkg -i google-chrome-stable_current_i386.deb 
+   50  clear
+   51  aptitude search gparted
+   52  aptitude install gparted
+   53  gparted
+   54  clear
+   55  aptitude remove gparted
+   56  adduser clase
+   57  login
+   58  clear
+   59  ls /home
+   60  deluser clase
+   61  ls /home
+   62  deluser
+   63  ls /home
+   64  deluser clase
+   65  ls /home
+   66  ls /home
+   67  clear
+   68  userdel clase
+   69  deluser
+   70  clear
+   71  userdel clase
+   72  clear
+   73  login
+   74  j
+   75  ls /home
+   76  deluser -r clase
+   77  ls /home'
+   78  ls /home
+   79  clear
+   80  poweroff
+   81  aptitude search KDE 4.4
+   82  aptitude install kde
+   83  aptitude search KDE 4.4
+   84  aptitude install GNOME 3.2
+   85  aptitude install GNOME 3
+   86  aptitude install Synapty
+   87  aptitude install Synacpty
+   88  aptitude search Synacpty
+   89  aptitude search Synapty
+   90  aptitude search Syna
+   91  aptitude search Synaptic
+   92  aptitude install Synaptic
+   93  aptitude install Synaptic
+   94  aptitude search Synaptic
+   95  apt-get synaptics
+   96  apt-get synaptic
+   97  apt-get install synaptic
+   98   synaptic
+   99   synaptic
+  100  exit
+  101  clea
+  102  clear
+  103  passwd root
+  104  exit
+  105  clear
+  106  passwd
+  107  exit
+  108  poweroff
+  109  fdisk -l
+  110  fdisk -l
+  111  pwd
+  112  ls /home/laflaca/
+  113  ls /home/laflaca/Documentos/
+  114  ls /home/laflaca/Imágenes/
+  115  ls /home/laflaca/Descargas/
+  116  ls /home/laflaca/Documentos/
+  117  clear
+  118  kill
+  119  kill clear
+  120  exit
+  121  cd /media/
+  122  ls
+  123  cd programas/
+  124  ls
+  125  chmod 777 *.deb
+  126  ls
+  127  chmod -r 777 *.deb
+  128  chmod 777 -r *.deb
+  129  chmod 777  *.deb
+  130  ls
+  131  chmod 777 *.deb
+  132  ls
+  133  chmod 777 ~
+  134  chmod 777 ~
+  135  chmod 777 education-desktop-gnome_1.718_i386.deb gnome-shell_3.4.2-7+deb7u1_i386.deb 
+  136  ls
+  137  ls -l
+  138  chmod 777 gnome-shell_3.4.2-7+deb7u1_i386.deb 
+  139  dpkg -i gnome-shell_3.4.2-7+deb7u1_i386.deb 
+  140  reboot 
+  141  cd /media/programas/
+  142  dpkg -i education-desktop-gnome_1.718_i386.deb 
+  143  dpkg -i education-desktop-gnome_1.718_i386.deb 
+  144  dpkg -i gnome-shell_3.4.2-7+deb7u1_i386.deb 
+  145  dpkg -i gnome-shell_3.4.2-7+deb7u1_i386.deb 
+  146  remove-gnome
+  147  cd
+  148   remove gnome
+  149  aptitude search gnome
+  150  aptitude install gnome
+  151  aptitude install gnome
+  152  nano /etc/apt/sources.list
+  153  aptitude update 
+  154  nano /etc/apt/sources.list
+  155  aptitude update 
+  156  aptitude dist-upgrade
+  157  aptitude install gnome
+  158  aptitude search gnome
+  159  aptitude update 
+  160  aptitude install gnome
+  161  reboot
+  162  aptitude install apt-mirror 
+  163  nano /etc/apt/mirror.list 
+  164  exit
+  165  adduser usuario
+  166  exit
+  167  cd control/cursoaslbarcelona/
+  168  ls
+  169  rm -r humnerlenis/
+  170  mkdir humnerlenis
+  171  cd humnerlenis/
+  172  nano Examen-15550350.txt
+  173  LS
+  174  ls
+  175  touch curso1.txt
+  176  touch curso2.txt
+  177  touch curso3.txt
+  178  touch curso4.txt
+  179  touch curso5.txt
+  180  chmod 724 curso1.txt 
+  181  chmod 724 curso2.txt 
+  182  chmod 065 curso1.txt 
+  183  ls -l
+  184  chmod 726 curso2.txt 
+  185  ls -l
+  186  chmod 111 curso3.txt 
+  187  ls -l
+  188  chmod 227 curso4.txt 
+  189  ls -l
+  190  chmod 064 curso5.txt 
+  191  ls -l
+  192  fdisk -l
+  193  mkdir libreofficewriter
+  194  ps -aux | grep libreoff
+  195  ps -aux | grep libreoff
+  196  echo 3997 > libreofficewriter/l.txt
+  197  ls libreofficewriter/
+  198  touch registros
+  199  ls
+  200  aptitude search sl
+  201  mkdir sl
+  202   cd sl
+  203  apt-get source sl
+  204  aptitude install dpk-dev
+  205  aptitude install dpkg-dev
+  206  ls
+  207  rm *
+  208  ls
+  209  apt-get source sl
+  210  ls
+  211  cd sl-3.03/
+  212  ls
+  213  nano sl.h
+  214* dpkg-buildpackage -us -uc
+  215  aptitude install build-essential cdbs debhelper libncurses5-dev -y
+  216  dpkg-buildpackage -us -uc
+  217  dpkg-source --commit
+  218  dpkg-buildpackage -us -uc
+  219  cd ..
+  220  dpkg -i sl_3.03-17_i386.deb 
+  221  sl
+  222  cd ..
+  223  mkdir bienvenido
+  224  nano /etc/apt/sources.list
+  225  aptitude update
+  226  adduser soporte
+  227  mkdir procesador 
+  228  uname -m > procesador/procesador.txt
+  229  cat procesador/procesador.txt 
+  230  ls
+  231  cd bienvenido/
+  232  apt-get source canaima-bienvenido-gnome 
+  233  nano /etc/apt/sources.list
+  234  aptitude update
+  235  nano /etc/apt/sources.list
+  236  aptitude update
+  237  cd ..
+  238  mkdir -p 1/2/3/4
+  239  cd -
+  240* apt-get source canaima-bienvenido-gnom
+  241  ls
+  242  cd canaima-bienvenido-gnome-4.7/
+  243  ls
+  244  nano gui/data/shell/01.html 
+  245  dpkg-buildpackage -us -uc
+  246  dpkg-source --commit
+  247  dpkg-buildpackage -us -uc
+  248  cd ..
+  249  ls
+  250  dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+  251  cd ..
+  252  mkdir canaima-semilla
+  253  cd canaima-semilla/
+  254  git clone https://github.com/humner/canaima
+  255  ls -a
+  256  ls -a canaima/
+  257  cd ..
+  258  touch permiso.txt
+  259  chown  root:soporte permiso.txt 
+  260  SIGTERM killall libreoffice
+  261  nano /etc/apt/sources.list
+  262  aptitude install canaima-semilla
+  263  cp -r /usr/share/canaima-semilla xx
+  264  cd canaima-semilla/
+  265  cp -r /usr/share/canaima-semilla .
+  266  ls
+  267  cd canaima
+  268  cp -r /usr/share/canaima-semilla 
+  269  ls
+  270  ls
+  271  cp -r /usr/share/canaima-semilla .
+  272  ls
+  273  cd canaima-semilla/
+  274  ls
+  275  ls isos/
+  276  ls
+  277  ls profiles/
+  278  cd ..
+  279  rm -r canaima-semilla/*
+  280  ls
+  281  cd canaima-semilla/
+  282  cp -r /usr/share/canaima-semilla/profiles/primera-base/ .
+  283  mv primera-base/ humner
+  284  cd humner/
+  285  ls
+  286  nano profile.conf 
+  287  cd ..
+  288  cd ..
+  289  git add canaima-semilla
+  290  git commit -a
+  291  git push
+  292  nano pasos.txt
+  293  lb config
+  294  nano pasos.txt
+  295  cd ..
+  296  cd ..
+  297  history > historia.txt
+  298  nano historia.txt 
+  299  ls
+  300  ls -l
+  301  nano historia.txt 
+  302  ifconfig -a
+  303  aptitude search tool | grep wifi
+  304  aptitude search tool
+  305  aptitude search wifi
+  306  aptitude search firmware
+  307  aptitude search wireless
+  308  aptitude install wireless-tools
+  309  iwlist wlan0 scan
+  310  history > historia.txt

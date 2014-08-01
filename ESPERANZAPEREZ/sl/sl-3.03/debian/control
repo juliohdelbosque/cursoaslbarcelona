@@ -1,0 +1,15 @@
+Source: sl
+Section: games
+Priority: optional
+Maintainer: Hiroyuki Yamamoto <yama1066@gmail.com>
+Build-Depends: cdbs, debhelper (>= 9), libncurses5-dev
+Standards-Version: 3.9.3
+Homepage: http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/index_e.html
+
+Package: sl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Correct you if you type `sl' by mistake
+ Sl is a program that can display animations aimed to correct you
+ if you type 'sl' by mistake.
+ SL stands for Steam Locomotive.

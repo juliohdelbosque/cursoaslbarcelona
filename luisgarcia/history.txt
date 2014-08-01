@@ -1,0 +1,500 @@
+  175  nano binary 
+  176  cd ..
+  177  cp -R iso1/ iso2
+  178  cd ..
+  179  cp -R iso1/ iso2
+  180  cd iso2
+  181  ls
+  182  lb binary
+  183  lb binary_iso
+  184  qemu -cdrom binary.iso -boot d -m 512
+  185  qemu -cdrom binary.iso -boot d -m 128
+  186  cd ..
+  187  rm -rf iso2/
+  188  ls
+  189  cd iso1
+  190  ls
+  191  aptitude search xserver-
+  192  aptitude install xserver-xorg-core 
+  193  aptitude install xserver-xorg-input-vmmouse 
+  194  aptitude search xserver-
+  195  aptitude install xserver-xorg-input-all 
+  196  aptitude install xserver-xorg-video-all 
+  197  aptitude install xserver-xorg-video-voodoo 
+  198  aptitude install xserver-xorg-video-vmware 
+  199  aptitude install xserver-xorg-video-vesa 
+  200  aptitude search xserver-
+  201  aptitude install xserver-xorg-input-all
+  202  aptitude install xserver-xorg-input-evdev 
+  203  aptitude install xserver-xorg-input-mouse 
+  204  aptitude install xserver-xorg-input-synaptics 
+  205  aptitude install xserver-xorg-input-vmmouse 
+  206  aptitude install xserver-xorg-video-all 
+  207  aptitude install xserver-xorg-video-apm 
+  208  aptitude install xserver-xorg-video-ark 
+  209  aptitude install xserver-xorg-video-ati 
+  210  aptitude install xserver-xorg-video-chips 
+  211  aptitude install xserver-xorg-video-cirrus 
+  212  aptitude install xserver-xorg-video-fbdev 
+  213  aptitude install xserver-xorg-video-i128 
+  214  aptitude install xserver-xorg-video-i740 
+  215  aptitude install xserver-xorg-video-intel 
+  216  aptitude install xserver-xorg-video-mach64 
+  217  aptitude install xserver-xorg-video-mga 
+  218  aptitude install xserver-xorg-video-mga
+  219  aptitude install xserver-xorg-video-neomagic 
+  220  aptitude install xserver-xorg-video-nouveau 
+  221  aptitude install xserver-xorg-video-openchrome 
+  222  aptitude install xserver-xorg-video-r128 
+  223  cd ..
+  224  chroot chroot
+  225  cd ..
+  226  chroot chroot
+  227  aptitude search xserver
+  228  aptitude install xserver-common 
+  229  aptitude install xserver-xorg
+  230  aptitude install xserver-common 
+  231  aptitude install xserver-xorg
+  232  aptitude install xserver-xorg-input-all 
+  233  aptitude install xserver-xorg-input-evdev 
+  234  aptitude install xserver-xorg-input-mouse 
+  235  aptitude install xserver-xorg-input-synaptics 
+  236  aptitude install xserver-xorg-input-vmmouse 
+  237  aptitude install xserver-xorg-video-all 
+  238  aptitude install xserver-xorg-video-
+  239  aptitude install xserver-xorg-video-apm 
+  240  aptitude install xserver-xorg-video-ark 
+  241  aptitude install xserver-xorg-video-ati 
+  242  aptitude install xserver-xorg-video-chips 
+  243  aptitude install xserver-xorg-video-cirrus 
+  244  aptitude install xserver-xorg-video-fbdev 
+  245  exit
+  246  cd ..
+  247  cd /home/usuario/ls
+  248  exit
+  249  ls
+  250  cd control/
+  251  ls
+  252  cd iso2
+  253  ls
+  254  qemu -cdrom binary.iso -boot d -m 512
+  255  qemu -cdrom binary.iso -boot d -m 512
+  256  halt
+  257  mkdir examen
+  258  cd ..
+  259  ls
+  260  cd luisgarcia/
+  261  ls
+  262  ls
+  263  cd ..
+  264  ls
+  265  ls
+  266  cd luisgarcia/
+  267  ls
+  268  nano examen_8242422
+  269  ls
+  270  nano curso1.txt
+  271  nano curso2.txt
+  272  ls
+  273  nano curso3.txt
+  274  nano curso4.txt
+  275  nano curso5.txt
+  276  ls
+  277  mkdir libreofficewriter
+  278  ls
+  279  nano archivo l.txt
+  280  ls
+  281  cd libreofficewriter/
+  282  ls
+  283  nano archivo l
+  284  nano l
+  285  ls
+  286  cd ..
+  287  mkdir sl
+  288  nano /etc/apt/sources.list
+  289  aptitude update
+  290  LS
+  291  cd ..
+  292  ls
+  293  cd luisgarcia/
+  294  ls
+  295  cd sl
+  296  apt-get sources sl
+  297  apt-get source sl
+  298  apg-get *deb
+  299  apt-get source sl
+  300  apt-get source sl
+  301  apt-get source
+  302  apt-get sources sl
+  303  apt-get source sl
+  304  dpkg-source -x sl_3.03-17.dsc
+  305  dpkg -i *.deb
+  306* 
+  307  apt-get sources sl
+  308  apt-get source sl
+  309  apt-get source sl
+  310  ls
+  311  apt-get source sl
+  312  apt-get install dpkg-dev
+  313  aptitude search perl
+  314  aptitude search perl > busqueda.txt
+  315  nano busqueda.txt
+  316  aptitude install sl
+  317  ls
+  318  ls
+  319  apt-get sources ls
+  320  apt-get source ls
+  321  aptitude install dpkg-dev
+  322  ls
+  323  sl
+  324  nano busqueda.txt 
+  325  aptitude install sl
+  326  sl
+  327  aptitude update
+  328  ls
+  329  ls
+  330  apt-get source ls
+  331  apt-get source sl
+  332  apt-get sources sl
+  333  apt-get source sl
+  334  ls
+  335  nano sl.sh
+  336  ls
+  337  nano sl-3.03/
+  338  nano sl-3.03/cd..
+  339  ls
+  340  cd sl-3.03/
+  341  ls
+  342  nano sl.h
+  343  nano sl.h
+  344  dpkg-buildpackage -us -uc
+  345  dpkg-buildpackage -us -uc
+  346  dpkg-buildpackage -us -uc
+  347  dpkg-source --commit
+  348  dpkg-buildpackage -us -uc
+  349  apt-get install pcc
+  350  apt-get install gcc
+  351  dpkg-buildpackage -us -uc
+  352  apt-get install build-essential 
+  353  dpkg-buildpackage -us -uc
+  354  apt-get install cdbs debhelper
+  355  dpkg-buildpackage -us -uc
+  356  cd ..
+  357  ls
+  358  dpkg -i sl_3.03-17_i386.deb
+  359  ls
+  360  cd sl-3.03/
+  361  ls
+  362  nano sl.h
+  363  dpkg-buildpackage -us -uc
+  364  apt-get install libncurses5-dev
+  365  dpkg-buildpackage -us -uc
+  366  dpkg-source --commit
+  367  dpkg-source --commit
+  368  ls
+  369  sl
+  370  nano sl-h
+  371  nano sl.h
+  372  dpkg-buildpackage -us -uc
+  373  dpkg-source --commit
+  374  cd ..
+  375  ls
+  376  dpkg -i sl_3.03-17_i386.deb 
+  377* ps l
+  378  ls
+  379  dpkg -i sl_3.03-17_i386.deb 
+  380  ls
+  381  cd sl-3.03/
+  382  ls
+  383  sl
+  384  ./sl
+  385  CD..
+  386  cd ..
+  387  ls
+  388  cd ..
+  389  ls
+  390  mkdir bienvenido
+  391  aptitude install canaima-semilla
+  392  aptitude install canaima-semilla
+  393  aptitude install canaima-semilla
+  394  aptitude install canaima-semilla
+  395  nano /etc/apt/sources.list
+  396  cd 
+  397  /cd /home/usuario/control/cursoaslbarcelona/luisgarcia}
+  398  /cd /home/usuario/control/cursoaslbarcelona/luisgarcia
+  399  cd /home/usuario/control/cursoaslbarcelona/luisgarcia
+  400  ls /usr/share/canaima-semilla/
+  401  mkdir canaima-semilla
+  402  ls
+  403  cd canaima-semilla/
+  404  ls
+  405  cp -R /usr/share/canaima-semilla/
+  406  cp -R /usr/share/canaima-semilla/ .
+  407  ls
+  408  ls
+  409  cd canaima-semilla/
+  410  ls
+  411  c-s-gui
+  412  ls
+  413  cd profiles/
+  414  ls
+  415  cd primera-base/
+  416  ls
+  417  nano profile.conf 
+  418  cd ..
+  419  ls
+  420  cd curso
+  421  ls
+  422  ls
+  423  ls
+  424  cd ..
+  425  ls
+  426  cd primera-base/
+  427  ls
+  428  nano profile.conf 
+  429  c-s-gui
+  430  ls
+  431  cd ..
+  432  ls
+  433  cd curso
+  434  ls
+  435  nano profile.conf 
+  436  cd ..
+  437  ls
+  438  cd popular/
+  439  ls
+  440  nano profile.conf 
+  441  cd ..
+  442  ls
+  443  cd prueba/
+  444  ls
+  445  nano profile.conf 
+  446  ls
+  447  nano profile.conf 
+  448  ls
+  449  cd ..
+  450  cd ..
+  451  cd ..
+  452  cd ..
+  453  ls
+  454  df -h
+  455  ls
+  456  cd libreofficewriter/
+  457  ls
+  458  ls
+  459* 
+  460  ls
+  461  cd ..
+  462  mkdir procesador
+  463  ls
+  464  cd libreofficewriter/
+  465  ls
+  466  /cd /home/usuario/control/cursoaslbarcelona/luisgarcials
+  467  cd ..
+  468  ls
+  469  cd procesador
+  470  ps -aux | grep procesador
+  471  ps -aux | grep procesador.txt
+  472  ls
+  473  cat /proc/cpuinfo
+  474  cat /proc/cpuinfo
+  475  cat /proc/cpuinfo
+  476  cat /proc/cpuinfo
+  477  ls
+  478  ls
+  479  cat /proc/cpuinfo
+  480  cd ..
+  481  ls
+  482  cd bienvenido
+  483  ls
+  484  cd ..
+  485  cd canaima-semilla/
+  486  ls
+  487  cd ..
+  488  ls
+  489  cd bienvenido
+  490  apt-get install canaima-bienvenido-gnome 
+  491  ls
+  492  apt-get canaima-bienvenido-gnome 
+  493  apt-get install canaima-bienvenido-gnome 
+  494  c-s-gui
+  495  ls
+  496  apt-get source canaima-bienvenido-gnome 
+  497  ls
+  498  cd canaima-bienvenido-gnome-4.7/
+  499  ls
+  500  nano gui
+  501  ls
+  502  cd debian
+  503  ls
+  504  cd source
+  505  ls
+  506  cd ..
+  507  cd ..
+  508  cd ..
+  509  ls
+  510  cd canaima-bienvenido-gnome-4.7/
+  511  ls
+  512  c-s-gui
+  513  ls
+  514  cd gui
+  515  ls
+  516  cd..
+  517  cd ..
+  518  cd ..
+  519  cd ..
+  520  ls
+  521  cd canaima-semilla/
+  522  ls
+  523  cd canaima-semilla/
+  524  ls
+  525  cd profiles/
+  526  ls
+  527  cd primera-base/
+  528  ls
+  529  nano profile.conf 
+  530  cd ..
+  531  cd ..
+  532  c ..
+  533  cd ..
+  534  ls
+  535  c ..
+  536  cd ..
+  537  ls
+  538  cd bienvenido
+  539  ls
+  540  cd canaima-bienvenido-gnome-4.7/
+  541  ls
+  542  cd gui
+  543  ls
+  544  nano /etc/apt/sources.list
+  545  cd ..
+  546  cd ..
+  547  ls
+  548  cd ..
+  549  ls
+  550  cd procesador
+  551  ls
+  552  cat /proc/cpuinfo > procesador.txt
+  553  ls
+  554  CD ..
+  555  cd ..
+  556  ls
+  557  cd bienvenido
+  558  ls
+  559  cd canaima-bienvenido-gnome-4.7/
+  560  ls
+  561  cd gui
+  562  ls
+  563  cd data
+  564  ls
+  565  cd ..
+  566  cd ..
+  567  cd ..
+  568  cd ..
+  569  ls
+  570  cd canaima-semilla/
+  571  ls
+  572  cd canaima-semilla/
+  573  ls
+  574  cd profiles/
+  575  ls
+  576  cd popular/
+  577  ls
+  578  nano profile.conf 
+  579  ls
+  580  cd ..
+  581  ls
+  582  cd primera-base/
+  583  ls
+  584  ls
+  585  nano profile.conf 
+  586  cd ..
+  587  cd ..
+  588  cd ..
+  589  cd ..
+  590  ls
+  591  cd bienvenido
+  592  ls
+  593  cd canaima-bienvenido-gnome-4.7/
+  594  ls
+  595  ./canaima-bienvenido-gnome.sh 
+  596  ls
+  597  cd gui
+  598  ls
+  599  cd ..
+  600  cd ..
+  601  cd ..
+  602  cd ..
+  603  cd ..
+  604  cd ..
+  605  aptitude install apache2
+  606  cd control
+  607  ls
+  608  cd cursoaslbarcelona/
+  609  ls
+  610  cd luisgarcia/
+  611  ls
+  612  cd bienvenido
+  613  ls
+  614  cd canaima-bienvenido-gnome-4.7/
+  615  ls
+  616  ls
+  617  cd gui
+  618  ls
+  619  cd data
+  620  ls
+  621  cd shell
+  622  ls
+  623  nano 01.html 
+  624  nano 01.html 
+  625  ls
+  626  cd ..
+  627  dpkg-buildpackage -us -uc
+  628  ls
+  629  de shell
+  630  ls
+  631  cd shell
+  632  ls
+  633  nano 01.html 
+  634  dpkg-buildpackage -us -uc
+  635  nano 01.html 
+  636  cd ..
+  637  cd ..
+  638  cd ..
+  639  dpkg-buildpackage -us -uc
+  640  dpkg-source --commit
+  641  dpkg-buildpackage -us -uc
+  642  ls
+  643  cd ..
+  644  ls
+  645  ls
+  646  cd canaima-bienvenido-gnome-4.7/
+  647  ls
+  648  canaima-bienvenido-gnome 
+  649  ls
+  650  ls
+  651  cd gui
+  652  ls
+  653  cd data
+  654  ls
+  655  cd shell
+  656  ls
+  657  nano 01.html 
+  658  cd ..
+  659  cd ..
+  660  dpkg-buildpackage -us -uc
+  661  cd ..
+  662  aptitude update
+  663  dpkg-buildpackage -us -uc
+  664  cd ..
+  665  ls
+  666  dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+  667  ls
+  668  cd ..
+  669  ls
+  670  nano examen.txt 
+  671  ls
+  672  history
+  673  ls
+  674  history > history.txt

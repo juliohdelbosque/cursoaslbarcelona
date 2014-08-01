@@ -1,0 +1,8 @@
+usuario   4027  0.0  0.2  24044  2776 ?        Sl   09:35   0:00 /usr/lib/libreoffice/program/oosplash --writer
+usuario   4049  0.8  6.1 200224 63008 ?        Sl   09:35   0:01 /usr/lib/libreoffice/program/soffice.bin --writer --splash-pipe=5
+root      4083  0.0  0.0   3488   728 pts/2    S+   09:38   0:00 grep --color=auto libreoffice
+
+
+
+root@canaima-popular:/home/usuario/control/cursoaslbarcelona/ivandelgado# kill -9 4027
+root@canaima-popular:/home/usuario/control/cursoaslbarcelona/ivandelgado# kill -9 4049

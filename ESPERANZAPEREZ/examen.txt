@@ -1,0 +1,139 @@
+Actividad. Curso de Soporte Avanzado en Linux
+
+
+- Entrar como root, ejecutar
+
+1-Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Indentidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+
+2- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X
+
+ -curso2.txt   RWX-W-RW-
+
+ -curso3.txt   --X--X--X
+
+ -curso4.txt   -W--W-RWX
+
+ -curso5.txt   ---RW-R--
+
+
+3-Como puedo visualizar las particiones del disco duro
+activando el comando sudo fdisk -l 
+
+4-Como matamos un proceso del computador
+ctrl + x o ctrl + z
+
+5-Crear un carpeta llamada libreofficewriter  abrir el libreofficewriter. guardar el proceso en un archivo l.txt
+se crea la carpeta mkdir libreofficewrite luego activamos el comando ps y se alistan los procesos su busca el numero del proceso
+ y se activa el comando kill -9 mas el numero del proceso de esta manera lo detiene        
+
+6-Crear un carpeta llamada procesador
+       -guardar la busqueda en archivo llamado procesador.txt del tipo de computadora
+
+procesador# cat /proc/cpuinfo > procesador.txt
+
+7-Como configuras una interfaz de red con dhcp
+se configura nano /etc/network/interfaces
+
+8-Que sucede cuando ejecutas el
+comando: touch registros
+- Crea un archivo llamado registro
+
+	
+9-El comando: more examen
+
+- Despliega el contenido del archivo examen, una pantalla a la vez.
+
+10-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+
+mkdir sl
+cd sl
+apt-get sorce sl
+cd sl/sl-3.03#
+dpkg-buildpackage -us -uc
+ dpkg-source --commit
+Introduzca el nombre del parche:ESPERANZAPEREZ
+se compila nuevamente
+dpkg-buildpackage -us -uc
+/sl/sl-3.03# cd ..
+sl# dpkg -i sl_3.03-17_i386.deb
+y se abre otro terminal activar el sl para ver el  nuevo cambio del tren 
+
+
+11- crear la carpeta bienvenido
+descargar el paquete fuente de canaima-bievenido-gnome, modificar el inicio 
+con su nombre generar un nuevo paquete, e instalarlo
+mkdir bienvenidos
+cd bienvenidos
+cd canaima-bienvenidos-gnome-4.0
+cd gui y cd data
+entramos a shell modificamos en nano
+se compila con dpkg-buildpackge -us -uc
+dpkg-source --commit
+dpkg-buildpackge -us -uc
+nos  vamos un dir atras cd .. 
+compilamos nuevamente dpkg -icanaima -bienvenidos-gnome_4.7_all.deb
+activamos alf+ f1
+y entramos al canaima-bienvenidos-gnome
+y se observan los cambios.
+	
+
+12-comando para listar redes inalambricas.
+1._if config: para activar el dispositivo (wireless)
+2._iwlis: para ver toda la lista de redes detectadas
+3._iwconfig: para configurar la red
+4._dhclient: para asignar el cliente con la dir ip con el dhcp
+
+
+13- Como agregamos el usuario y gestionamos el cambio de contraseña.
+add usuario, se colaca el password y se repite la contraseña.
+
+
+14-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+	/home/usuario/control/cursoaslbarcelona/ESPERANZAPEREZ/canaima-semilla# 
+	apt-get source canaima-semilla
+
+15- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+	
+	pasos para crear un repositorio:
+	
+
+16- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición
+se nombran segun las necesidades del usuario, pero se recomienda tener una estructura básica la cual podria ser:
+/boot arranque 1o2gb
+/boot sistema 25gb
+/home usuario 75% del disco duro
+/swap memoria virtual 1024
+
+ 
+17- Como hago un repositorio con debmirror, comando.
+lb_mirror_
+lb_mirror-debian_install
+lb_parent_mirror_
+lb_parent_mirror_debian_install
+y se colaca la url http://ftp.debian.org/debian
+
+18- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+ echo ESPERANZAPEREZ >> examen.txt
+ 
+17- crear un archivo permiso.txt y que los dueños sean root y usuario.
+
+root@canaima-popular:/home/usuario# touch permiso
+	
+20- Como matar un procesos usando top. 
+el proceso se mata con con el comando kill -9
+pasos:
+ps -aux |grep
+kill -9 
+

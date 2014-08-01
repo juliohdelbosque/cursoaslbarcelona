@@ -1,0 +1,170 @@
+Actividad. Curso de Soporte Avanzado en Linux
+
+
+- Entrar como root, ejecutar
+
+
+1-Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Indentidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+
+2- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X respuesta: chmod 065 curso1.txt
+
+ -curso2.txt   RWX-W-RW- respuesta: chmod 725 curso2.txt
+
+ -curso3.txt   --X--X--X respuesta: chmod 111 curso3.txt
+
+ -curso4.txt   -W--W-RWX respuesta: chmod 227 curso4.txt
+
+ -curso5.txt   ---RW-R-- respuesta: chmod 064 curso5.txt
+
+
+3-Como puedo visualizar las particiones del disco duro
+
+RESPUESTA:sudo fdisk -l
+
+4-Como matamos un proceso del computador
+
+RESPUESTA:Ctrl+X / Ctrl+Z
+
+5-Crear un carpeta llamada libreofficewriter  abrir el libreofficewriter. guardar el proceso en un archivo l.txt
+
+RESPUESTA: 1: mkdir libreofficewriter    
+           2: ps -aux           
+           3: kill -9 3512             
+           4: ps -aux        
+
+6-Crear un carpeta llamada procesador
+       -guardar la busqueda en archivo llamado procesador.txt del tipo de computadora
+PASOS:
+1: mkdir procesador
+2: cat /proc/cpuinfo > procesador.txt
+3: ls para ver el archivo llamado procesador.txt
+
+7-Como configuras una interfaz de red con dhcp
+
+RESPUESTA:nano /etc/network/interfaces
+
+8-Que sucede cuando ejecutas el
+comando: touch registros
+
+RESPUESTA:Crea un archivo llamado registro
+
+9-El comando: more examen
+
+RESPUESTA:Despliega el contenido del archivo examen, una pantalla a la vez.
+
+10-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+
+PASOS:
+1: mkdir sl
+2: cd sl
+3: apt-get source sl
+4: cd sl-3.03
+5: nano sl-3.03
+6: dpkg-buildpackage -us -uc
+7: dpkg-source --commit
+8: dpkg-buildpackage -us -uc9
+9: cd ..
+10: Introduzca el nombre del parche:carla
+11: dpkg -i sl_3.03-17_i386.deb
+12: abrir un nuevo terminal y colocar "sl"
+
+11- crear la carpeta bienvenido
+descargar el paquete fuente de canaima-bievenido-gnome, modificar el inicio 
+con su nombre generar un nuevo paquete, e instalarlo
+
+PASOS:
+1: mkdir bienvenido
+2: cd bienvenido
+3: apt-get source canaima-bienvenido-gnome 
+4: cd canaima-bienvenido-gnome-4.7/
+5: cd gui/
+6: cd data/
+7: cd shell/
+8: nano 01.html 
+9: 3 directorios atras 3 cd ..
+10: dpkg-buildpackage -us -uc
+11: dpkg-source --commit
+12: dpkg-buildpackage -us -uc
+13: cd ..
+14: Introduzca el nombre del parche:carla
+15: dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+16: Alt F1 
+17: colocar el nombre de: canaima-bienvenido-gnome	
+
+12-comando para listar redes inalambricas.
+
+PASOS:
+  1:  ifconfig: para habilitar el dispositivo inalámbrico (wireless).
+  2:  iwlist: para listar todos los puntos de acceso detectados.
+  3:  iwconfig: para configurar la conexión inalámbrica.
+  4:  dhclient: para asignarle a nuestra compu una dirección IP a través de DHCP.
+
+
+13- Como agregamos el usuario y gestionamos el cambio de contraseña
+
+RESPUESTA: add usuario, se colocar el password y se repite la contraseña
+
+14-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+	
+PASOS:
+ 1: mkdir canaima-semilla
+ 2: apt-get source canaima-semilla
+ 3: cd canaima-semilla-3.0+dev20140123152548/
+ 4: cd profiles/
+ 5: cd popular/
+ 6: nano profile.conf 
+ 7: c-s contuir --medio="iso" --arquitectura="i386" --sabor="popular"
+
+
+
+
+
+
+15- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+
+
+PASOS:
+  1: git add  
+  2: git commit -a (para comentar) 
+  3: git push (para subir con usuario y contraseña)	
+
+16- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición: se nombran segun las necesidades del usuario
+
+PASOS:
+ 1: /boot arranque 102 gb
+ 2: /boot sistema  25 gb
+ 3: /home usuario 75% del disco duro
+ 4: /swap memoria virtual 
+
+17- Como hago un repositorio con debmirror, comando.
+
+PASOS:
+ 1: lb-mirror-binary
+ 2: lb-mirror-dedian-install
+ 3: lb-paret-mirror-binary
+ 4: lb-paret-mirror-debian-installer
+ 5: colorar el url: http://fdp.debian.org/debian
+
+18- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+ Respuesta: echo carla_rincones >> examen.txt
+ 
+19- crear un archivo permiso.txt y que los dueños sean root y usuario.
+ PASOS:
+ 1: root@canaima-popular:/home/usuario# touch permiso
+	
+20- Como matar un procesos usando top. 
+PASOS:
+ 1: ps -aux |grep
+ 2: kill -9 

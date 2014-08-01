@@ -1,0 +1,3 @@
+# adduser usuario
+
+# passwd usuario

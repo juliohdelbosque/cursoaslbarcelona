@@ -1,0 +1,499 @@
+   80  cd ..
+   81  ls -l
+   82  cd ayuda/
+   83  ls -l
+   84  cd canaima-notas-gnome/
+   85  ls -l
+   86  cd es/
+   87  ls -l
+   88  cd ..
+   89  cd ..
+   90  cd ..
+   91  ls -l
+   92  cd debian/
+   93  ls -l
+   94  cd source/
+   95  ls -l
+   96  cd ..
+   97  cd ..
+   98  ls -l
+   99  clear
+  100  ls -l
+  101  nano AUTHORS 
+  102  nano canaima_notas_gnome.py 
+  103  dpkg-buildpackage -us -uc
+  104  dpkg-source --commit
+  105  dpkg-buildpackage -us -uc
+  106  cd ..
+  107  ls -l
+  108  cd canaima-notas-gnome-4.0/
+  109  nano canaima_notas_gnome.py 
+  110  dpkg-buildpackage -us -uc
+  111  dpkg-source --commit
+  112  dpkg-buildpackage -us -uc
+  113  cd ..
+  114  cd 
+  115  mkdir amigo
+  116  cd amigo
+  117  pwd
+  118  rm amigo
+  119  cd /home/usuario/control/canaima
+  120  rm notas
+  121  rm -r notas
+  122  mkdir amigo
+  123  cd amigo
+  124  apt-get source amigu
+  125  ls -l
+  126  cd amigu-0.7.6/
+  127  ls -l
+  128  cd amigu/
+  129  ls -l
+  130  cd gui/
+  131  ls -l
+  132  nano amigugtk.py 
+  133  exit
+  134  cd control/
+  135  df -h
+  136  aptitude install aptmirror
+  137  aptitude install apt-mirror
+  138  aptitude show apt-mirror
+  139  nano /etc/apt/mirror.list
+  140  nano /etc/apt/mirror.list
+  141  apt-mirror
+  142  nano /etc/apt/mirror.list
+  143  ls -l
+  144  cd cursoaslbarcelona/
+  145  ls -l
+  146  ls -l
+  147  ls -l
+  148  git pull
+  149  ls -l
+  150  git pull
+  151  git pull
+  152  ls -l
+  153  git pull
+  154  git pull
+  155  git pull
+  156  git pull
+  157  git pull
+  158  cd ..
+  159  ls -l
+  160  rm -r cursoaslbarcelona/
+  161  ls -l
+  162  git clone https://github.com/juliohdelbosque/cursoaslbarcelona
+  163  cd cursoaslbarcelona/
+  164  ls -l
+  165  cd var
+  166  cd /
+  167  cd var/spool
+  168  ls -l
+  169  cd apt-mirror/
+  170  ls -l
+  171  cd /
+  172  cd var/www
+  173  ls -l
+  174  aptitude show root@canaima-popular:/home/usuario/control/cursoaslbarcelona# aptitude install testdisk photorec foremost
+  175  aptitude show photorec
+  176  apt-get install unetbooting
+  177  apt-get show unetbooting
+  178  aptitude show ubooting
+  179  aptitude install unetbooting
+  180  apt-get install unetbootin
+  181  unetbootin
+  182  cd /dev
+  183  ls -l
+  184  cd ..
+  185  cd mnt
+  186  ls -l
+  187  cd ..
+  188  cd media
+  189  ls -l
+  190  fdisk -l
+  191  dd if=/home/usuario/Escritorio/canaima-popular-4.0~estable_i386Jesus-Cruz-ASL-ANZ.iso of=/dev/sdb1
+  192  ls -l
+  193  aptitude show gparted
+  194  aptitude install gparted
+  195  aptitude search canaima-
+  196  aptitude install imagemagick
+  197  exit
+  198  CD CON
+  199  cd control/
+  200  ls -l
+  201  cd curso
+  202  cd ..
+  203  cd cursoaslbarcelona/
+  204  ls -l
+  205  git add Manual_Administrador.pdf
+  206  git commit -a
+  207  git push
+  208  ls -l
+  209  cd ..
+  210  git add cursoaslbarcelona
+  211  cd /usr/share/canaima-semilla/
+  212  clear
+  213  ls -l
+  214  cd profiles/
+  215  ls -l
+  216  cd popular/
+  217  ls -l
+  218  nano profile.conf 
+  219  cd ..
+  220  ls -l
+  221  cd ..
+  222  ls -l
+  223  cd profiles/
+  224  ls -l
+  225  cd ..
+  226  ls -l
+  227  c-s-gui
+  228  ls -l
+  229  cd profiles/
+  230  ls -l
+  231  cp -R popular curso
+  232  ls -l
+  233  cd curso
+  234  ls -l
+  235  nano profile.conf 
+  236  c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  237  exit
+  238  cd control/
+  239  ls -l
+  240  cd canaima/
+  241  ls -l
+  242  cd amigo/
+  243  ls -l
+  244  cd amigu-0.7.6/
+  245  ls -l
+  246  ls -l
+  247  cd amigu/
+  248  ls -l
+  249  cd gui/
+  250  ls -l
+  251  nano amigugtk.py 
+  252  dpkg-buildpackage -us -uc
+  253  ls -l
+  254  dpkg-buildpackage -us -uc
+  255  cd ..
+  256  cd ..
+  257  dpkg-buildpackage -us -uc
+  258  ls -l
+  259  cd amigu/
+  260  ls -l
+  261  cd ..
+  262  ls -l
+  263  cd ..
+  264  ls -l
+  265  cd amigu-0.7.6/
+  266  ls -l
+  267  dpkg-buildpackage -us -uc
+  268  dpkg-source --commit
+  269  dpkg-buildpackage -us -uc
+  270  ls -l
+  271  cd ..
+  272  ls -l
+  273  ls -l
+  274  cd ..
+  275  rm -r amigo/
+  276  mkdir amigo
+  277  cd amigo/
+  278  ls -l
+  279  apt-get source amigu
+  280  ls -l
+  281  cd amigu-0.7.6/
+  282  ls -l
+  283  cd amigu/
+  284  ls -l
+  285  cd gui/
+  286  ls -l
+  287  nano amigugtk.py 
+  288  dpkg-buildpackage -us -uc
+  289  cd ..
+  290  cd ..
+  291  dpkg-buildpackage -us -uc
+  292  dpkg-buildpackage -us -uc -d
+  293  dpkg-source --commit
+  294  dpkg-buildpackage -us -uc
+  295  dpkg-buildpackage -us -uc -d
+  296  ls -l
+  297  cd ..
+  298  ls -l
+  299  dpkg -i amigu_0.7.6-2_i386.deb
+  300  amigu
+  301  cd ..
+  302  git add amigo
+  303  git commit -a
+  304  git push
+  305  nano /etc/apt/sources.list
+  306  clear
+  307  aptitude update
+  308  aptitude install canaima-semilla
+  309  clear
+  310  ps -aux | grep canaima-semilla
+  311  kill -9 5167
+  312  ps -aux | grep canaima-semilla
+  313  ps -aux | grep canaima-semilla
+  314  kill -9 3488
+  315  ps -aux | grep canaima-semilla
+  316  ps -aux | grep c-s-gui
+  317  kill -9 5119
+  318  ps -aux | grep c-s-gui
+  319  tailf /var/log/syslog
+  320  ls -l
+  321  cd ..
+  322  ls -l
+  323  cd curso
+  324  ls -l
+  325  ls -l
+  326  ls -la
+  327  aptitude install qemu
+  328  aptitude install qemu
+  329  exit
+  330  ps -aux | grep libreo
+  331  top
+  332  ps -aux | grep soffice
+  333  kill -9 5245
+  334  ps -aux | grep soffice
+  335  ps -aux | grep canaima
+  336  kill -9 5273
+  337  ps -aux | grep canaima
+  338  kill -9 5274
+  339  ps -aux | grep canaima
+  340  ps -aux | grep canaima
+  341  ps -aux | grep libreo
+  342  top
+  343  ps -aux | grep soffice
+  344  kill -9 5245
+  345  ps -aux | grep soffice
+  346  ps -aux | grep canaima
+  347  kill -9 5273
+  348  ps -aux | grep canaima
+  349  kill -9 5274
+  350  ps -aux | grep canaima
+  351  ps -aux | grep canaima
+  352  ps -aux | grep qemu
+  353  kill -9 24420
+  354  ps -aux | grep qemu
+  355  exit
+  356  cd control/
+  357  ls -l
+  358  rm -r iso1
+  359  cp -R iso iso1
+  360  cd iso1
+  361  chroot chroot
+  362  ls -shroot
+  363  ls -chroot
+  364  ls -l
+  365  ls chroot
+  366  cd ..
+  367  cp -R iso1 iso2
+  368  cd iso2
+  369  ls -l
+  370  du -sh /iso
+  371  clear
+  372  lb binary
+  373  ls -l
+  374  cd
+  375  cd /home/usuario/control/
+  376  ls -l
+  377  rm -r iso2
+  378  cp -R iso1 iso2
+  379  cd iso2
+  380  cd ..
+  381  cd iso1
+  382  ls -l
+  383  cd ..
+  384  cd iso2
+  385  ls -l
+  386  lb binary
+  387  ls -l
+  388  cd ..
+  389  ls -l
+  390  rm -r iso2
+  391  ls -l
+  392  cp -R iso1 iso2
+  393  cd is02
+  394  cd iso2
+  395  ls -l
+  396  cd config/
+  397  ls -l
+  398  nano bootstrap
+  399  cd ..
+  400  lb binary
+  401  cd ..
+  402  ls -l
+  403  rm -r iso2
+  404  cp -R iso1 iso2
+  405  cd iso2
+  406  ls -l
+  407  cd config/
+  408  ls -l
+  409  nano bootstrap 
+  410  LS -L
+  411  ls -l
+  412  cd ..
+  413  ls -l
+  414  cd config/
+  415  ls -l
+  416  nano binary
+  417  cd ..
+  418  lb binary
+  419  ls -l
+  420  cd binary/
+  421  ls -l
+  422  ls -l
+  423  cd ..
+  424  ls -l
+  425  cd binary/
+  426  ls -l
+  427  cd ..
+  428  lb binary_iso
+  429  qemu -cdrom binary.iso -boot d -m 1024
+  430  qemu -cdrom binary.iso -boot d -m 512
+  431  cd ..
+  432  rm -r iso2
+  433  cd iso1
+  434  ls -l
+  435  chroot chroot
+  436  ls -l
+  437  cd config/
+  438  ls -l
+  439  ls -l
+  440  nano binary
+  441  cd ..
+  442  ls -l
+  443  cd ..
+  444  ls -l
+  445  cd iso1
+  446  cd ..
+  447  cp -R iso1 iso2
+  448  cd iso2
+  449  lb binary
+  450  ls -l
+  451  cd binary/
+  452  ls -l
+  453  cd ..
+  454  ls -l
+  455  ls -l
+  456  lb binary_iso
+  457  ls -l
+  458  qemu -cdrom binary.iso -boot d -m 512
+  459  qemu -cdrom binary.iso -boot d -m 512
+  460  cd ..
+  461  rm -r iso2
+  462  cd iso1
+  463  chroot chroot
+  464  cd ..
+  465  cp -R iso1 iso2
+  466  cd iso2
+  467  lb binary
+  468  ls -l
+  469  lb binary_iso
+  470  ls -l
+  471  qemu -cdrom binary.iso -boot d -m 512
+  472  qemu -hda binary.iso -boot d -m 512
+  473  man qemu
+  474  qemu -cdrom binary.iso -boot d -m 512
+  475  exit
+  476  aptitude show qemu
+  477  mkdir imagen
+  478  cd imagen
+  479  qemu -img create NOMBRE.img 2G
+  480  qemu-img create NOMBRE.img 2G
+  481  ls -l
+  482  du -sh NOMBRE.img 
+  483  tail /var/log/syslog
+  484  ls -l
+  485  exit
+  486  cd control/
+  487  cd cursoaslbarcelona/
+  488  ls -l
+  489  git pull
+  490  ls -l
+  491  more qemu.txt
+  492  free -m
+  493  ps -aux | grep qemu
+  494  ps -aux | grep qemu
+  495  kill -9 29560
+  496  ps -aux | grep qemu
+  497  ps -aux | grep qemu
+  498  kill -9 3758
+  499  exit
+  500  cd control/
+  501  cd cursoaslbarcelona/ivandelgado/
+  502  clear
+  503  touch Examen-10153270
+  504  nano Examen-10153270 
+  505  clearl
+  506  clear
+  507  ls -l
+  508  touch curso1.txt
+  509  ls -l
+  510  chmod 065 curso1.txt
+  511  ls -l
+  512  touch curso2.txt
+  513  ls -l
+  514  chmod 726 curso2.txt
+  515  ls -l 
+  516  touch curso3.txt
+  517  ls -l
+  518  chmod 111 curso3.txt
+  519  ls -l
+  520  touch curso4.txt
+  521  chmod 227 curso4.txt
+  522  ls -l
+  523  touch curso5.txt
+  524  chmod 064 curso5.txt
+  525  ls -l
+  526  df -h
+  527  df -h > respuesta_3.txt
+  528  more respuesta_3.txt 
+  529  echo kill -9 PID respuesta_4.txt
+  530  more respuesta_4.txt 
+  531  echo kill -9 PID > respuesta_4.txt
+  532  more respuesta_4.txt 
+  533  mkdir libreofficewriter
+  534  ls -l
+  535  ps -aux | grep libreofficewriter
+  536  ps -aux | grep libreofficewriter
+  537  ps -aux | grep libreofficewriter
+  538  ps -aux | grep libreofficewriter
+  539  ps -aux | grep libreoffice
+  540  ps -aux | grep libreoffice > l.txt
+  541  more l.txt
+  542  ps -aux | grep libreoffice > l.txt
+  543  more l.txt
+  544  ps -aux | grep libreoffice
+  545  kill -9 4027
+  546  kill -9 4049
+  547  nano l.txt
+  548  clear
+  549  ls -l
+  550  mkdir procesador
+  551  uname -a
+  552  tail /proc/cpuinfo
+  553  cd proc
+  554  nano /etc/network/interfaces
+  555  touch configurardhcp.txt
+  556  nano configurardhcp.txt
+  557  more configurardhcp.txt
+  558  ls -l
+  559  mkdir sl
+  560  ls -l
+  561  cd sl
+  562  ls -l
+  563  apt-get source sl
+  564  nano /etc/apt/sources.list
+  565  apt-get source sl
+  566  nano /etc/apt/sources.list
+  567  aptitude update
+  568  cd..
+  569  cd ..
+  570  cd ..
+  571  cd ..
+  572  ls -l
+  573  cd canaima/
+  574  ls -l
+  575  cd ..
+  576  cd cursoaslbarcelona/ivandelgado/
+  577  history
+  578  history > history.txt
