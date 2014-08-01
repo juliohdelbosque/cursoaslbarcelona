@@ -1,0 +1,500 @@
+  266  qemu -cdrom binary.iso -boot d -m 1024
+  267  halt
+  268  agregar "1.- lb config"
+  269  agregar "1.- lb config"
+  270  agregar "2.- lb bootstrap"
+  271  agregar "3.- lb chroot"
+  272  agregar "4.- lb binary"
+  273  agregar "qemu -cdrom binary.iso -boot d -m 1024"
+  274  cd /home/usuario/control/iso2/
+  275  ll
+  276  qemu -cdrom binary.iso -boot d -m 1024
+  277  cd ..
+  278  rm -rf iso2/
+  279  ll
+  280  cd iso1/
+  281  chroot chroot
+  282  chroot chroot
+  283  cd ..
+  284  cd iso
+  285  cd ..
+  286  cd iso1/
+  287  ll
+  288  cd config/
+  289  ll
+  290  cd ..
+  291  ll
+  292  cd config/
+  293  nano bootstrap 
+  294  nano binary 
+  295  cd ..
+  296  cd ..
+  297  cp -R iso1 iso2
+  298  cd iso2/
+  299  lb binary
+  300  lb binary_iso
+  301  ll
+  302  qemu -cdrom binary.iso -boot d -m 1024
+  303  qemu -cdrom binary.iso -boot d -m 1024
+  304  hostname usuario
+  305  exit
+  306  cd control/
+  307  mkdir test
+  308  cd test/
+  309  mkdir tt
+  310  chroot tt/
+  311  cd 
+  312  cd /home/usuario/control/
+  313  rmdir test/
+  314  rm -r test/
+  315  aptitude search xserver-
+  316  aptitude search xserver- > xserver.txt
+  317  nano  xserver.txt 
+  318  chmod 755 xserver.txt 
+  319  chmod 775 xserver.txt 
+  320  chmod 777 xserver.txt 
+  321  ls
+  322  exit
+  323  ls
+  324  cp xserver.txt control/iso1/chroot/home/usuario/
+  325  cd control/
+  326  ll
+  327  du -sh iso1
+  328  cd control/
+  329  ll
+  330  rm -rf iso2/
+  331  cd iso
+  332  chroot chroot
+  333  chroot chroot
+  334  cd ..
+  335  cp /home/usuario/xserver.txt iso1/chroot/home/usuario/
+  336  ll
+  337  cd iso1/
+  338  chroot chroot
+  339  chroot chroot
+  340  cd ..
+  341  cp -R iso1 iso2
+  342  cd iso2/
+  343  lb binary
+  344  lb binary_iso
+  345  qemu -cdrom binary.iso -boot d -m 1024
+  346  halt
+  347  hostname usuario
+  348  exi
+  349  exit
+  350  cd control/iso2/
+  351  ll
+  352  qemu -cdrom binary.iso -boot d -m 1024
+  353  qemu -cdrom binary.iso -boot d -m 1024
+  354  qemu -cdrom binary.iso -boot d -m 512
+  355  reboot
+  356  cd control/iso2/
+  357  qemu -cdrom binary.iso -boot d -m 1024
+  358  qemu -cdrom binary.iso -boot d -m 1024
+  359  qemu -cdrom binary.iso -boot d -m 1024
+  360  qemu -cdrom binary.iso -boot d -m 1024
+  361  qemu -cdrom binary.iso -boot d -m 1024
+  362  cd ..
+  363  cd ..
+  364  ls
+  365  mv xserver.txt control/
+  366  ls
+  367  cd control/
+  368  ls
+  369  cp xserver.txt /var/www/
+  370  ifconfig
+  371  cd iso2/
+  372  qemu -cdrom binary.iso -boot d -m 1024
+  373  halt
+  374  hostname usuario
+  375  exi
+  376  exit
+  377  respalda
+  378  nano recomendados_gnome.txt
+  379  cp recomendados_gnome.txt control/
+  380  ll
+  381  ls
+  382  cd control/
+  383  ll
+  384  ll
+  385  chmod 775 recomendados_gnome.txt 
+  386  chmod 777 recomendados_gnome.txt 
+  387  cd cursoaslbarcelona/
+  388  kk
+  389  ls
+  390  ll
+  391  git pull 
+  392  ll
+  393  mkdir franklin
+  394  ls
+  395  cd franklin/
+  396  ll
+  397  cd ..
+  398  rmdir franklin/
+  399  mkdir fraklin_lugo
+  400  ll
+  401  cd fraklin_lugo/
+  402  iwlist scan
+  403  apt-cache search scan
+  404  apt-cache iwlist
+  405  apt-cache search iwlist
+  406  aptitude search iwlist
+  407  cd /home/usuario/control/cursoaslbarcelona/fraklin_lugo/
+  408  cd control/cursoaslbarcelona/fraklin_lugo/
+  409  wget http://172.17.1.130/examen.txt
+  410  ll
+  411  ls
+  412  touch examen
+  413  rm examen
+  414  mkdir examen-17537108
+  415  ll
+  416  cd examen-17537108/
+  417  touch datos.txt
+  418  nano datos.txt 
+  419  cat datos.txt 
+  420  touch curso{1,2,3,4,5}.txt
+  421  ls
+  422  rm cur*
+  423  ls
+  424  cd ..
+  425  touch curso{1,2,3,4,5}.txt
+  426  ls
+  427  nano examen
+  428  nano examen.txt 
+  429  chmod 065 curso1.txt 
+  430  ls -al
+  431  chmod 726 curso2.txt 
+  432  chmod 111 curso3.txt 
+  433  chmod 227 curso4.txt 
+  434  chmod 064 curso5.txt 
+  435  ls
+  436  ls -al
+  437  gparted
+  438  fdisk -l
+  439  lsblk
+  440  df -h
+  441  fdisk 
+  442  fdisk -l
+  443  cat /proc/
+  444  cat /proc/mounts 
+  445  mkdir libreofficewriter
+  446  cd libreofficewriter/
+  447  ps -aux | grep libreofficewriter 
+  448  ps -aux | grep libreofficewriter > l.txt
+  449  cat l.txt 
+  450  cd ..
+  451  mkdir procesador
+  452  cd procesador/
+  453  ls
+  454  cat /proc/cpuinfo 
+  455  cat /proc/cpuinfo > procesador.txt
+  456  ls
+  457  cat procesador.txt 
+  458  cd ..
+  459  dhclient
+  460  dhclient eth0 
+  461  ifconfig
+  462  more examen
+  463  more examen.txt 
+  464  mkdir sl
+  465  cd sl/
+  466  apt-get source sl
+  467  nano /etc/apt/sources.list
+  468  apt-get update
+  469  apt-get source sl
+  470  ks
+  471  ks
+  472  ls
+  473  cd sl-3.03/
+  474  ls
+  475  ll
+  476  cd debian/
+  477  ls
+  478  ll
+  479  cd source/
+  480  ll
+  481  cd ..
+  482  ll
+  483  cd ..
+  484  ll
+  485  nano sl.c
+  486  nano sl.h
+  487  cd,,
+  488  cd ..
+  489  ls
+  490  cd  sl-3.03/
+  491  dpkg-buildpackage -us -uc
+  492  dpkg-source --commit
+  493  dpkg-buildpackage -us -uc
+  494  cd..
+  495  ls
+  496  ll
+  497  cd ..
+  498  ll
+  499  dpkg -i sl_3.03-17_i386.deb 
+  500  exit
+  501  cd /home/usuario/control/cursoaslbarcelona/fraklin_lugo/
+  502  ls
+  503  cd sl/
+  504  ls
+  505  cd ..
+  506  ls
+  507  mkdir bienvenido
+  508  cd bienvenido/
+  509  nano /etc/apt/sources.list
+  510  pwd
+  511  apt-get source canaima-bienvenido-gnome
+  512  apt-get update
+  513  apt-get source canaima-bienvenido-gnome
+  514  ll
+  515  cd canaima-bienvenido-gnome-3.1/
+  516  ls
+  517  cd gui/
+  518  ls
+  519  nano main.py 
+  520  nano main.py 
+  521  ls
+  522  cd data/
+  523  ls
+  524  nano interfaz.
+  525  nano interfaz.html 
+  526  ls
+  527  ll
+  528  cd ..
+  529  ll
+  530  cd ..
+  531  ll
+  532  cd debian/
+  533  kk
+  534  ls
+  535  cd source/
+  536  ll
+  537  cd. .
+  538  cd ..
+  539  ll
+  540  cd ..
+  541  ls
+  542  cd gui/
+  543  ls
+  544  cd images/
+  545  ls
+  546  cd ..
+  547  cd data/
+  548  ll
+  549  nano interfaz.html 
+  550  ls
+  551  ll
+  552  cd ..
+  553  ll
+  554  cd..
+  555  ll
+  556  cd..
+  557  ll
+  558  cd ..
+  559  ll
+  560  nano gui.conf 
+  561  nano canaima-bienvenido-gnome.sh 
+  562  ll
+  563  cd gui/
+  564  ll
+  565  nano main.py 
+  566  cd data/
+  567  ll
+  568  ls
+  569  ll
+  570  nano interfaz.n
+  571  nano interfaz.html 
+  572  ll
+  573  nano interfaz.glade 
+  574  nano javascript.js 
+  575  nano estilo.css 
+  576  cd..
+  577  ls
+  578  cd..
+  579  cd ..
+  580  cd ..
+  581  ls
+  582  cd debian/
+  583  ll
+  584  cd source/
+  585  ll
+  586  cdc ..
+  587  cd ..
+  588  ll
+  589  cd ..
+  590  ll
+  591  cd ..
+  592  ll
+  593  cd canaima-bienvenido-gnome-3.1/
+  594  ll
+  595  cd ..
+  596  ll
+  597  rm -rf *
+  598  ll
+  599  apt-get source canaima-bienvenido-gnome
+  600  ls
+  601  cd canaima-bienvenido-gnome-3.1/
+  602  ll
+  603  nano TODO 
+  604  nano THANKS 
+  605  nano README 
+  606  nano Makefile 
+  607  ll
+  608  cd gui/
+  609  ll
+  610  cd data/
+  611  ll
+  612  nano interfaz.
+  613  nano interfaz.html 
+  614  nano interfaz.html 
+  615  ls
+  616  cd ..
+  617  ll
+  618  cd images/
+  619  ll
+  620  cd ..
+  621  nano main.py 
+  622  lls
+  623  ll
+  624  cd ..
+  625  ll
+  626  cd debian/
+  627  ll
+  628  cd source/
+  629  ll
+  630  nano format 
+  631  cd ..
+  632  ll
+  633  cd ..
+  634  ll
+  635  cd gui/
+  636  ll
+  637  nano main.py 
+  638  ll
+  639  cd data/
+  640  ll
+  641  nano interfaz.html 
+  642  ll
+  643  cd ..
+  644  cd ..
+  645  l
+  646  ll
+  647  cd ..
+  648  ll
+  649  cd canaima-bienvenido-gnome-3.1/
+  650  ll
+  651  cd gui/
+  652  ll
+  653  nano  main.py 
+  654  cd ..
+  655  nano /etc/apt/sources.list
+  656  cd ..
+  657  rm -rf *
+  658  ll
+  659  apt-get update
+  660  apt-get source canaima-bienvenido-gnome
+  661  ll
+  662  cd canaima-bienvenido-gnome-4.7/
+  663  ll
+  664  cd gui/
+  665  ll
+  666  cd data/
+  667  ll
+  668  cd assets/
+  669  ll
+  670  ll
+  671  cd ..
+  672  cd ..
+  673  ll
+  674  cd ..
+  675  ll
+  676  cd debian/
+  677  ll
+  678  cd source/
+  679  ll
+  680  cd ..
+  681  cd ..
+  682  ll
+  683  cd gui/
+  684  ll
+  685  cd data/
+  686  ll
+  687  cd shell/
+  688  ll
+  689  nano 01.html 
+  690  nano 01.html 
+  691  cd ..
+  692  cd ..
+  693  cd ..
+  694  cd ..
+  695  cd canaima-bienvenido-gnome-4.7/
+  696  ll
+  697  dpkg-buildpackage -us -uc
+  698  dpkg-source --commit
+  699  dpkg-buildpackage -us -uc
+  700  ll
+  701  cd ..
+  702  ll
+  703  dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+  704  apt-get install iwlist
+  705  aptitude search iwlist
+  706  apt-cache search iwlist
+  707  man passwd
+  708  apt-get install iwconfig
+  709  cd ..
+  710  ll
+  711  mkdir canaima-semilla
+  712  cd canaima-semilla/
+  713  cp /usr/share/canaima-semilla/profiles/primera-base/profile.conf .
+  714  ll
+  715  nano profile.conf 
+  716  cd /usr/share/canaima-semilla/
+  717  ll
+  718  cd profiles/
+  719  ll
+  720  cd primera-base/
+  721  ls
+  722  cd 
+  723  ll
+  724  cd /home/usuario/control/cursoaslbarcelona/fraklin_lugo/
+  725  cp -a /usr/share/canaima-semilla/profiles/primera-base/ .
+  726  ls
+  727  mv primera-base/ canaima-semilla/
+  728  ll
+  729  cd canaima-semilla/
+  730  ls
+  731  rm profile.conf 
+  732  mv primera-base/ franklin-lugo
+  733  ll
+  734  cd franklin-lugo/
+  735  ll
+  736  nano profile.conf 
+  737  cd ..
+  738  cd ..
+  739  cd  canaima-semilla/
+  740  ll
+  741  cd franklin-lugo/
+  742  ll
+  743  nano profile.conf 
+  744  cd ..
+  745  cd ..
+  746  ññ
+  747  ll
+  748  cd canaima-semilla/
+  749  ll
+  750  touch pasos_creacion_iso.txt
+  751  nano pasos_creacion_iso.txt 
+  752  ll
+  753  cd ..
+  754  cd ,,
+  755  cd ..
+  756  cd ..
+  757  mkdir debian
+  758  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,nonfree /home/usuario/control/debian
+  759  cd debian/
+  760  ll
+  761  cd ..
+  762  rm -rf debian/
+  763  cd cursoaslbarcelona/fraklin_lugo/
+  764  ll
+  765  history > historial.txt
