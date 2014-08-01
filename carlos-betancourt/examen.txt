@@ -37,9 +37,13 @@ mdkir procesador
 
 
 7-Como configuras una interfaz de red con dhcp
+editamos el fichero interfaces
+nos logueamos como root
 
 editamos el archivo /etc/ne/etc/network/interfaces
 debe quedar de la siguiente manera
+
+#fichero interfaces
 auto lo
 iface lo inet loopback
 
@@ -48,30 +52,62 @@ allow-hotplug eth0
 
 8-Que sucede cuando ejecutas el
 comando: touch registros
-.
 
 - Crea un archivo llamado registros
 
-
 	
 9-El comando: more examen
-
 
 - Muestra las primeras líneas del archivo examen
 
 10-crear un carpeta sl
 descargar el paquete fuente de sl, modificar el tren 
 con su nombre generar un nuevo paquete, e instalarlo
+mkdir sl
+cd sl
+#dpkg-buildpackage -us -uc
+sino funciona usamos el 
+#dpkg-source --commit
+dpkg-buildpackage -us -uc
+
+un directorio atras
+compilamos
+ dpkg -i sl_3.03-17_i386.deb
+
 
 
 11- crear la carpeta bienvenido
 descargar el paquete fuente de canaima-bievenido-gnome, modificar el inicio 
 con su nombre generar un nuevo paquete, e instalarlo
+mkdir canaima-bienvenido-gnome
+cd /canaima-bienvenido-gnome
+apt-get source canaima-bienvenido-gnome 
+	ls
+ cd canaima-bienvenido-gnome-4.7/
+     ls
+cd /guiroot@canaima-popular:/home/usuario/control/cursoaslbarcelona/carlos-betancourt/canaima-semilla/canaima-bienvenido-gnome-4.7/gui/data/shell# 
 
-	
+editamos lo que que necesitemos caqmbiar ejemplo
+guardamos
+
+ vamos nuevamente al directorio 
+
+ cd canaima-bienvenido-gnome-4.7/
+compilamos
+dpkg-buildpackage -us -uc
+dpkg-source --commit
+dpkg-buildpackage -us -uc
+vamos a un directorio anterior
+/cursoaslbarcelona/carlos-betancourt/canaima-semilla#
+ejecutamos 
+/cursoaslbarcelona/carlos-betancourt/canaima-semilla# dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+
+verificamos si lo cambiamos
+
+
 
 12-comando para listar redes inalambricas.
-ifconfig o lspci
+ifconfig wlanx
 
 13- Como agregamos el usuario y gestionamos el cambio de contraseña
 addusser carlos 
@@ -110,20 +146,25 @@ IMG_DEBIAN_INSTALLER_PRESEED="profile"
 IMG_DEBIAN_INSTALLER_GTK="profile"
 
 
-oot@canaima-popular:/usr/share/canaima-semilla/profiles# rm -r carlos/
+
 root@canaima-popular:/usr/share/canaima-semilla/profiles# touch /usr/share/canaima-semilla/profiles/prueba/ /carlos
 root@canaima-popular:/usr/share/canaima-semilla/profiles# ls
 curso  popular  primera-base  prueba
 root@canaima-popular:/usr/share/canaima-semilla/profiles# cp -R /usr/share/canaima-semilla/profiles/prueba/ /carlos
 cp: no se puede sobreescribir el no directorio «/carlos» con el directorio «/usr/share/canaima-semilla/profiles/prueba/»
 
-15- donde se modifican los repositorios en debian, 
-   - cuales son los pasos para ejecutar un repositorio nuevo.
-	
+15- donde se modifican los repositorios en debian,
+ /etc/apt/sources.list
 
+ 
+   - cuales son los pasos para ejecutar un repositorio nuevos	
+aptitude update
 16- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
 número de partición:
-sda1 sdb1 sdc1 tc
+sda1 
+ext4 raiz
+swap area de intercambio 
+
 17- Como hago un repositorio con debmirror, comando.
 creamos un fichero con extencion .sh
 en el comienzo de este fichero debe aparecer #!
