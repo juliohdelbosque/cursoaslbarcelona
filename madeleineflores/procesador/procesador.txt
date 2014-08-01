@@ -1,0 +1,2 @@
+model name	: Intel(R) Pentium(R) Dual  CPU  E2180  @ 2.00GHz
+
