@@ -1,0 +1,17 @@
+Package: canaima-bienvenido-gnome
+Version: 4.7
+Architecture: all
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Installed-Size: 1183
+Depends: python, python-webkit, python-gtk2, xdg-utils, xdg-user-dirs, xdg-user-dirs-gtk, canaima-ayuda, gnome-icon-theme-gnamon, libjs-jquery, python-support (>= 0.90)
+Recommends: cunaguaro, guacharo, gimp, shotwell, simple-scan, libreoffice-draw, libreoffice-writer, libreoffice-calc, libreoffice-impress, totem, empathy, brasero, rhythmbox, canaima-notas-gnome
+Conflicts: canaima-bienvenido (<< 4.0)
+Replaces: canaima-bienvenido (<< 4.0)
+Provides: canaima-bienvenido
+Section: misc
+Priority: optional
+Homepage: http://canaima.softwarelibre.gob.ve/
+Description: Aplicación de bienvenida para Canaima GNU/Linux
+ Muestra una ventana al inicio con las aplicaciones más usadas
+ e información para asistir al usuario con la introduccion
+ en el uso del Sistema Operativo.
