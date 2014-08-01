@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh ${@}
+
+override_dh_auto_install:
+	rm -rf  usr/share/javascript/jquery/jquery.min.js
+	$(MAKE) DESTDIR=$(CURDIR)/debian/canaima-bienvenido-gnome install
+	dh_link usr/share/javascript/jquery/jquery.min.js usr/share/canaima-bienvenido-gnome/data/assets/js/jquery.min.js
+	

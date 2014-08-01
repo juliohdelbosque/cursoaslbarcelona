@@ -1,0 +1,500 @@
+  280  apt-get source amigu
+  281  ls
+  282  cd amigu-0.7.6/
+  283  ls
+  284  cd amigu/
+  285  ls
+  286  cd gui/
+  287  ls
+  288  nano amigugtk.py 
+  289  nano amigugtk.py 
+  290  dpkg-buildpackage -us -uc
+  291  dpkg-buildpackage -us -uc -d
+  292  dpkg-buildpackage -us -uc -d
+  293  dpkg-buildpackage -us -uc -d
+  294  cd ..
+  295  dpkg-buildpackage -us -uc -d
+  296  dpkg-buildpackage -us -uc -d
+  297  dpkg-buildpackage -us -uc -d
+  298  ls
+  299  cd gui/
+  300  ls
+  301  dpkg-buildpackage -us -uc -d
+  302  cd ..
+  303  cd ..
+  304  dpkg-buildpackage -us -uc -d
+  305  apt-get source -commit
+  306  apt-get source --commit
+  307  dpkg-source -commit
+  308  dpkg-source --
+  309  dpkg-source --commit
+  310  cd ..
+  311  ls
+  312  cd amigu-0.7.6/
+  313  dpkg-buildpackage -us -uc -d
+  314  cd ..
+  315  ls
+  316  dpkg -i amigu_0.7.6-2_i386.deb 
+  317  amigu
+  318  ls
+  319  cd amigu-0.7.6/
+  320  ls
+  321  cd amigu/
+  322  ls
+  323  cd gui/
+  324  ls
+  325  nano amigugtk.py 
+  326  nano /etc/apt/sources.list
+  327  aptitude update 
+  328  aptitude install canima-semilla
+  329  aptitude install canaima-semilla 
+  330  aptitude clean
+  331  ps -aux 
+  332  ps -aux 9 28211
+  333  ps -aux | grep 9 28211
+  334  ps -aux | grep
+  335  ps -aux | grep c-s-gui
+  336  ps -aux 9 28211
+  337  ps -aux | grep c-s-gui
+  338  kill pull 
+  339  kill pull 9 28211
+  340  ps -aux | grep c-s-gui
+  341  kill pull 9 28765
+  342  kill pull 9 28765
+  343  libreoffice 
+  344  libreoffice 
+  345  cd..
+  346  cd ..
+  347  cd ..
+  348  nano comandos.txt 
+  349  cd /usr/share/
+  350  ls
+  351  cd canaima-semilla
+  352  ls canaima
+  353  ls canaima-semilla
+  354  ls canaima-semilla
+  355  ls canaima-semilla
+  356  ls canaima-semilla
+  357  ls canaima-semilla
+  358  cd canaima-semilla/
+  359  ls
+  360  cd profiles/
+  361  ls
+  362  cd popular/
+  363  ls
+  364  nano profile.conf 
+  365  cd ..
+  366  cd ..
+  367  c-c-gui
+  368  c-s-eui
+  369  c-s-e ui
+  370  c-s-e -u -i
+  371  c -s -eui  
+  372  c-s-egui  
+  373  c-s-gui  
+  374  ls
+  375  ls
+  376  c-s-gui  
+  377  cp -r /home/ususario/control/curso .
+  378  ls
+  379  cd curso/
+  380  ls
+  381  cd popular/
+  382  ls
+  383  cd ..
+  384  cd ..
+  385  mc curso/ c
+  386  mv curso/ c
+  387  cd c/
+  388  ls
+  389  mv popular/ curso
+  390  mv curso/ /usr/share/canaima-semilla/profiles/
+  391  cd ..
+  392  ls
+  393  mv c /home/ususario/control/
+  394  ls
+  395  cd curso/
+  396  ls
+  397  cd /home/ususario/
+  398  ls
+  399  cd control/
+  400  ls
+  401  cd c
+  402  ls
+  403  cd ..
+  404  ls
+  405   c-s construir --medio="iso" --arquitectura="i386" --sabor="curso"
+  406  exit 
+  407  kill pull  9 28694
+  408  kill pull  9  28864
+  409  kill pull  9  28827
+  410  ps -aux | grep libreoffice
+  411  kill pull 9 29027
+  412  ps -aux | grep canaima
+  413  kill pull 9 29255
+  414  kill 9 29255
+  415  kill 9 29305
+  416  kill  pull 9 29305
+  417  kill -9 29305
+  418  kill -9 29255
+  419  ps -aux | grep canaima
+  420  kill -9 29459
+  421  ps -aux | grep canaima
+  422  kill -9 29256
+  423  ps -aux | grep canaima
+  424  kill pull  9  28864exit
+  425  nano /etc/apt/sources.list
+  426  nano /home/ususario/control/iso/base.sh 
+  427  exit
+  428  top
+  429  pkill cunaguaro
+  430  exit
+  431  ls
+  432  cd control/
+  433  ls
+  434  cp -r iso1 iso3
+  435  rm iso2
+  436  rm -r iso2
+  437  cd iso
+  438  cd ..
+  439  cd iso1
+  440  ls
+  441  chroot chroot
+  442  cd config/
+  443  ls
+  444  nano bootstrap 
+  445  nano binary 
+  446  ls
+  447  cd ..
+  448  ls
+  449  ls
+  450  cd ..
+  451  cp -r iso1 iso2
+  452  cd iso2
+  453  ls
+  454  pwd
+  455  lb binary_iso
+  456  lb binary_iso
+  457  cd ..
+  458  rm -R iso2
+  459  cp -R iso1 iso2
+  460  cd iso2
+  461  lb binary_iso
+  462  lb binary_iso
+  463  lb binary
+  464  lb binary_iso
+  465  lb binary
+  466  lb binary_iso
+  467  qemu -cdrom binary.iso -boot d -m 1024
+  468  qemu -cdrom binary.iso -boot d -m 1024
+  469  cd ..
+  470  rm -r iso2
+  471  aptitude search xserver-corg
+  472  aptitude search xserver-xorg
+  473  ls
+  474  cd iso2
+  475  ls
+  476  qemu -cdrom binary.iso -boot d -m 1024
+  477  qemu -cdrom binary.iso -boot d -m 1024
+  478  cd ..
+  479  nano /etc/group
+  480  cd iso2
+  481  ls
+  482  qemu -cdrom binary.iso -boot d -m 1024
+  483  ls
+  484  cd ..
+  485  ls
+  486  aptitude install xserver-xorg-core-dbg 
+  487  cd iso1
+  488  chroot chroot
+  489  cd ..
+  490  cp -r iso1 iso2
+  491  cd iso2
+  492  ls
+  493  lb binary
+  494  lb binary_iso
+  495  lb binary
+  496  lb binary_iso
+  497  rm -R iso2
+  498  reboot 
+  499  reboot 
+  500  nano Examen-(Número de la Cédula de Identidad)
+  501  nano Examen-20734072
+  502  ls
+  503  touch curso1.txt curso2.txt curso3.txt curso4.txt curso5.txt
+  504  ls
+  505  chmod 726 curso1.txt 
+  506  chmod 726 curso2.txt 
+  507  chmod 065 curso1.txt 
+  508  chmod 111 curso3.txt 
+  509  chmod 227 curso4.txt 
+  510  chmod 064 curso5.txt 
+  511  ls -l *.txt
+  512  mkdir libreofficewriter
+  513  ls
+  514  cd libreofficewriter/
+  515  libreofficewriter
+  516  soffice --writer
+  517  soffice --writer > l.txt
+  518  ls
+  519  nano l.txt 
+  520  rm l.txt 
+  521  soffice --writer | grep > l.txt
+  522  ls
+  523  nano l.txt 
+  524  rm l.txt 
+  525  soffice --writer | touch l.txt
+  526  ls
+  527  nano l.txt 
+  528  rm l.txt 
+  529  soffice --writer | cat > l.txt
+  530  ls
+  531  nano l.txt 
+  532  rm l.txt 
+  533  soffice --writer 
+  534  history 1 | grep l.txt
+  535  ls
+  536  soffice --writer  > l.txt
+  537  ls
+  538  nano l.txt 
+  539  nano /etc/apt/sources.list
+  540  soffice --writer | > l.txt
+  541  aptitude update 
+  542  soffice --writer echo > l.txt
+  543  ls 
+  544  nano l.txt 
+  545  rm l.txt 
+  546  echo soffice --writer > l.txt
+  547  ls
+  548  nano l.txt 
+  549  cd ..
+  550  ls
+  551  mkdir procesador
+  552  lscpu
+  553  lscpu | cat > procesador.txt
+  554  ls
+  555  cp procesador.txt procesador
+  556  ls
+  557  rm procesador.txt 
+  558  ls
+  559  cd procesador/
+  560  la
+  561  lals
+  562  ls
+  563  nano procesador.txt 
+  564  cd ..
+  565  mkdir  sl
+  566  cd sl/
+  567  apt-get source sl
+  568  ls
+  569  cd sl-3.03/
+  570  ls
+  571  nano sl.h 
+  572  dpkg-buildpackage -us -uc
+  573  cd ..
+  574  dpkg-buildpackage -us -uc
+  575  dpkg-buildpackage -us -uc
+  576  cd sl-3.03/
+  577  dpkg-buildpackage -us -uc
+  578  dpkg-source --commit
+  579  dpkg-buildpackage -us -uc
+  580  cd ..
+  581  aptitude install sl
+  582  ls
+  583  aptitude install sl_3.03-17_i386.deb 
+  584  aptitude install sl_3.03-17_i386.deb 
+  585  SL
+  586  sl
+  587  aptitude install sl_3.03-17_i386.deb 
+  588  ls
+  589  cd sl-3.03/
+  590  dpkg-buildpackage -us -uc
+  591  dpkg-source --commit
+  592  dpkg-buildpackage -us -uc
+  593  cd ..
+  594  ls
+  595  dpkg -i sl_3.03-17_i386.deb 
+  596  SL
+  597* 
+  598  dpkg -i sl_3.03-17_i386.deb 
+  599  sl
+  600  dpkg -l
+  601  dpkg -l sl
+  602  aptitude remove
+  603  aptitude remove sl
+  604  dpkg -i sl_3.03-17_i386.deb 
+  605  sl
+  606  dpkg -i sl_3.03-17_i386.deb 
+  607  sl
+  608  cd sl-3.03/
+  609  dpkg-buildpackgae -us -uc
+  610  cd ..
+  611  cd sl-3.03/
+  612  ls
+  613  nano sl.h
+  614  dpkg-buildpackgae -us -uc
+  615  cd ..
+  616  dpkg-buildpackgae -us -uc
+  617  dpkg-buildpackgae -us -uc
+  618  ls
+  619  cd sl-3.03/
+  620  dpkg-buildpackgae -us -uc
+  621  ls
+  622  dpkg-source --commit
+  623  dpkg-buildpackgae -us -uc
+  624  cd ..
+  625  ls
+  626  cd ..
+  627  rm sl
+  628  rm -R sl
+  629  ls
+  630  mkdir sl
+  631  cd sl/
+  632  apt-get source sl
+  633  ls
+  634  cd sl-3.03/
+  635  nano sl.h
+  636  dpkg-buildpackgae -us -uc
+  637  DPKG -L
+  638  dpkg -l
+  639  dpkg -l sl
+  640  aptitude remove --purge sl
+  641  dpkg-buildpackgae -us -uc
+  642  dpkg-buildpackage  -us -uc
+  643  dpkg-source --commit
+  644  dpkg-buildpackage  -us -uc
+  645  cd ..
+  646  ls
+  647  dpkg -i sl_3.03-17_i386.deb 
+  648  sl
+  649   dpkg-source --before-build sl-3.03
+  650  sl
+  651   dpkg-source --before-build sl-3.03
+  652  dpkg -i sl_3.03-17_i386.deb 
+  653  sl
+  654  cd ..
+  655  ls
+  656  mkdir bienvenido
+  657  cd bienvenido/
+  658  apt-get source canaima-bienvenido-gnome 
+  659  ls
+  660  cd canaima-bienvenido-gnome-4.7/
+  661  ls
+  662  cd gui/
+  663  ls
+  664  nano canaima-bienvenido.py 
+  665  ls
+  666  cd data/
+  667  LS
+  668  ls
+  669  cd shell/
+  670  ls
+  671  nano 01.html 
+  672  dpkg-buildpackage -us -uc
+  673  cd ..
+  674  ls
+  675  cd ..
+  676  ls
+  677  cd ..
+  678  ls
+  679  dpkg-buildpackage -us -uc
+  680  dpkg-source --commit
+  681  cd ..
+  682  cd canaima-bienvenido-gnome-4.7/
+  683  dpkg-buildpackage -us -uc
+  684  cd ..
+  685  ls
+  686  dpkg -i canaima-bienvenido-gnome
+  687  dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+  688  cd ..
+  689  ls
+  690  iwconfig
+  691* 
+  692  iwlist wlan0 scan
+  693  mkdir canaima-semilla
+  694  cd canaima-semilla/
+  695  apt-get source canaima-semilla 
+  696  ls
+  697  cd canaima-semilla-3.0+dev20140123152548/
+  698  ls
+  699  cd config/
+  700  ls
+  701  cd gui/
+  702  ls
+  703  cd ..
+  704  cd ..
+  705  cd canaimasemilla/
+  706  ls
+  707  cd images/
+  708  ls
+  709  cd ..
+  710  ls
+  711  cd ..
+  712  ls
+  713  cd profiles/
+  714  ls
+  715  cd popular/
+  716  ls
+  717  cd ..
+  718  cp -R popular/ JesusCruz
+  719  ls
+  720  cd JesusCruz/
+  721  ls
+  722  nano profile.conf 
+  723  cd ..
+  724  ls
+  725  git add JesusCruz
+  726  git --commit -a
+  727  git --commit 
+  728  git --commit -c
+  729  git-commit
+  730  git-commit -a
+  731  git commit -a
+  732  ls
+  733  ls
+  734  cd ..
+  735  cd ..
+  736  ls
+  737  touch iso.txt
+  738  nano iso.txt 
+  739  ls
+  740  cd ..
+  741  ls
+  742  touch dueños.txt
+  743  ls -l
+  744  chown ususario dueños.txt 
+  745  ls
+  746  ls -l
+  747  chown ususario root dueños.txt 
+  748  chown ususario  dueños.txt 
+  749  ls -l
+  750  chown root  dueños.txt 
+  751  ls -l
+  752  chown ususario  dueños.txt 
+  753  ls -l
+  754  mv dueños.txt permisos.txt
+  755  ls
+  756  ls -l
+  757  ls
+  758  chown root  dueños.txt 
+  759  ls
+  760  chown ususario:ususario  dueños.txt 
+  761  ls
+  762  chown ususario:ususario permisos.txt 
+  763  ls -l
+  764  chown ususario:ususario root:root permisos.txt 
+  765  chown ususario:ususario root:root permisos.txt 
+  766  chown ususario:ususario root:root permisos.txt 
+  767  sudo chgrp root ususrio permisos.txt 
+  768  sudo chgrp root ususario permisos.txt 
+  769* 
+  770  ls -l
+  771  chown ususario.root permisos.txt 
+  772  ls -l
+  773  chmod u+x,g-w,o-w permisos.txt 
+  774  ls -l
+  775  echo history >  history.txt
+  776  nano history.txt 
+  777  history | touch  history.txt
+  778  nano history.txt 
+  779  history >  history.txt
