@@ -1,0 +1,13 @@
+Remove SIGINT.
+Index: sl-sid/sl-3.03/sl.c
+===================================================================
+--- sl-3.03.orig/sl.c	2012-03-28 00:44:16.000000000 +0900
++++ sl-3.03/sl.c	2012-03-28 00:48:50.000000000 +0900
+@@ -69,7 +69,6 @@
+ 	}
+     }
+     initscr();
+-    signal(SIGINT, SIG_IGN);
+     noecho();
+     leaveok(stdscr, TRUE);
+     scrollok(stdscr, FALSE);

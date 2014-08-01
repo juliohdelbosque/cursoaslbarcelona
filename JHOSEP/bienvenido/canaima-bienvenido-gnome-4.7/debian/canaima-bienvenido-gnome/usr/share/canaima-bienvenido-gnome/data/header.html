@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="data/assets/js/javascrip.js"></script>
+        <link rel="stylesheet" type="text/css" href="data/assets/css/welcome.css" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="acerca canaima GNU/Linux" />
+        <meta name="keywords" content="jmpress, slideshow, container, plugin, jquery, css3" />
+        <meta name="author" content="for Codrops" />
+        <link rel="stylesheet" type="text/css" href="data/assets/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="data/assets/css/style.css" />
+	<script type="text/javascript" src="data/assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="data/assets/js/jmpress.min.js"></script>
+	<script type="text/javascript" src="data/assets/js/jquery.jmslideshow.js"></script>
+	<script type="text/javascript" src="data/assets/js/jquery.mini.js"></script>
+	<script type="text/javascript" src="data/assets/js/modernizr.custom.48780.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('input#chkAutoStart').change(function(){
+		if ($(this).is(':checked')){
+			set_autostart_on();
+		} else {
+			set_autostart_off();
+		}
+				});
+		// 
+		$('div#actions div.action.bullet-navigation').each(function(i, v){
+		if($(this).hasClass('inactive')){
+			$(this).fadeTo('slow', 0.2);
+		}
+		
+		});
+	});
+</script>
+</html>
+
+    </head>

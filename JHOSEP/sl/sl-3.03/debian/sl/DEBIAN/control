@@ -1,0 +1,13 @@
+Package: sl
+Version: 3.03-17
+Architecture: i386
+Maintainer: Hiroyuki Yamamoto <yama1066@gmail.com>
+Installed-Size: 114
+Depends: libc6 (>= 2.0), libncurses5 (>= 5.5-5~), libtinfo5
+Section: games
+Priority: optional
+Homepage: http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/index_e.html
+Description: Correct you if you type `sl' by mistake
+ Sl is a program that can display animations aimed to correct you
+ if you type 'sl' by mistake.
+ SL stands for Steam Locomotive.

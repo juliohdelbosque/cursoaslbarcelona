@@ -1,0 +1,500 @@
+  115  ls -la
+  116  cd  curso/
+  117  ls
+  118  cd ..
+  119  cd ..
+  120  cd control/
+  121  cd curso/
+  122  git add .
+  123  git commit -a
+  124  git push
+  125  cd ..
+  126  git clone https://github.com/juliohdelbosque/cursoaslbarcelona
+  127  ls cursoaslbarcelona/
+  128  cd cursoaslbarcelona/
+  129  nano README.md 
+  130  nano README.md
+  131  git pull
+  132  cd ..
+  133  rm -R cursoaslbarcelona/
+  134  ls
+  135  ls -a
+  136  git clone https://github.com/juliohdelbosque/cursoaslbarcelona
+  137  ls
+  138  cd cursobar
+  139  ls
+  140  cd cursoaslbarcelona/
+  141  nano README.md 
+  142  nano README.md 
+  143  git pull
+  144  nano README.md 
+  145  git commit -a 
+  146  git push
+  147  git push
+  148  git pull
+  149  git push
+  150  nano README.md 
+  151  git pull
+  152  git pull
+  153  git pull
+  154  git commit -a
+  155  git push
+  156  git pull
+  157  git push
+  158  git pull
+  159  git commit -a
+  160  git push
+  161  clear
+  162  ps -A | grep cunaguaro
+  163  cd control/
+  164  cd curso
+  165  ls
+  166  ps -A | grep cunaguaro > firefox.txt
+  167  clear
+  168  ls --help
+  169  ls -b /home
+  170  ls --block-zise /home
+  171  ls --block /home
+  172  ls -l /home
+  173  df -h /home
+  174  ls -h /home
+  175  ls -l -h /home
+  176  ls -l -h /
+  177  ls -l -h /etc/ /home
+  178  clear
+  179  cat /proc/meminfo >> memoria.txt
+  180  cd control/
+  181  cd curso
+  182  cat /proc/meminfo >> memoria.txt
+  183  cat memoria.txt 
+  184  clear
+  185  uname --all > kernel.txt
+  186  cat kernel.txt 
+  187  fdsik -l
+  188  fdisk -l
+  189  mkdir jhosep
+  190  cd jhosep/
+  191  touch c1 c2 c3
+  192  nano c1
+  193  nano c3
+  194  clear
+  195  clear
+  196  cd control/
+  197  mkdir curso
+  198  cd curso/~
+  199  wget http
+  200  wget http://172.17.1.130/evaluacion.txt
+  201  clear
+  202  ls
+  203  cd curso/
+  204  nano evaluacion.txt 
+  205  clear
+  206  cd control/
+  207  mkdir debian
+  208  cd debian/
+  209  apt-get install debmirror
+  210  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progeress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main, contrib, non-free
+  211  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main, contrib, non-free
+  212  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progeress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free
+  213  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progeress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free
+  214  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --pogress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free
+  215  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --pogress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free
+  216  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free
+  217  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free
+  218  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --ignore-missing-release --progress --ignore-release-gpg debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free
+  219  cd /var/www/
+  220  mkdir respaldo
+  221  ls
+  222  ls respaldo/
+  223  cd respaldo/
+  224  ls
+  225  ls -l{
+  226  ls -l
+  227  ls
+  228  ls
+  229  ls -l
+  230  ls
+  231  ls /home/usuario/control/
+  232  ls /home/usuario/control/canaima/
+  233  ls
+  234  contrab -e
+  235  crontab -e
+  236  /etc/init.d/cron stop
+  237  /etc/init.d/cron start
+  238  ls
+  239  nano actualizar.sh 
+  240  /etc/init.d/cron start
+  241  ls
+  242  sh actualizar.sh 
+  243  crontab -e
+  244  ls -l
+  245  nano actualizar.sh 
+  246  chmod 777 actualizar.sh 
+  247  clear
+  248  crontab -e
+  249  /etc/init.d/cron stop
+  250  /etc/init.d/cron start
+  251  ls -l
+  252  crontab -l > crontab.txt
+  253  cat crontab.txt 
+  254  git add crontab.txt
+  255  git commit -a
+  256  git push
+  257  /etc/init.d/cron stop
+  258  /etc/init.d/cron start
+  259  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --ignore-missing-release --progress --ignore-release-gpg debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free
+  260  ls -la /var/www/
+  261  cd control/canaima/
+  262  debmirror
+  263  cd ..
+  264  ls
+  265  cd debian/
+  266  debmirror
+  267  clear
+  268  cd ..
+  269  mirror
+  270  debmirror
+  271  debmirror
+  272  cd canaima/
+  273  echo debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --ignore-missing-release --progress --ignore-release-gpg debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --progress --ignore-release-gpg --arch=i386 --dist=stable --method=http --section=main,contrib,non-free > debmirror.sh
+  274  ls
+  275  sh debmirror.sh 
+  276  ls
+  277  clear
+  278  nano /etc/apt/sources.list
+  279  aptitude update
+  280  cd control/
+  281  cd canaima/
+  282  clear
+  283  mkdir sl
+  284  cd sl
+  285  apt-get source sl
+  286  apt-get sources sl
+  287  ls
+  288  apt-cache search dpkg-dev
+  289  aptitude search dpkg-dev
+  290  aptitude search perl
+  291  aptitude search shotwell
+  292  clear
+  293  aptitude search dpkg-dev > busqueda.txt
+  294  cat busqueda.txt 
+  295  aptitude install dpkg-dev
+  296  apt-get source sl
+  297  ls
+  298  ls -l
+  299  aptitude install sl
+  300  sl
+  301  cd sl-3.03/
+  302  nano sl.h
+  303  dpkg-builpackage -us -uc
+  304  dpkg-buildpackage -us -uc
+  305  dpkg-buildpackage -d
+  306  apt-get install build-essential
+  307  aptitude install cdbs
+  308  aptitude install debhelper
+  309  dpkg-buildpackage -us -uc
+  310  aptitude install libncurses5-dev
+  311  dpkg-buildpackage -us -uc
+  312  dpkg-buildpackage -b sl-3.03
+  313  clear
+  314  dpkg-buildpackage -us -uc
+  315  dpkg-source --commit
+  316  dpkg-buildpackage -us -uc
+  317  aptitude install sl
+  318  ls
+  319  ls -la
+  320  cd debian/
+  321  ls
+  322  cd ..
+  323  ls -l
+  324  cd ..
+  325  ls
+  326  cd sl-3.03/
+  327  cd ..
+  328  ls
+  329  dpkg -i sl_3.03-17_i386.deb
+  330  cd sl-3.03/
+  331  nano sl.h
+  332  cd ..
+  333  cd ..
+  334  ls
+  335  git add sl
+  336  git commit -a
+  337  git commit -a
+  338  git push
+  339  dpkg -l
+  340  clear
+  341  aptitude show bluefish
+  342  mkdir bmon
+  343  cd bmon
+  344  apt-get source bmon
+  345  ls}
+  346  ls
+  347  cd bmon-2.0.1/
+  348  ls
+  349  cd src/
+  350  ls
+  351  nano out_curses.c
+  352  cd ..
+  353  dpkg-buildpackage -us -uc
+  354  cd ..
+  355  ls
+  356  dpkg -i bmon_2.0.1-3_i386.deb 
+  357  bmon
+  358  apt-get install apache2
+  359  cd /var/www/
+  360  ln -s /home/usuario/control/debian/
+  361  ls
+  362  cd debian
+  363  ls
+  364  ls /home/usuario/control/debian/
+  365  ls
+  366  clear
+  367  cd /var/www
+  368  ls -la
+  369  nano /etc/hosts
+  370  nano /etc/hosts
+  371  ifconfig wlan0
+  372  nano /etc/apt/sou
+  373  nano /etc/apt/sources.list
+  374  cd /home/usuario/control/cana
+  375  cd /home/usuario/control/canaima/
+  376  debmirror
+  377  debmirror
+  378  debmirror
+  379  clear
+  380  nano atualizar.sh
+  381  nano actualizar.sh
+  382  sh actualizar.sh 
+  383  nano actualizar.sh
+  384  sh actualizar.sh 
+  385  nano actualizar.sh
+  386  sh actualizar.sh 
+  387  nano actualizar.sh
+  388  sh actualizar.sh 
+  389  nano actualizar.sh
+  390  sh actualizar.sh 
+  391  nano actualizar.sh
+  392  sh actualizar.sh 
+  393  ls
+  394  git add actualizar.sh
+  395  git commit -a
+  396  git push
+  397  nano actualizar.sh
+  398  contab -l
+  399  aptitude install contab{
+  400  aptitude install contab
+  401  crontab -l
+  402  crontab -e
+  403  /etc/init.d/cron stop
+  404  /etc/init.d/cron start
+  405  cd /var/www
+  406  ls
+  407  cd respaldo/
+  408  ls
+  409  ls -l
+  410  ls
+  411  ls -l
+  412  ls
+  413  sh /home/usuario/control/canaima/actualizar.sh 
+  414  ls
+  415  ls
+  416  ls -l
+  417  sh /home/usuario/control/canaima/actualizar.sh
+  418  crontab -e
+  419   /home/usuario/control/canaima/actualizar.sh
+  420  sh  /home/usuario/control/canaima/actualizar.sh
+  421  LS
+  422  ls
+  423  ls -l
+  424  ls
+  425  ls -l
+  426  ls
+  427  ls -l
+  428  ls -l
+  429  ls
+  430  ls -l
+  431  ls -l
+  432  ls
+  433  ls -l
+  434  halt -p
+  435  lynx
+  436  lynx --help
+  437  lynx http://blog.desdelinux.net
+  438  cd control/
+  439  cd ISO2
+  440  cd config/
+  441  nano bootstrap 
+  442  ls
+  443  nano bootstrap 
+  444  ls
+  445  nano binary 
+  446  cd ..
+  447  ls
+  448  cd ..
+  449  ls
+  450  cd ISO2/
+  451  ls
+  452  lib binary_iso
+  453  lb binary.iso
+  454  lb binary_iso
+  455  qemu -cdrom binary.iso -boot d -m 1024
+  456  cd ..
+  457  rm -r ISO2/
+  458  cd ISO1/
+  459  chroot
+  460  chroot chroot
+  461  cd ..
+  462  ls
+  463  cd ISO1/
+  464  ls
+  465  cd config/
+  466  nano bootstrap 
+  467  nano binary
+  468  cd ..
+  469  cd ..
+  470  ls
+  471  cp -R ISO1/ ISO2/
+  472  cd ISO2/
+  473  lb binary
+  474  lb binary_iso
+  475  qemu -cdrom binary.iso -boot d -m 1024
+  476  ls
+  477  cd ..
+  478  ls
+  479  cd ISO1/
+  480  chroot chroot
+  481  cd ..
+  482  cd ISO1/
+  483  chroot chroot
+  484  chroot choot
+  485  chroot chroot
+  486  cd ..
+  487  ls
+  488  rm -r ISO2/
+  489  cp -R ISO1/ ISO2/
+  490  cd ISO
+  491  cd ..
+  492  cd ISO2/
+  493  ls
+  494  hatl -p
+  495  halt -p
+  496  oot chroot
+  497  cd control/
+  498  ls
+  499  cd cursoaslbarcelona/
+  500  mkdir JHOSEP RAMIREZ
+  501  clear
+  502  ls
+  503  clear
+  504  rmdir RAMIREZ/
+  505  cd JHOSEP/
+  506  ls
+  507  wget http://172.17.1.130/examen.txt
+  508  cat > examen.txt
+  509  cat examen.txt 
+  510  touch curso1.txt curso2.txt curso3.txt curso4.txt curso5.txt
+  511  ls
+  512  chmod 641 curso1.txt 
+  513* 
+  514  chmod 726 curso2.txt 
+  515  ls -la
+  516  chmod 111 curso3.txt 
+  517  ls -la
+  518  chmod 227 curso4.txt 
+  519  ls
+  520  ls -la
+  521  chmod 064 curso5.txt
+  522  ls -la
+  523  fdisk -l
+  524  df
+  525  df -h
+  526  mkdir libreofficewriter
+  527  ps -A | grep soffice > l.txt
+  528  mv l.txt libreofficewriter/
+  529  ls libreofficewriter/
+  530  mkdir procesador
+  531  cd procesador/
+  532  ls
+  533  cat /proc/cpuinfo > procesador.txt
+  534  cd ..
+  535  nano /etc/network/interfaces 
+  536  mkdir sl
+  537  ls
+  538  cd sl
+  539  ls
+  540  apt-get source sl
+  541  ls
+  542  cd sl-3.03/
+  543  ls
+  544  nano sl.h
+  545  cd ..
+  546  cd sl-3.03/
+  547  ls
+  548  dpkg-build
+  549  dpkg-buildpackage -us -uc
+  550  dpkg-source --commit
+  551  dpkg-buildpackage -us -uc
+  552  cd ..
+  553  ls
+  554  dpkg -i sl_3.03-17_i386.deb 
+  555  cd ..
+  556  mkdir bienvenido
+  557  cd bienvenido/
+  558  ls
+  559* 
+  560  apt-get source canaima-bienvenido-gnome 
+  561  ls
+  562  cd canaima-bienvenido-gnome-4.7/
+  563  ls
+  564  cd gui/
+  565  ls
+  566  nano canaima-bienvenido.py 
+  567  ls
+  568  cd data
+  569  ls
+  570  nano header.html 
+  571  ls
+  572  nano footer.html 
+  573  ls
+  574  cd shell/
+  575  ls
+  576  nano 01.html 
+  577  nano 02.html 
+  578  nano 03.html 
+  579  nano 04.html 
+  580  nano 05.html 
+  581  nano 06.html 
+  582  nano 07.html 
+  583  nano acerca.html 
+  584  cd ..
+  585  cd .
+  586  cd ..
+  587  cd ,,
+  588  cd ..
+  589  dpkg-buildpackage -us -uc
+  590  dpkg-source --commit
+  591  dpkg-source --commit
+  592  dpkg-buildpackage -us -uc
+  593  cd ..
+  594  ls
+  595  dpkg -i canaima-bienvenido-gnome_4.7_all.deb 
+  596  ifconfig wlan0
+  597  cd ..
+  598  adduser soporte
+  599  passwd soporte 
+  600  mkdir canaima-semilla
+  601  ls
+  602  cd /usr/share/canaima-semilla/profiles/
+  603  ls
+  604  cp -R primera-base/ /home/usuario/control/cursoaslbarcelona/JHOSEP/
+  605  cd /home/usuario/control/cursoaslbarcelona/JHOSEP/
+  606  ls
+  607  cd primera-base/
+  608  ls
+  609  nano profile.conf 
+  610  cat > pasos_iso.txt
+  611  nano pasos_iso.txt 
+  612  cd ..
+  613  nano /etc/apt/mirror.list 
+  614  history > historial_comandos.txt | cat historial_comandos.txt

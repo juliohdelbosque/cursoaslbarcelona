@@ -1,0 +1,12 @@
+Pasos para ejecutar la creacion de la iso
+lb config
+lb bootstrap
+lb chroot
+lb binary
+qemu -cdrom binary.iso -boot d -m 1024
+
+
+
+
+
+
