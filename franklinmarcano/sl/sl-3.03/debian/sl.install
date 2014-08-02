@@ -1,0 +1,7 @@
+sl usr/games
+sl-h usr/games
+debian/man/man6/* usr/share/man/man6
+debian/man/de/* usr/share/man/de/man6
+debian/man/de.UTF-8/* usr/share/man/de.UTF-8/man6
+debian/man/ja/* usr/share/man/ja/man6
+debian/man/ja.UTF-8/* usr/share/man/ja.UTF-8/man6

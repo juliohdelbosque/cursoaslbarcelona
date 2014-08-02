@@ -1,0 +1,116 @@
+Actividad. Curso de Soporte Avanzado en Linux
+
+
+- Entrar como root, ejecutar
+
+
+1-Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Indentidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+
+2- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X
+
+ -curso2.txt   RWX-W-RW-
+
+ -curso3.txt   --X--X--X
+
+ -curso4.txt   -W--W-RWX
+
+ -curso5.txt   ---RW-R--
+----rw-r-x 1 root root    0 ago  2 04:50 curso1.txt
+-rwx-w-rw- 1 root root    0 ago  2 04:56 curso2.txt
+---x--x--x 1 root root    0 ago  2 04:59 curso3.txt
+--w--w-rwx 1 root root    0 ago  2 04:59 curso4.txt
+----rw-r-- 1 root root    0 ago  2 04:59 curso5.txt
+chmod 065 curso1.txt
+chmod 726 curso2.txt
+chmod 111 curso3.txt
+chmod 227 curso4.txt
+chmod 064 curso5.txt
+3-Como puedo visualizar las particiones del disco duro
+root@Academia-De-Software-Libre-anz:/home/usuario/control/cursoaslbarcelona/franklinmarcano# df -h
+S.ficheros                                             Tamaño Usados  Disp Uso% Montado en
+rootfs                                                    98G   3,9G   89G   5% /
+udev                                                      10M      0   10M   0% /dev
+tmpfs                                                     50M   584K   49M   2% /run
+/dev/disk/by-uuid/b89e789e-ced3-453c-9cba-cdcf55537838    98G   3,9G   89G   5% /
+tmpfs                                                    5,0M      0  5,0M   0% /run/lock
+tmpfs                                                    304M   1,1M  303M   1% /run/shm
+/dev/sda2                                                 49G   3,3G   46G   7% /home
+
+
+4-Como matamos un proceso del computador
+buscamos el proceso con ps -aux | grep (nombre del proceso) y luego aplicamos kill -9 y el numero del proceso
+
+5-Crear un carpeta llamada libreofficewriter  abrir el libreofficewriter. buscalo y  guardar el proceso en un archivo l.txt
+drwxr-xr-x 2 root root    6 ago  2 05:49 libreofficewriter  mkdir libreofficewriter
+ps -aux | grep libreofficewriter > l.txt
+
+
+6-Crear un carpeta llamada procesador
+       -guardar la busqueda en archivo llamado procesador.txt del tipo de computadora
+drwxr-xr-x 2 root root    6 ago  2 06:00 procesador
+ mkdir procesador
+uname -m > procesador.txt
+nano procesador.txt
+i686
+
+7-Como configuras una interfaz de red con dhcp
+nano /etc/network/interfaces
+
+8-Que sucede cuando ejecutas el
+comando: touch registros
+- Crea un archivo llamado registro
+
+9-El comando: more examen
+
+- Despliega el contenido del archivo examen, una pantalla a la vez.
+
+10-crear un carpeta sl mkdir sl
+descargar el paquete fuente de sl,   apt-get source sl
+modificar el tren-	 
+con su nombre generar un nuevo paquete, e instalarlo
+dpkg -i sl_3.03-17_i386.deb
+
+
+11- crear la carpeta bienvenido
+descargar el paquete fuente de canaima-bievenido-gnome, modificar el inicio 
+con su nombre generar un nuevo paquete, e instalarlo
+	
+
+12-comando para listar redes inalambricas.
+bmon veo todas en tiempo real
+
+13- Como agregamos el usuario y gestionamos el cambio de contraseña
+adduser (nuevo usuario)
+completar los parametros y ya
+
+
+14-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+	
+
+15- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+desde  nano /etc/apt/sources.list	
+quitarle el simbolo de #. cuando entramos al sources.lit
+16- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+media/
+/dev/sdb1
+17- Como hago un repositorio con debmirror, comando.
+dedmirror host = http.us.debian.org
+
+18- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+history > history.txt
+ 
+19- crear un archivo permiso.txt y que los dueños sean root y usuario.
+-rwx------ 1 root root     0 ago  2 10:21 permiso.txt
+
+20- Como matar un procesos usando top. 
+colocando top en otra terminal y seleccionando el proceso a eliminar
